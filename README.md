@@ -4,68 +4,116 @@
 ![Mod Loader](https://img.shields.io/badge/Forge/NeoForge-FML-orange)  
 ![License](https://img.shields.io/github/license/elieduclr/LostHorizon)  
 
-**LostHorizon** enrichit Minecraft avec de nouvelles structures, des mobs uniques, des quêtes et des métiers inédits. Tout en respectant l’esprit du jeu, il ajoute plus de profondeur à la survie et à l’exploration.  
+<p align="center">
+  <img src="https://github.com/elieduclr/LostHorizon/blob/main/losthorizon.png" alt="LostHorizon Banner" width="40%">
+</p>
 
-## 🌍 Fonctionnalités  
+## 🧭 À propos
 
-### 📦 Structures  
-- **FishermanHut** → Une cabane sur pilotis dans les rivières, avec un coffre et un trou de pêche.  
-- **Explorer’s Hideout** → Cabane abandonnée dans la jungle ou la taïga, contenant une carte au trésor.  
-- **Ruined Watchtower** → Tour en ruine dans les plaines et montagnes, parfois occupée par des pillards.  
-- **Crystal Cavern** → Grotte remplie de cristaux et de minerais rares.  
-- **Sunken Temple** → Mini-donjon sous-marin avec des énigmes et du loot lié à l’eau.  
+**LostHorizon** est un mod Minecraft conçu pour enrichir l'expérience de survie sans dénaturer l'esprit du jeu. Il mêle exploration, magie, technologie ancienne et immersion RPG à travers une multitude de nouveaux contenus : enchantements, minerais, structures, équipements et mécaniques personnalisées.
 
-### 🏹 Mobs  
-- **Bandits** → Pillards solitaires qui peuvent voler des objets aux joueurs.  
-- **Wraiths** → Esprits hantant les cimetières et ruines, capables de traverser les murs.  
-- **Mimic Chest** → Coffre vivant qui attaque les joueurs imprudents.  
-- **Dire Wolf** → Loup puissant pouvant être apprivoisé, mais très rare.  
-- **Bog Walker** → Créature des marais qui attaque en lançant des algues empoisonnées.  
+---
 
-### ⛏️ Nouveaux minerais et équipements  
-#### **🪓 Minerais**  
-- **Mythril** → Plus léger que la Netherite, avec un bonus de vitesse et de meilleurs enchantements.  
-- **Onyx** → Très rare, utilisé pour des armes appliquant Wither sur les ennemis.  
-- **Runite** → Minerai magique permettant de fabriquer des armes qui lancent des sorts.  
+## 🧪 Contenu du mod
 
-#### **⚔️ Armes & Outils**  
-- **Basalt Edge** → Épée volcanique qui enflamme les ennemis sur coup critique.  
-- **Frostbite Dagger** → Dague rapide qui ralentit les ennemis touchés.  
-- **Throwing Knives** → Couteaux de lancer récupérables, avec une version Onyx appliquant Wither.  
-- **Rope Hook** → Grappin craftable permettant de se déplacer rapidement.  
-- **Climbing Pick** → Piolets permettant d’escalader les murs.  
+### 🧙‍♂️ Enchantements
+- **Veil Of Shadow** : Rend invisible et furtif en sneak sous faible luminosité.
+- **Magnetism** : Attire les objets autour de toi, avec une portée croissante selon le niveau.
 
-#### **🎒 Objets utilitaires**  
-- **Survival Backpack** → Sac à dos ajoutant des emplacements d’inventaire.  
-- **Lantern Shield** → Bouclier intégrant une lanterne, utile pour explorer.  
-- **Totem of the Moon** → Confère Vision Nocturne et Furtivité temporairement.  
+### ✨ Potions
+- **Furtivity** : Augmente la vitesse en mode sneak.
+- **Fire** : Enflamme les entités touchées.
 
-### 🎯 Quêtes et Advancements  
-- **"Treasure Hunter"** → Trouver un coffre enterré dans une ruine.  
-- **"Fisher King"** → Pêcher un poisson rare dans une FishermanHut.  
-- **"Mimic Slayer"** → Tuer un Mimic Chest sans se faire toucher.  
-- **"Cold Survivor"** → Survivre trois nuits dans une Ice Cavern sans feu de camp.  
+### 🧱 Minerais
+- **Basalt Obsidian** *(Nether)* : Solide et sombre.
+- **Onyx** *(Nether)* : Parfait pour les armes vicieuses.
+- **Runite** *(Overworld)* : Donne des équipements puissants avec effets aléatoires (ralentissement, explosion...).
+- **Mythril** *(Overworld)* : Bonus de vitesse avec l'armure complète. Combiné avec de l'or → **Mythril Enchanted** (excellente enchantabilité).
 
-### 🏡 Nouveaux métiers pour les villageois  
-- **Chasseur** → Vend des flèches spéciales et du cuir.  
-- **Explorateur** → Propose des cartes au trésor et boussoles enchantées.  
-- **Forgeron magique** → Améliore les armes avec des enchantements spéciaux.  
-- **Apothicaire** → Vends des potions rares.  
-- **Scribe** → Fournit des livres contenant des indices sur des trésors cachés.  
+### 🛠️ Objets et outils
+- **Anchor Totem** : Définit ta maison, permet de s'y téléporter.
+- **Technoblade Totem** : Te sauve de la mort en jouant un hommage à Technoblade 🐷👑.
+- **Climbing Pick** : Escalade les murs naturellement.
+- **Backpack** : Ajoute 9 à 15 emplacements d’inventaire.
+- **Basalt Edge** : Épée infligeant des dégâts de feu.
+- **Lantern Shield** : Bouclier qui éclaire automatiquement en basse lumière.
+- **Totem of the Moon** : Night vision + furtivité pendant 2 minutes.
+- **Knife & Onyx Knife** : Couteaux à lancer (onyx inflige Wither).
+- **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
 
-## 🎮 Installation  
-1. Télécharge et installe [NeoForge](https://neoforged.net/).  
-2. Place le fichier `.jar` du mod dans le dossier `mods` de ton instance Minecraft.  
-3. Lance le jeu et profite de l’aventure !  
+### 🏠 Structures générées
+- **Fisherman Hut** : Petite cabane à côté des rivières (normales ou gelées).
+- **Explorer’s Hideout** : Structure moyenne, abri d’un aventurier disparu.
+- **Mushroom House** : Maison mystique dans les forêts sombres, marécages ou champignons géants.
+- **Ice Tower** : Tour glacée mystérieuse pleine de secrets.
 
-## 📜 Licence  
-Ce projet est sous licence **GPL-3.0**. Tu es libre de l’utiliser et de le modifier, tant que tu partages tes modifications sous la même licence.  
+### 🧭 Commandes utiles
+- `/sethome` : Définit ta position de maison.
+- `/home` : Te téléporte à ta maison définie.
 
-## 🚀 Contribution  
-Les contributions sont les bienvenues ! Clone le repo, propose des améliorations ou signale des bugs via les issues.  
+---
 
-## 💬 Contact  
-Tu as une question ou une suggestion ? Viens en discuter sur Discord ou ouvre une issue !  
+## 🛠️ Installation
+
+1. Télécharge [NeoForge](https://neoforge.net/) (compatible avec ta version de Minecraft).
+2. Place le fichier `.jar` de **LostHorizon** dans le dossier `mods`.
+3. Lance Minecraft, explore... et découvre les mystères de l’horizon perdu !
+
+---
+
+## 📸 Captures d’écran
+> *Pas encore d'images*
+
+---
+
+## 💬 Contribution
+
+Tu as des idées ? Des suggestions ? Des bugs à signaler ?
+> Ouvre une issue ou fais une pull request — toute contribution est la bienvenue !
+
+---
+
+## 📜 Remerciements
+
+- 🐷 **Technoblade** – pour l'inspiration du totem.
+- 👑 Toi, joueur curieux, pour avoir téléchargé ce mod.
+- ☕ Et tous ceux qui aiment explorer, crafter, et rêver dans Minecraft.
+
+---
+
+## 🔮 À venir
+
+- Nouveaux biomes mystiques
+- Donjons aléatoires
+- Système de quêtes avancé
+- Plus d'interactions entre les objets et l'environnement
+- Et bien plus encore...
+
+> *LostHorizon n'est que le début d'une aventure infinie.*
+
+---
+
+## 📜 Licence
+
+Ce mod est distribué sous licence **GNU GPL v3.0**.  
+Tu es libre de :
+- Utiliser
+- Modifier
+- Redistribuer
+- Étudier le code
+
+Tant que tu respectes les termes de la [licence GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html).
+
+---
+
+## 🧠 Auteur
+
+Développé par **Élie** 
+🧪 Passionné de sciences, de code et de mysticisme numérique.
+
+---
+
+⭐ Si tu aimes le mod, pense à mettre une ⭐ sur GitHub pour soutenir le projet !
 
 ---
 🔗 [GitHub](https://github.com/elieduclr/LostHorizon) | 🏗️ En développement | 🎮 Compatible avec NeoForge
