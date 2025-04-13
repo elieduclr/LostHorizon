@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:basalt_obsidian_ore"
+    },
+    "title": {
+      "translate": "advancements.basalt_obsidian_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.basalt_obsidian_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_basaltobsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "losthorizon:basalt_obsidian_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:basalt_edge_recipe"
+    ]
+  },
+  "parent": "losthorizon:mythril_advancement"
+}

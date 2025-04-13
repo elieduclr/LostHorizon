@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "losthorizon:runite_ingot"
+  },
+  "result": {
+    "id": "losthorizon:runite_armor_helmet",
+    "count": 1
+  }
+}

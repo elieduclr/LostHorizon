@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "losthorizon:mythril"
+  },
+  "result": {
+    "id": "losthorizon:mythril_armor_boots",
+    "count": 1
+  }
+}

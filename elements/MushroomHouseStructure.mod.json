@@ -1,0 +1,42 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "mushroom_house",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 15,
+    "separation": 8,
+    "restrictionBiomes": [
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "pale_garden"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "swamp"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

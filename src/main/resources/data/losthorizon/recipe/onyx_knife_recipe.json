@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "losthorizon:onyx",
+    "losthorizon:knife"
+  ],
+  "result": {
+    "id": "losthorizon:onyx_knife",
+    "count": 1
+  }
+}

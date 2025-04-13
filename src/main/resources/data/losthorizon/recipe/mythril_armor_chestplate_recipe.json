@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "losthorizon:mythril"
+  },
+  "result": {
+    "id": "losthorizon:mythril_armor_chestplate",
+    "count": 1
+  }
+}

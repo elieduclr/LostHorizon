@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "losthorizon:back_pack",
+    "count": 1
+  }
+}

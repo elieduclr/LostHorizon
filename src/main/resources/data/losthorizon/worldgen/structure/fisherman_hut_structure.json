@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "losthorizon:fisherman_hut_structure",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": [
+    "river",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean"
+  ],
+  "use_expansion_hack": false
+}

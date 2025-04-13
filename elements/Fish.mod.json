@@ -1,0 +1,10 @@
+{
+  "_fv": 77,
+  "_type": "loottable",
+  "definition": {
+    "type": "Fishing",
+    "pools": [],
+    "name": "gameplay/fishing/fish",
+    "namespace": "minecraft"
+  }
+}

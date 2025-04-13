@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "losthorizon:ice_tower_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 7,
+    "salt": 1241754476
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:RedGrouperRaw"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:RedGrouperCooked"
+    },
+    "name": "red_grouper_cooked_recipe_2",
+    "namespace": "mod"
+  }
+}

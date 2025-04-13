@@ -1,0 +1,10 @@
+{
+  "_fv": 77,
+  "_type": "loottable",
+  "definition": {
+    "type": "Generic",
+    "pools": [],
+    "name": "gameplay/mushroom_house_loot_rare",
+    "namespace": "mod"
+  }
+}

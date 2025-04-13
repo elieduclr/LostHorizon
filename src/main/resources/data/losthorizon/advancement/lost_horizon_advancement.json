@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "losthorizon:textures/screens/losthorizon.png",
+    "icon": {
+      "id": "losthorizon:totem_of_the_moon"
+    },
+    "title": {
+      "translate": "advancements.lost_horizon_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.lost_horizon_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "losthorizon:fisherman_hut_structure",
+              "losthorizon:explorers_hideout_structure"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "losthorizon:knife_recipe",
+      "losthorizon:survival_back_pack_recipe"
+    ]
+  }
+}

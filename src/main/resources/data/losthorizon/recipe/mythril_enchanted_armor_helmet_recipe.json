@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "losthorizon:mythril_armor_helmet",
+  "base": "minecraft:gold_ingot",
+  "addition": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "losthorizon:mythril_enchanted_armor_helmet"
+  }
+}

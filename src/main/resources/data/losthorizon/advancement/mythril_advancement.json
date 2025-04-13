@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:mythril"
+    },
+    "title": {
+      "translate": "advancements.mythril_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.mythril_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_mythril": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "losthorizon:mythril"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:mythril_ore_block_recipe",
+      "losthorizon:mythril_block_ore_recipe",
+      "losthorizon:mythril_ore_smelting",
+      "losthorizon:mythril_pickaxe_recipe",
+      "losthorizon:mythril_axe_recipe",
+      "losthorizon:mythril_sword_recipe",
+      "losthorizon:mythril_shovel_recipe",
+      "losthorizon:mythril_hoe_recipe",
+      "losthorizon:mythril_armor_helmet_recipe",
+      "losthorizon:mythril_armor_chestplate_recipe",
+      "losthorizon:mythril_armor_leggings_recipe",
+      "losthorizon:mythril_armor_boots_recipe",
+      "losthorizon:mythril_enchanted_pickaxe_recipe",
+      "losthorizon:mythril_enchanted_axe_recipe",
+      "losthorizon:mythril_enchanted_sword_recipe",
+      "losthorizon:mythril_enchanted_shovel_recipe",
+      "losthorizon:mythril_enchanted_hoe_recipe",
+      "losthorizon:mythril_enchanted_armor_helmet_recipe",
+      "losthorizon:mythril_enchanted_armor_chestplate_recipe",
+      "losthorizon:mythril_enchanted_armor_leggings_recipe",
+      "losthorizon:mythril_enchanted_armor_boots_recipe"
+    ]
+  },
+  "parent": "losthorizon:lost_horizon_advancement"
+}

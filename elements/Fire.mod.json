@@ -1,0 +1,27 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Fire",
+    "icon": "fire",
+    "color": {
+      "value": -439035,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "LAVA"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "FireQuandLeffetCommenceEstApplique"
+    }
+  }
+}

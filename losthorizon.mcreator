@@ -1,0 +1,3154 @@
+{
+  "mod_elements": [
+    {
+      "name": "FishermanHutLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fisherman_hut_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/fisherman_hut_loot.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FishermanHutLargeLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fisherman_hut_large_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/fisherman_hut_large_loot.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FishermanHutStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fisherman_hut_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure_set/fisherman_hut_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/fisherman_hut_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/structure/fisherman_hut_structure.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SculkWitch",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_witch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/sculk_witch_spawn_egg.json",
+          "src/main/java/net/mcreator/losthorizon/entity/SculkWitchEntity.java",
+          "src/main/java/net/mcreator/losthorizon/client/renderer/SculkWitchRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/SculkWitch"
+    },
+    {
+      "name": "FrosbiteDaggerQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosbite_dagger_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/FrosbiteDaggerQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Frostbite Dagger"
+    },
+    {
+      "name": "FrosbiteDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosbite_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/FrosbiteDaggerItem.java",
+          "src/main/resources/assets/losthorizon/models/item/frosbite_dagger.json",
+          "src/main/resources/assets/losthorizon/items/frosbite_dagger.json"
+        ]
+      },
+      "path": "~/Tools/Frostbite Dagger"
+    },
+    {
+      "name": "FullMythrilArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_mythril_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/FullMythrilArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "Knife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/knife.json",
+          "src/main/java/net/mcreator/losthorizon/item/KnifeItem.java",
+          "src/main/resources/assets/losthorizon/items/knife.json"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "ThrowingKnife",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/entity/ThrowingKnifeEntity.java"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "ThrowingKnifeLorsqueLeProjectileToucheUneEntiteVivante",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_knife_lorsque_le_projectile_touche_une_entite_vivante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ThrowingKnifeLorsqueLeProjectileToucheUneEntiteVivanteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "SculkWitchPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_witch_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SculkWitchPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/SculkWitch"
+    },
+    {
+      "name": "ThrowingKnifeLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_knife_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ThrowingKnifeLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "Onyx",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/OnyxItem.java",
+          "src/main/resources/assets/losthorizon/models/item/onyx.json",
+          "src/main/resources/assets/losthorizon/items/onyx.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/onyx_ore.json",
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/onyx_ore.json",
+          "src/main/java/net/mcreator/losthorizon/block/OnyxOreBlock.java",
+          "src/main/resources/assets/losthorizon/items/onyx_ore.json",
+          "src/main/resources/assets/losthorizon/models/block/onyx_ore.json",
+          "src/main/resources/assets/losthorizon/blockstates/onyx_ore.json",
+          "src/main/resources/data/losthorizon/neoforge/biome_modifier/onyx_ore_biome_modifier.json",
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/onyx_ore.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/onyx_block.json",
+          "src/main/resources/assets/losthorizon/blockstates/onyx_block.json",
+          "src/main/java/net/mcreator/losthorizon/block/OnyxBlockBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/onyx_block.json",
+          "src/main/resources/assets/losthorizon/items/onyx_block.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/onyx_block.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/onyx_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/onyx_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/onyx_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "OnyxKnife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/onyx_knife.json",
+          "src/main/resources/assets/losthorizon/models/item/onyx_knife.json",
+          "src/main/java/net/mcreator/losthorizon/item/OnyxKnifeItem.java"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "ThrowingOnyxKnifeLorsqueLeProjectileToucheUneEntiteVivante",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_onyx_knife_lorsque_le_projectile_touche_une_entite_vivante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ThrowingOnyxKnifeLorsqueLeProjectileToucheUneEntiteVivanteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "ThrowingOnyxKnifeLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_onyx_knife_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ThrowingOnyxKnifeLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "ThrowingOnyxKnife",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_onyx_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/entity/ThrowingOnyxKnifeEntity.java"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "OnyxKnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/onyx_knife_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "TotemOfTheMoon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/totem_of_the_moon.json",
+          "src/main/resources/assets/losthorizon/models/item/totem_of_the_moon.json",
+          "src/main/java/net/mcreator/losthorizon/item/TotemOfTheMoonItem.java"
+        ]
+      },
+      "path": "~/Tools/Totem of Moon"
+    },
+    {
+      "name": "TotemOfTheMoonEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_moon_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/TotemOfTheMoonEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Totem of Moon"
+    },
+    {
+      "name": "LanternShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lantern_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/lantern_shield.json",
+          "src/main/resources/assets/losthorizon/models/item/lantern_shield_blocking.json",
+          "src/main/java/net/mcreator/losthorizon/item/LanternShieldItem.java",
+          "src/main/resources/assets/losthorizon/models/item/lantern_shield.json"
+        ]
+      },
+      "path": "~/Tools/LanternShield"
+    },
+    {
+      "name": "LanternShieldLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lantern_shield_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/LanternShieldLorsqueLoutilEstDansLaMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/LanternShield"
+    },
+    {
+      "name": "Furtivity",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furtivity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/potion/FurtivityMobEffect.java"
+        ]
+      },
+      "path": "~/Potion"
+    },
+    {
+      "name": "RuniteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RuniteIngotItem.java",
+          "src/main/resources/assets/losthorizon/models/item/runite_ingot.json",
+          "src/main/resources/assets/losthorizon/items/runite_ingot.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/runite_ore.json",
+          "src/main/java/net/mcreator/losthorizon/block/RuniteOreBlock.java",
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/runite_ore.json",
+          "src/main/resources/assets/losthorizon/items/runite_ore.json",
+          "src/main/resources/assets/losthorizon/models/block/runite_ore.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_ore.json",
+          "src/main/resources/assets/losthorizon/blockstates/runite_ore.json",
+          "src/main/resources/data/losthorizon/neoforge/biome_modifier/runite_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/runite_block.json",
+          "src/main/resources/assets/losthorizon/blockstates/runite_block.json",
+          "src/main/resources/assets/losthorizon/items/runite_block.json",
+          "src/main/java/net/mcreator/losthorizon/block/RuniteBlockBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/runite_block.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/runite_block.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RunitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/runite_pickaxe.json",
+          "src/main/java/net/mcreator/losthorizon/item/RunitePickaxeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/runite_pickaxe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RuniteAxeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/runite_axe.json",
+          "src/main/resources/assets/losthorizon/items/runite_axe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RuniteSwordItem.java",
+          "src/main/resources/assets/losthorizon/items/runite_sword.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_sword.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/runite_shovel.json",
+          "src/main/resources/assets/losthorizon/items/runite_shovel.json",
+          "src/main/java/net/mcreator/losthorizon/item/RuniteShovelItem.java"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RuniteHoeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/runite_hoe.json",
+          "src/main/resources/assets/losthorizon/items/runite_hoe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RunitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RuniteArmorItem.java",
+          "src/main/resources/assets/losthorizon/items/runite_armor_chestplate.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_armor_chestplate.json",
+          "src/main/resources/assets/losthorizon/items/runite_armor_boots.json",
+          "src/main/resources/assets/losthorizon/items/runite_armor_leggings.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_armor_boots.json",
+          "src/main/resources/assets/losthorizon/equipment/runite_armor.json",
+          "src/main/resources/assets/losthorizon/items/runite_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/models/item/runite_armor_leggings.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/runite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_sword_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "IceCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/IceCrystalItem.java",
+          "src/main/resources/assets/losthorizon/items/ice_crystal.json",
+          "src/main/resources/assets/losthorizon/models/item/ice_crystal.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "LanternShieldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lantern_shield_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/lantern_shield_recipe.json"
+        ]
+      },
+      "path": "~/Tools/LanternShield"
+    },
+    {
+      "name": "FrosbiteDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosbite_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/frosbite_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Frostbite Dagger"
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/knife_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Knife"
+    },
+    {
+      "name": "Mythril",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/mythril_ore.json",
+          "src/main/resources/assets/losthorizon/items/mythril_ore.json",
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/mythril_ore.json",
+          "src/main/resources/assets/losthorizon/blockstates/mythril_ore.json",
+          "src/main/resources/assets/losthorizon/models/block/mythril_ore.json",
+          "src/main/java/net/mcreator/losthorizon/block/MythrilOreBlock.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_ore.json",
+          "src/main/resources/data/losthorizon/neoforge/biome_modifier/mythril_ore_biome_modifier.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/mythril_ore.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/block/MythrilBlockBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/mythril_block.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/mythril_block.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_block.json",
+          "src/main/resources/assets/losthorizon/blockstates/mythril_block.json",
+          "src/main/resources/assets/losthorizon/items/mythril_block.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilPickaxeItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_pickaxe.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_pickaxe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_axe.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilAxeItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_axe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilSwordItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_sword.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_sword.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilShovelItem.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_shovel.json",
+          "src/main/resources/assets/losthorizon/items/mythril_shovel.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_hoe.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilHoeItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_hoe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_axe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_sword_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilArmorItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_armor_leggings.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_armor_chestplate.json",
+          "src/main/resources/assets/losthorizon/items/mythril_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_armor_boots.json",
+          "src/main/resources/assets/losthorizon/items/mythril_armor_boots.json",
+          "src/main/resources/assets/losthorizon/items/mythril_armor_chestplate.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_armor_leggings.json",
+          "src/main/resources/assets/losthorizon/equipment/mythril_armor.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "MythrilEnchantedPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_pickaxe.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedPickaxeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_pickaxe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedAxeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_axe.json",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_axe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_sword.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedSwordItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_sword.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_shovel.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedShovelItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_shovel.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedHoeItem.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_hoe.json",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_hoe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_axe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_sword_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_armor_leggings.json",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_armor_helmet.json",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_armor_boots.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_armor_leggings.json",
+          "src/main/resources/assets/losthorizon/items/mythril_enchanted_armor_chestplate.json",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_armor_chestplate.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilEnchantedArmorItem.java",
+          "src/main/resources/assets/losthorizon/models/item/mythril_enchanted_armor_boots.json",
+          "src/main/resources/assets/losthorizon/equipment/mythril_enchanted_armor.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "MythrilEnchantedArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_enchanted_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/mythril_enchanted_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "FullMythrilEnchantedArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_mythril_enchanted_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/FullMythrilEnchantedArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ore/Mythril/MythrilEnchanted"
+    },
+    {
+      "name": "BasaltObsidianOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_obsidian_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/block/BasaltObsidianOreBlock.java",
+          "src/main/resources/assets/losthorizon/models/item/basalt_obsidian_ore.json",
+          "src/main/resources/assets/losthorizon/models/block/basalt_obsidian_ore.json",
+          "src/main/resources/data/losthorizon/neoforge/biome_modifier/basalt_obsidian_ore_biome_modifier.json",
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/basalt_obsidian_ore.json",
+          "src/main/resources/assets/losthorizon/blockstates/basalt_obsidian_ore.json",
+          "src/main/resources/assets/losthorizon/items/basalt_obsidian_ore.json",
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/basalt_obsidian_ore.json"
+        ]
+      },
+      "path": "~/Ore/BasaltObsidian"
+    },
+    {
+      "name": "BasaltObsidianLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_obsidian_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/basalt_obsidian_ore.json"
+        ]
+      },
+      "path": "~/Ore/BasaltObsidian"
+    },
+    {
+      "name": "BasaltObsidianOreQuandLeBlocEstDetruitParUnJoueur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_obsidian_ore_quand_le_bloc_est_detruit_par_un_joueur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/BasaltObsidianOreQuandLeBlocEstDetruitParUnJoueurProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ore/BasaltObsidian"
+    },
+    {
+      "name": "BasaltEdge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_edge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/BasaltEdgeItem.java",
+          "src/main/resources/assets/losthorizon/items/basalt_edge.json",
+          "src/main/resources/assets/losthorizon/models/item/basalt_edge.json"
+        ]
+      },
+      "path": "~/Tools/BasaltEdge"
+    },
+    {
+      "name": "FireQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_quand_leffet_commence_est_applique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/FireQuandLeffetCommenceEstAppliqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Potion"
+    },
+    {
+      "name": "Fire",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/potion/FireMobEffect.java"
+        ]
+      },
+      "path": "~/Potion"
+    },
+    {
+      "name": "BasaltEdgeQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_edge_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/BasaltEdgeQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/BasaltEdge"
+    },
+    {
+      "name": "ExplorersHideoutLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explorers_hideout_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/explorers_hideout_loot.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "ExplorersHideoutForgeLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explorers_hideout_forge_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/explorers_hideout_forge_loot.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "ExplorersHideoutChestLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explorers_hideout_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/explorers_hideout_chest_loot.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "ExplorersHideoutStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explorers_hideout_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure/explorers_hideout_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/explorers_hideout_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/explorers_hideout_structure.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "BackPackGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/world/inventory/BackPackGuiMenu.java",
+          "src/main/java/net/mcreator/losthorizon/client/gui/BackPackGuiScreen.java"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "BackPack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/back_pack.json",
+          "src/main/java/net/mcreator/losthorizon/item/BackPackItem.java",
+          "src/main/resources/assets/losthorizon/items/back_pack.json",
+          "src/main/java/net/mcreator/losthorizon/item/inventory/BackPackInventoryCapability.java"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "SurvivalBackPackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survival_back_pack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/survival_back_pack_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "LostHorizonAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lost_horizon_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/lost_horizon_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "MythrilAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mythril_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/mythril_advancement.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "BasaltEdgeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_edge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/basalt_edge_recipe.json"
+        ]
+      },
+      "path": "~/Tools/BasaltEdge"
+    },
+    {
+      "name": "BasaltObsidianAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_obsidian_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/basalt_obsidian_advancement.json"
+        ]
+      },
+      "path": "~/Ore/BasaltObsidian"
+    },
+    {
+      "name": "OnyxAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "onyx_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/onyx_advancement.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "RuniteAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "runite_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/runite_advancement.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "BackPackExtended",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_extended",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/back_pack_extended.json",
+          "src/main/resources/assets/losthorizon/models/item/back_pack_extended.json",
+          "src/main/java/net/mcreator/losthorizon/item/BackPackExtendedItem.java",
+          "src/main/java/net/mcreator/losthorizon/item/inventory/BackPackExtendedInventoryCapability.java"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "BackPackExtendedGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_extended_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/world/inventory/BackPackExtendedGuiMenu.java",
+          "src/main/java/net/mcreator/losthorizon/client/gui/BackPackExtendedGuiScreen.java"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "SurvivalBackPackExtendedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survival_back_pack_extended_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/survival_back_pack_extended_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "FrosbiteDaggerAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frosbite_dagger_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/frosbite_dagger_advancement.json"
+        ]
+      },
+      "path": "~/Tools/Frostbite Dagger"
+    },
+    {
+      "name": "LanternShieldAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lantern_shield_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/lantern_shield_advancement.json"
+        ]
+      },
+      "path": "~/Tools/LanternShield"
+    },
+    {
+      "name": "BackPackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "back_pack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/back_pack_advancement.json"
+        ]
+      },
+      "path": "~/Tools/Backpack"
+    },
+    {
+      "name": "ClimbingPick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbing_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/climbing_pick.json",
+          "src/main/resources/assets/losthorizon/models/item/climbing_pick.json",
+          "src/main/java/net/mcreator/losthorizon/item/ClimbingPickItem.java"
+        ]
+      },
+      "path": "~/Tools/ClimbingPick"
+    },
+    {
+      "name": "ClimbingPickQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbing_pick_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ClimbingPickQuandLoutilEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/ClimbingPick"
+    },
+    {
+      "name": "FallTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/FallTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/ClimbingPick"
+    },
+    {
+      "name": "ClimbingPickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbing_pick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/climbing_pick_recipe.json"
+        ]
+      },
+      "path": "~/Tools/ClimbingPick"
+    },
+    {
+      "name": "RedGrouperRaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_grouper_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/red_grouper_raw.json",
+          "src/main/resources/assets/losthorizon/items/red_grouper_raw.json",
+          "src/main/java/net/mcreator/losthorizon/item/RedGrouperRawItem.java"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedGrouperCooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_grouper_cooked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/red_grouper_cooked.json",
+          "src/main/java/net/mcreator/losthorizon/item/RedGrouperCookedItem.java",
+          "src/main/resources/assets/losthorizon/models/item/red_grouper_cooked.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedGrouperCookedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_grouper_cooked_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_grouper_cooked_recipe.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedGrouperCookedRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_grouper_cooked_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_grouper_cooked_recipe_2.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedGrouperCookedRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_grouper_cooked_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_grouper_cooked_recipe_3.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedBelliedPiranhaRaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bellied_piranha_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/red_bellied_piranha_raw.json",
+          "src/main/resources/assets/losthorizon/items/red_bellied_piranha_raw.json",
+          "src/main/java/net/mcreator/losthorizon/item/RedBelliedPiranhaRawItem.java"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedBelliedPiranhaCooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bellied_piranha_cooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/RedBelliedPiranhaCookedItem.java",
+          "src/main/resources/assets/losthorizon/models/item/red_bellied_piranha_cooked.json",
+          "src/main/resources/assets/losthorizon/items/red_bellied_piranha_cooked.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedBelliedPiranhaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bellied_piranha_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_bellied_piranha_recipe.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedBelliedPiranhaRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bellied_piranha_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_bellied_piranha_recipe_2.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "RedBelliedPiranhaRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bellied_piranha_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/red_bellied_piranha_recipe_3.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "ArapaimaRaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arapaima_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/arapaima_raw.json",
+          "src/main/resources/assets/losthorizon/items/arapaima_raw.json",
+          "src/main/java/net/mcreator/losthorizon/item/ArapaimaRawItem.java"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "ArapaimaCooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arapaima_cooked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/arapaima_cooked.json",
+          "src/main/java/net/mcreator/losthorizon/item/ArapaimaCookedItem.java",
+          "src/main/resources/assets/losthorizon/items/arapaima_cooked.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "ArapaimaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arapaima_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/arapaima_recipe.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "ArapaimaRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arapaima_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/arapaima_recipe_2.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "ArapaimaRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arapaima_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/arapaima_recipe_3.json"
+        ]
+      },
+      "path": "~/Mobs/fish"
+    },
+    {
+      "name": "Fish",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/gameplay/fishing/fish.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "AncientGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/ancient_golem_spawn_egg.json",
+          "src/main/java/net/mcreator/losthorizon/entity/AncientGolemEntity.java",
+          "src/main/java/net/mcreator/losthorizon/client/renderer/AncientGolemRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/AncientGolem"
+    },
+    {
+      "name": "Sethome",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sethome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/command/SethomeCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "SethomeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sethome_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SethomeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "Home",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "home",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/command/HomeCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "HomeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "home_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/HomeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "SethomeShortProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sethome_short_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SethomeShortProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "HomeShortProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "home_short_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/HomeShortProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "TechnobladeTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technoblade_totem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/TechnobladeTotemItem.java",
+          "src/main/resources/assets/losthorizon/models/item/technoblade_totem.json",
+          "src/main/resources/assets/losthorizon/items/technoblade_totem.json"
+        ]
+      },
+      "path": "~/Tools/TechnobladeTotem"
+    },
+    {
+      "name": "TechnobladeTotemDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technoblade_totem_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/TechnobladeTotemDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/TechnobladeTotem"
+    },
+    {
+      "name": "AnchorTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anchor_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/anchor_totem.json",
+          "src/main/resources/assets/losthorizon/items/anchor_totem.json",
+          "src/main/java/net/mcreator/losthorizon/item/AnchorTotemItem.java"
+        ]
+      },
+      "path": "~/Tools/AnchorTotem"
+    },
+    {
+      "name": "AnchorTotemEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anchor_totem_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/AnchorTotemEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/AnchorTotem"
+    },
+    {
+      "name": "AnchorTotemLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anchor_totem_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/AnchorTotemLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/AnchorTotem"
+    },
+    {
+      "name": "MythrilOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/mythril_ore.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "OnyxOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/onyx_ore.json"
+        ]
+      },
+      "path": "~/Ore/Onyx"
+    },
+    {
+      "name": "RuniteOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runite_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/runite_ore.json"
+        ]
+      },
+      "path": "~/Ore/Runite"
+    },
+    {
+      "name": "VeilofShadows",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veil_of_shadows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/veil_of_shadows.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "VeilofShadowsProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veilof_shadows_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/VeilofShadowsProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "MushroomHouseLootCommon",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mushroom_house_loot_common",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/mushroom_house_loot_common.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "MushroomHouseLootRare",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mushroom_house_loot_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/mushroom_house_loot_rare.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "LostHorizonPaint",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_horizon_paint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/painting_variant/lost_horizon_paint.json"
+        ]
+      }
+    },
+    {
+      "name": "Magnetism",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnetism",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/magnetism.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "MagnetismProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magnetism_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MagnetismProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "ArcanePulse",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_pulse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/arcane_pulse.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "MushroomHouseStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_house_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure/mushroom_house_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/mushroom_house_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/mushroom_house_structure.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "IceTowerLootCommon",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_tower_loot_common",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/ice_tower_loot_common.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "IceTowerLootRare",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_tower_loot_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/ice_tower_loot_rare.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "IceTowerLootUltraRare",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_tower_loot_ultra_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/ice_tower_loot_ultra_rare.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "IceTowerStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tower_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure/ice_tower_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/ice_tower_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/ice_tower_structure.json"
+        ]
+      },
+      "path": "~/Structures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "PreventClimbingFallDamage",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "homeX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "homeZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "homeY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "technoblade_movie_tribute",
+      "files": [
+        "technoblade_movie"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "technoblade_never_dies",
+      "files": [
+        "technoblade_never_dies"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:MythrilEnchantedArmor.body",
+      "~CUSTOM:MythrilArmor.body",
+      "~CUSTOM:RuniteArmor.body"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:AnchorTotem",
+      "~CUSTOM:TechnobladeTotem",
+      "~CUSTOM:TotemOfTheMoon"
+    ],
+    "ITEMS:losthorizon:runite_sword_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BasaltObsidianOre",
+      "~CUSTOM:MythrilBlock",
+      "~CUSTOM:MythrilOre",
+      "~CUSTOM:RuniteBlock",
+      "~CUSTOM:RuniteOre",
+      "~CUSTOM:OnyxBlock",
+      "~CUSTOM:OnyxOre"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MythrilEnchantedHoe",
+      "~CUSTOM:MythrilHoe",
+      "~CUSTOM:RuniteHoe"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_armor_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:climbing_pick_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:BasaltObsidianOre",
+      "~CUSTOM:RuniteBlock",
+      "~CUSTOM:RuniteOre",
+      "~CUSTOM:OnyxBlock",
+      "~CUSTOM:OnyxOre"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ClimbingPick",
+      "~CUSTOM:MythrilEnchantedAxe",
+      "~CUSTOM:MythrilAxe",
+      "~CUSTOM:RuniteAxe"
+    ],
+    "ITEMS:losthorizon:runite_shovel_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ClimbingPick",
+      "~CUSTOM:BasaltEdge",
+      "~CUSTOM:MythrilEnchantedSword",
+      "~CUSTOM:MythrilSword",
+      "~CUSTOM:RuniteSword",
+      "~CUSTOM:FrosbiteDagger"
+    ],
+    "ITEMS:losthorizon:runite_hoe_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_armor_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:MythrilEnchantedArmor.helmet",
+      "~CUSTOM:MythrilArmor.helmet",
+      "~CUSTOM:RuniteArmor.helmet"
+    ],
+    "ITEMS:losthorizon:runite_armor_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_pickaxe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:runite_axe_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_sword_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:AncientGolem"
+    ],
+    "ITEMS:losthorizon:runite_pickaxe_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_shovel_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ClimbingPick",
+      "~CUSTOM:MythrilEnchantedPickaxe",
+      "~CUSTOM:MythrilPickaxe",
+      "~CUSTOM:RunitePickaxe"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MythrilBlock",
+      "~CUSTOM:MythrilOre"
+    ],
+    "ITEMS:losthorizon:mythril_axe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_axe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_sword_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_pickaxe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:mythril_shovel_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_hoe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:basalt_edge_repair_items": [
+      "~CUSTOM:BasaltObsidianOre"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:ArcanePulse",
+      "~CUSTOM:Magnetism",
+      "~CUSTOM:VeilofShadows"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:ArcanePulse",
+      "~CUSTOM:Magnetism",
+      "~CUSTOM:VeilofShadows"
+    ],
+    "ITEMS:losthorizon:frosbite_dagger_repair_items": [
+      "~Blocks.ICE"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MythrilEnchantedShovel",
+      "~CUSTOM:MythrilShovel",
+      "~CUSTOM:RuniteShovel"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:MythrilEnchantedArmor.boots",
+      "~CUSTOM:MythrilArmor.boots",
+      "~CUSTOM:RuniteArmor.boots"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Magnetism",
+      "~CUSTOM:VeilofShadows",
+      "~CUSTOM:ArcanePulse"
+    ],
+    "ITEMS:losthorizon:mythril_hoe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:MythrilEnchantedArmor.legs",
+      "~CUSTOM:MythrilArmor.legs",
+      "~CUSTOM:RuniteArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.onyx_advancement.descr": "La pierre murmure des choses étranges…",
+      "item.losthorizon.basalt_edge": "Basalt Edge",
+      "effect.losthorizon.furtivity": "Furtivity",
+      "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
+      "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
+      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "advancements.runite_advancement.title": "Rune Whisperer",
+      "painting.losthorizon.lost_horizon_paint.author": "Elie",
+      "item.losthorizon.mythril_ore": "Mythril Ore",
+      "advancements.onyx_advancement.title": "Darkest Depths",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
+      "effect.losthorizon.fire": "Fire",
+      "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
+      "item.losthorizon.back_pack": "Survival Backpack",
+      "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
+      "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
+      "advancements.back_pack_advancement.title": "Travel Light, Carry More",
+      "item.losthorizon.onyx": "Onyx",
+      "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
+      "item.losthorizon.arapaima_cooked": "Arapaima Raw",
+      "item.losthorizon.mythril_shovel": "Mythril Shovel",
+      "advancements.mythril_advancement.title": "Deep Blue Shine",
+      "advancements.basalt_obsidian_advancement.descr": "La lave ne brûle pas que les fous.",
+      "item.losthorizon.lantern_shield": "Lantern Shield",
+      "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
+      "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
+      "item.losthorizon.ice_crystal": "Ice Crystal",
+      "enchantment.losthorizon.arcane_pulse": "Arcane Pulse",
+      "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
+      "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
+      "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
+      "item.losthorizon.mythril_armor_boots": "Mythril Boots",
+      "advancements.lost_horizon_advancement.descr": "Il y a plus que la survie. Il y a l\u0027exploration.",
+      "item.losthorizon.runite_axe": "Runite Axe",
+      "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Cooked",
+      "item.losthorizon.mythril_axe": "Mythril Axe",
+      "item.losthorizon.runite_armor_helmet": "Runite Helmet",
+      "item.losthorizon.runite_sword": "Runite Sword",
+      "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
+      "item.losthorizon.basalt_obsidian_ore": "Basalt Obsidian Ore",
+      "item.losthorizon.runite_ore": "Runite Ore",
+      "item.losthorizon.runite_block": "Block of Runite",
+      "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
+      "item.losthorizon.onyx_block": "Block of Onyx",
+      "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
+      "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
+      "item.losthorizon.totem_of_the_moon": "Totem Of The Moon",
+      "item.losthorizon.mythril_block": "Block of Mythril",
+      "advancements.lantern_shield_advancement.descr": "Et la lumière fût… attachée à ton bras.",
+      "item.losthorizon.mythril": "Mythril",
+      "enchantment.losthorizon.magnetism": "Magnetism",
+      "item.losthorizon.mythril_sword": "Mythril Sword",
+      "item.losthorizon.mythril_armor_leggings": "Mythril Leggings",
+      "item.losthorizon.ancient_golem_spawn_egg": "Ancient Golem Spawn Egg",
+      "gui.losthorizon.back_pack_extended_gui.label_backpack": "Survival Backpack",
+      "item.losthorizon.mythril_enchanted_axe": "Mythril Enchanted Axe",
+      "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
+      "advancements.lantern_shield_advancement.title": "A Light in the Dark",
+      "item.losthorizon.mythril_armor_chestplate": "Mythril Chestplate",
+      "item.losthorizon.sculk_witch_spawn_egg": "Sculk Witch Spawn Egg",
+      "item.losthorizon.anchor_totem": "Anchor Totem",
+      "item.losthorizon.runite_shovel": "Runite Shovel",
+      "item.losthorizon.mythril_enchanted_pickaxe": "Mythril Enchanted Pickaxe",
+      "item.losthorizon.runite_armor_leggings": "Runite Leggings",
+      "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
+      "subtitles.technoblade_movie_tribute": "",
+      "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
+      "item.losthorizon.onyx_ore": "Onyx Ore",
+      "item.losthorizon.runite_armor_boots": "Runite Boots",
+      "item.losthorizon.mythril_armor_helmet": "Mythril Helmet",
+      "item.losthorizon.runite_hoe": "Runite Hoe",
+      "advancements.frosbite_dagger_advancement.descr": "Le givre mord plus que le fer.",
+      "item.losthorizon.runite_pickaxe": "Runite Pickaxe",
+      "item.losthorizon.knife": "Knife",
+      "entity.losthorizon.ancient_golem": "Ancient Golem",
+      "item.losthorizon.mythril_enchanted_armor_helmet": "Mythril Enchanted Helmet",
+      "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
+      "item.losthorizon.onyx_knife": "Onyx Knife",
+      "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
+      "gui.losthorizon.back_pack_gui.label_backpack": "Survival Backpack",
+      "item.losthorizon.mythril_hoe": "Mythril Hoe",
+      "subtitles.technoblade_never_dies": "",
+      "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
+      "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
+      "entity.losthorizon.sculk_witch": "Sculk Witch",
+      "item.losthorizon.climbing_pick": "Climbing Pick",
+      "item.losthorizon.runite_ingot": "Runite",
+      "advancements.lost_horizon_advancement.title": "Beyond Survival",
+      "item.losthorizon.technoblade_totem": "Technoblade Totem",
+      "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
+      "item.losthorizon.back_pack_extended": "Survival Backpack",
+      "item.losthorizon.arapaima_raw": "Arapaima Raw"
+    },
+    "fr_fr": {
+      "item.losthorizon.basalt_edge": "Basalt Edge",
+      "advancements.onyx_advancement.descr": "La pierre murmure des choses étranges…",
+      "effect.losthorizon.furtivity": "Furtivity",
+      "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
+      "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
+      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "advancements.runite_advancement.title": "Rune Whisperer",
+      "painting.losthorizon.lost_horizon_paint.author": "Elie",
+      "item.losthorizon.mythril_ore": "Mythril Ore",
+      "advancements.onyx_advancement.title": "Darkest Depths",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
+      "effect.losthorizon.fire": "Fire",
+      "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
+      "item.losthorizon.back_pack": "Survival Backpack",
+      "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
+      "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
+      "advancements.back_pack_advancement.title": "Travel Light, Carry More",
+      "item.losthorizon.onyx": "Onyx",
+      "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
+      "item.losthorizon.arapaima_cooked": "Arapaima Raw",
+      "item.losthorizon.mythril_shovel": "Mythril Shovel",
+      "advancements.mythril_advancement.title": "Deep Blue Shine",
+      "advancements.basalt_obsidian_advancement.descr": "La lave ne brûle pas que les fous.",
+      "item.losthorizon.lantern_shield": "Lantern Shield",
+      "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
+      "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
+      "item.losthorizon.ice_crystal": "Ice Crystal",
+      "enchantment.losthorizon.arcane_pulse": "Arcane Pulse",
+      "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
+      "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
+      "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
+      "item.losthorizon.mythril_armor_boots": "Mythril Boots",
+      "advancements.lost_horizon_advancement.descr": "Lost Horizon Advancement",
+      "item.losthorizon.runite_axe": "Runite Axe",
+      "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Raw",
+      "item.losthorizon.mythril_axe": "Mythril Axe",
+      "item.losthorizon.runite_armor_helmet": "Runite Helmet",
+      "item.losthorizon.runite_sword": "Runite Sword",
+      "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
+      "item.losthorizon.basalt_obsidian_ore": "Basalt Obsidian Ore",
+      "item.losthorizon.runite_ore": "Runite Ore",
+      "item.losthorizon.runite_block": "Block of Runite",
+      "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
+      "item.losthorizon.onyx_block": "Block of Onyx",
+      "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
+      "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
+      "item.losthorizon.totem_of_the_moon": "Totem Of The Moon",
+      "item.losthorizon.mythril_block": "Block of Mythril",
+      "advancements.lantern_shield_advancement.descr": "Et la lumière fût… attachée à ton bras.",
+      "item.losthorizon.mythril": "Mythril",
+      "enchantment.losthorizon.magnetism": "Magnetism",
+      "item.losthorizon.mythril_sword": "Mythril Sword",
+      "item.losthorizon.mythril_armor_leggings": "Mythril Leggings",
+      "item.losthorizon.ancient_golem_spawn_egg": "Ancient Golem Spawn Egg",
+      "gui.losthorizon.back_pack_extended_gui.label_backpack": "Survival Backpack",
+      "item.losthorizon.mythril_enchanted_axe": "Mythril Enchanted Axe",
+      "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
+      "advancements.lantern_shield_advancement.title": "A Light in the Dark",
+      "item.losthorizon.mythril_armor_chestplate": "Mythril Chestplate",
+      "item.losthorizon.sculk_witch_spawn_egg": "Sculk Witch Spawn Egg",
+      "item.losthorizon.anchor_totem": "Anchor Totem",
+      "item.losthorizon.runite_shovel": "Runite Shovel",
+      "item.losthorizon.mythril_enchanted_pickaxe": "Mythril Enchanted Pickaxe",
+      "item.losthorizon.runite_armor_leggings": "Runite Leggings",
+      "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
+      "subtitles.technoblade_movie_tribute": "",
+      "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
+      "item.losthorizon.onyx_ore": "Onyx Ore",
+      "item.losthorizon.runite_armor_boots": "Runite Boots",
+      "item.losthorizon.mythril_armor_helmet": "Mythril Helmet",
+      "item.losthorizon.runite_hoe": "Runite Hoe",
+      "advancements.frosbite_dagger_advancement.descr": "Le givre mord plus que le fer.",
+      "item.losthorizon.runite_pickaxe": "Runite Pickaxe",
+      "item.losthorizon.knife": "Knife",
+      "entity.losthorizon.ancient_golem": "Ancient Golem",
+      "item.losthorizon.mythril_enchanted_armor_helmet": "Mythril Enchanted Helmet",
+      "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
+      "item.losthorizon.onyx_knife": "Onyx Knife",
+      "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
+      "gui.losthorizon.back_pack_gui.label_backpack": "Survival Backpack",
+      "item.losthorizon.mythril_hoe": "Mythril Hoe",
+      "subtitles.technoblade_never_dies": "",
+      "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
+      "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
+      "entity.losthorizon.sculk_witch": "Sculk Witch",
+      "item.losthorizon.climbing_pick": "Climbing Pick",
+      "item.losthorizon.runite_ingot": "Runite",
+      "advancements.lost_horizon_advancement.title": "Lost Horizon Advancement",
+      "item.losthorizon.technoblade_totem": "Technoblade Totem",
+      "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
+      "item.losthorizon.back_pack_extended": "Survival Backpack",
+      "item.losthorizon.arapaima_raw": "Arapaima Raw"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Loot",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Villager",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "SculkWitch",
+            "children": []
+          },
+          {
+            "name": "fish",
+            "children": []
+          },
+          {
+            "name": "AncientGolem",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Frostbite Dagger",
+            "children": []
+          },
+          {
+            "name": "Knife",
+            "children": []
+          },
+          {
+            "name": "Totem of Moon",
+            "children": []
+          },
+          {
+            "name": "LanternShield",
+            "children": []
+          },
+          {
+            "name": "BasaltEdge",
+            "children": []
+          },
+          {
+            "name": "Backpack",
+            "children": []
+          },
+          {
+            "name": "ClimbingPick",
+            "children": []
+          },
+          {
+            "name": "TechnobladeTotem",
+            "children": []
+          },
+          {
+            "name": "AnchorTotem",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ore",
+        "children": [
+          {
+            "name": "Mythril",
+            "children": [
+              {
+                "name": "MythrilEnchanted",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Onyx",
+            "children": []
+          },
+          {
+            "name": "Runite",
+            "children": []
+          },
+          {
+            "name": "BasaltObsidian",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Potion",
+        "children": []
+      },
+      {
+        "name": "Command",
+        "children": []
+      },
+      {
+        "name": "Enchant",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "losthorizon",
+    "modName": "LostHorizon",
+    "version": "1.0.0",
+    "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
+    "author": "elie, MCreator",
+    "websiteURL": "https://github.com/elieduclr/LostHorizon",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "losthorizon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.losthorizon"
+  },
+  "mcreatorVersion": 202500113416
+}

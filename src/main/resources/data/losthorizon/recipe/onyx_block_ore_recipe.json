@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "losthorizon:onyx_block"
+  ],
+  "result": {
+    "id": "losthorizon:onyx",
+    "count": 9
+  }
+}

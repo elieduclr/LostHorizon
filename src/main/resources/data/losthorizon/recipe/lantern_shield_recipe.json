@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:lantern",
+    "c": "minecraft:shield"
+  },
+  "result": {
+    "id": "losthorizon:lantern_shield",
+    "count": 1
+  }
+}

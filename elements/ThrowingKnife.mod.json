@@ -1,0 +1,30 @@
+{
+  "_fv": 77,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Knife"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.2,
+    "damage": 0.4,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "ThrowingKnifeLorsqueLeProjectileToucheUnBloc"
+    },
+    "onHitsPlayer": {
+      "name": "ThrowingKnifeLorsqueLeProjectileToucheUneEntiteVivante"
+    },
+    "onHitsEntity": {
+      "name": "ThrowingKnifeLorsqueLeProjectileToucheUneEntiteVivante"
+    }
+  }
+}

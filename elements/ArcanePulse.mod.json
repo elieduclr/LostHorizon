@@ -1,0 +1,25 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Arcane Pulse",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 6,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:RuniteAxe"
+      },
+      {
+        "value": "CUSTOM:RuniteSword"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

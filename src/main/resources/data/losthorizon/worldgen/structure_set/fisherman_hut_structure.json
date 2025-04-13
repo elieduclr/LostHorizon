@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "losthorizon:fisherman_hut_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 7,
+    "salt": 1860331182
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "losthorizon:explorers_hideout_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 6,
+    "salt": 1867916958
+  }
+}

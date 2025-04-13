@@ -1,0 +1,11 @@
+{
+  "asset_id": "losthorizon:lost_horizon_paint",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.losthorizon.lost_horizon_paint.title"
+  },
+  "author": {
+    "translate": "painting.losthorizon.lost_horizon_paint.author"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:frosbite_dagger"
+    },
+    "title": {
+      "translate": "advancements.frosbite_dagger_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.frosbite_dagger_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frosbite_dagger_advancement_0": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "losthorizon:frosbite_dagger_recipe"
+      }
+    }
+  },
+  "parent": "losthorizon:lost_horizon_advancement"
+}

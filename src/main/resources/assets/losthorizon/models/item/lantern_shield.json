@@ -1,0 +1,7 @@
+{
+  "parent": "losthorizon:custom/lanternshield",
+  "textures": {
+    "0": "losthorizon:block/lanternshield",
+    "particle": "losthorizon:item/lanternshield"
+  }
+}

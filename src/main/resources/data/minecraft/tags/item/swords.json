@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "losthorizon:climbing_pick",
+    "losthorizon:basalt_edge",
+    "losthorizon:mythril_enchanted_sword",
+    "losthorizon:mythril_sword",
+    "losthorizon:runite_sword",
+    "losthorizon:frosbite_dagger"
+  ]
+}

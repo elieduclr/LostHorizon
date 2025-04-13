@@ -1,0 +1,51 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "ice_tower",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 12,
+    "separation": 7,
+    "restrictionBiomes": [
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "frozen_peaks"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "jagged_peaks"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

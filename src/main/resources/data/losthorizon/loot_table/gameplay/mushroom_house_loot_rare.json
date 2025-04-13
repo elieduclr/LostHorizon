@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mycelium",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.6
+              }
+            }
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fermented_spider_eye",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:spore_blossom",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:music_disc_otherside",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "losthorizon:anchor_totem",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "losthorizon:totem_of_the_moon",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "losthorizon:technoblade_totem",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "losthorizon:gameplay/mushroom_house_loot_rare"
+}

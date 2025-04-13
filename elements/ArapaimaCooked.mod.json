@@ -1,0 +1,63 @@
+{
+  "_fv": 77,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "arapaima",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Arapaima Raw",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 20,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:ThrowingKnife"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": true,
+    "nutritionalValue": 6,
+    "saturation": 7.199999999999999,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

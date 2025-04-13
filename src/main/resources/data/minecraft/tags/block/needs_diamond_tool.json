@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "losthorizon:basalt_obsidian_ore",
+    "losthorizon:runite_block",
+    "losthorizon:runite_ore",
+    "losthorizon:onyx_block",
+    "losthorizon:onyx_ore"
+  ]
+}

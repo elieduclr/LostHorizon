@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "losthorizon:runite_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:runite_pickaxe",
+    "count": 1
+  }
+}

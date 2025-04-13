@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:knife",
+    "count": 4
+  }
+}

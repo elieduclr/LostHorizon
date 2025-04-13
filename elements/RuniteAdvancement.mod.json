@@ -1,0 +1,37 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Rune Whisperer",
+    "achievementDescription": "Tu entends ces voix ?",
+    "achievementIcon": {
+      "value": "CUSTOM:RuniteIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "RuniteOreBlockRecipe",
+      "RuniteBlockOreRecipe",
+      "RuniteOreSmelting",
+      "RunitePickaxeRecipe",
+      "RuniteAxeRecipe",
+      "RuniteSwordRecipe",
+      "RuniteShovelRecipe",
+      "RuniteHoeRecipe",
+      "RuniteArmorHelmetRecipe",
+      "RuniteArmorChestplateRecipe",
+      "RuniteArmorLeggingsRecipe",
+      "RuniteArmorBootsRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:OnyxAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

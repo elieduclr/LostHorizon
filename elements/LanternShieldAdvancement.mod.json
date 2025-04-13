@@ -1,0 +1,24 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "A Light in the Dark",
+    "achievementDescription": "Et la lumière fût… attachée à ton bras.",
+    "achievementIcon": {
+      "value": "CUSTOM:LanternShield"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 50,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FrosbiteDaggerAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

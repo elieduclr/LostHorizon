@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "losthorizon:runite_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "losthorizon:runite_armor"
+      }
+    ]
+  }
+}

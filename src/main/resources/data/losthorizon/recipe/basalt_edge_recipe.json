@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "losthorizon:basalt_obsidian_ore",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:basalt_edge",
+    "count": 1
+  }
+}

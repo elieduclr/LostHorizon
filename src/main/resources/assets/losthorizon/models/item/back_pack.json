@@ -1,0 +1,7 @@
+{
+  "parent": "losthorizon:custom/backpack",
+  "textures": {
+    "0": "losthorizon:block/backpack",
+    "particle": "losthorizon:item/backpack"
+  }
+}

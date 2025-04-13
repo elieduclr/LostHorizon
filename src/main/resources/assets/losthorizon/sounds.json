@@ -1,0 +1,18 @@
+{
+  "technoblade_movie_tribute": {
+    "sounds": [
+      {
+        "name": "losthorizon:technoblade_movie",
+        "stream": true
+      }
+    ]
+  },
+  "technoblade_never_dies": {
+    "sounds": [
+      {
+        "name": "losthorizon:technoblade_never_dies",
+        "stream": true
+      }
+    ]
+  }
+}

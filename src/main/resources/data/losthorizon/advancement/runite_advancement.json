@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:runite_ingot"
+    },
+    "title": {
+      "translate": "advancements.runite_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.runite_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "runite_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "losthorizon:runite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:runite_ore_block_recipe",
+      "losthorizon:runite_block_ore_recipe",
+      "losthorizon:runite_ore_smelting",
+      "losthorizon:runite_pickaxe_recipe",
+      "losthorizon:runite_axe_recipe",
+      "losthorizon:runite_sword_recipe",
+      "losthorizon:runite_shovel_recipe",
+      "losthorizon:runite_hoe_recipe",
+      "losthorizon:runite_armor_helmet_recipe",
+      "losthorizon:runite_armor_chestplate_recipe",
+      "losthorizon:runite_armor_leggings_recipe",
+      "losthorizon:runite_armor_boots_recipe"
+    ]
+  },
+  "parent": "losthorizon:onyx_advancement"
+}

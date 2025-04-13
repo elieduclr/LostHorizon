@@ -1,0 +1,32 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Furtivity",
+    "icon": "furtivity",
+    "color": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "SPELL_WITCH"
+    },
+    "onAddedSound": {
+      "value": "entity.player.splash.high_speed"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "SNEAKING_SPEED"
+        },
+        "amount": 0.3,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ]
+  }
+}

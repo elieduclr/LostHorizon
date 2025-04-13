@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": "losthorizon:arapaima_raw",
+  "result": {
+    "id": "losthorizon:arapaima_cooked"
+  }
+}

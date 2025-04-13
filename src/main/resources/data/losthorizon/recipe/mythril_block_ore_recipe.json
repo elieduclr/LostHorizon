@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "losthorizon:mythril_block"
+  ],
+  "result": {
+    "id": "losthorizon:mythril",
+    "count": 9
+  }
+}

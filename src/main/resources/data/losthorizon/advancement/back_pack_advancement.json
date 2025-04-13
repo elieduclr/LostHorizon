@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:back_pack"
+    },
+    "title": {
+      "translate": "advancements.back_pack_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.back_pack_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "back_pack_advancement_0": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "losthorizon:survival_back_pack_recipe"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:survival_back_pack_extended_recipe"
+    ]
+  },
+  "parent": "losthorizon:lantern_shield_advancement"
+}

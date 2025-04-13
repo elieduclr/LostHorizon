@@ -1,0 +1,54 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "fishermanhut",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 15,
+    "separation": 7,
+    "restrictionBiomes": [
+      {
+        "value": "river"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "warm_ocean"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

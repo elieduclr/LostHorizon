@@ -1,0 +1,29 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Darkest Depths",
+    "achievementDescription": "La pierre murmure des choses étranges…",
+    "achievementIcon": {
+      "value": "CUSTOM:Onyx"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "OnyxOreBlockRecipe",
+      "OnyxBlockOreRecipe",
+      "OnyxOreSmelting",
+      "OnyxKnifeRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:BasaltObsidianAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

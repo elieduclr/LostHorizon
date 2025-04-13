@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:lantern_shield"
+    },
+    "title": {
+      "translate": "advancements.lantern_shield_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.lantern_shield_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lantern_shield_advancement_0": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "losthorizon:lantern_shield_recipe"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "losthorizon:frosbite_dagger_advancement"
+}

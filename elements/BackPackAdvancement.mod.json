@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Travel Light, Carry More",
+    "achievementDescription": "Moins de poids, plus de loot.",
+    "achievementIcon": {
+      "value": "CUSTOM:BackPack"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "SurvivalBackPackExtendedRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:LanternShieldAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

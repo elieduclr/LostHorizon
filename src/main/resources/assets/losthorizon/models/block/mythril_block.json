@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "losthorizon:block/mythril_ore_block",
+    "particle": "losthorizon:block/mythril_ore_block"
+  },
+  "render_type": "solid"
+}

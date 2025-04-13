@@ -1,0 +1,28 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:MythrilSword"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:MythrilEnchantedSword"
+    },
+    "name": "mythril_enchanted_sword_recipe",
+    "namespace": "mod"
+  }
+}

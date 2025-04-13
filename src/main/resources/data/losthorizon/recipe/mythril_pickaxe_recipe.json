@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "losthorizon:mythril",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:mythril_pickaxe",
+    "count": 1
+  }
+}

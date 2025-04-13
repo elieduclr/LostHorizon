@@ -1,0 +1,38 @@
+{
+  "_fv": 77,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 1,
+    "texture": "lanternshield",
+    "customModelName": "lanternshield:default",
+    "blockingModelName": "lanternshieldblocking:default",
+    "name": "Lantern Shield",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "LanternShieldLorsqueLoutilEstDansLaMain"
+    }
+  }
+}

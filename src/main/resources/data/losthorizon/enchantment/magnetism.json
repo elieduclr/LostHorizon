@@ -1,0 +1,31 @@
+{
+  "description": {
+    "translate": "enchantment.losthorizon.magnetism"
+  },
+  "supported_items": [
+    "losthorizon:runite_armor_chestplate",
+    "losthorizon:mythril_armor_chestplate",
+    "losthorizon:mythril_enchanted_armor_chestplate",
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate"
+  ],
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

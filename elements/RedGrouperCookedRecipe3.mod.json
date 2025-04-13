@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:RedGrouperRaw"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:RedGrouperCooked"
+    },
+    "name": "red_grouper_cooked_recipe_3",
+    "namespace": "mod"
+  }
+}

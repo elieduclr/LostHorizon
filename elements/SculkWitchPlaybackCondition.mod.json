@@ -1,0 +1,7 @@
+{
+  "_fv": 77,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Boolean\" id=\"login\">login</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><mutation else=\"1\"></mutation><value name=\"IF0\"><block type=\"world_data_israining\"></block></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">local:login</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></statement><statement name=\"ELSE\"><block type=\"variables_set_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">local:login</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></statement><next><block type=\"return_logic\"><value name=\"return\"><block type=\"variables_get_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">local:login</field></block></value></block></next></block></next></block></xml>"
+  }
+}

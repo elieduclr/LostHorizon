@@ -1,0 +1,10 @@
+{
+  "_fv": 77,
+  "_type": "command",
+  "definition": {
+    "commandName": "sethome",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">target</field><field name=\"type\">players</field><statement name=\"args\"><block type=\"blockpos\"><field name=\"name\">pos</field><comment pinned=\"false\" h=\"80\" w=\"160\">This the coordinates (x, y, z) to tp each entity.</comment><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SethomeProcedure</field><comment pinned=\"false\" h=\"80\" w=\"160\">This procedure needs to be specific to those arguments.</comment></block></statement></block></statement><next><block type=\"call_procedure\"><field name=\"procedure\">SethomeShortProcedure</field></block></next></block></next></block></xml>"
+  }
+}

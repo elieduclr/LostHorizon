@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Obsidian of Fire",
+    "achievementDescription": "La lave ne brûle pas que les fous.",
+    "achievementIcon": {
+      "value": "CUSTOM:BasaltObsidianOre"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "BasaltEdgeRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:MythrilAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

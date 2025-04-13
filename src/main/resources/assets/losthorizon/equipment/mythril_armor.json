@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "losthorizon:mythril_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "losthorizon:mythril_armor"
+      }
+    ]
+  }
+}

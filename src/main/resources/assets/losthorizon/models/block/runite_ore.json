@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "losthorizon:block/runite_ore",
+    "particle": "losthorizon:block/runite_ore"
+  },
+  "render_type": "solid"
+}

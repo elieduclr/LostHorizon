@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:ArapaimaRaw"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:ArapaimaCooked"
+    },
+    "name": "arapaima_recipe_2",
+    "namespace": "mod"
+  }
+}

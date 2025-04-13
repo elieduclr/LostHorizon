@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:onyx"
+    },
+    "title": {
+      "translate": "advancements.onyx_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.onyx_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "onyx_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "losthorizon:onyx"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:onyx_ore_block_recipe",
+      "losthorizon:onyx_block_ore_recipe",
+      "losthorizon:onyx_ore_smelting",
+      "losthorizon:onyx_knife_recipe"
+    ]
+  },
+  "parent": "losthorizon:basalt_obsidian_advancement"
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 77,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "frostbite_dagger",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Frosbite Dagger",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 2.5,
+    "enchantability": 2,
+    "damageVsEntity": 4.5,
+    "usageCount": 350,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FrosbiteDaggerQuandUneEntiteVivanteEstFrappeeAvecLoutil"
+    }
+  }
+}

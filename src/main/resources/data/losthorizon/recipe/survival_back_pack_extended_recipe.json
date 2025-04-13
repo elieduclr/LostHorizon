@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "losthorizon:mythril",
+    "c": "losthorizon:back_pack"
+  },
+  "result": {
+    "id": "losthorizon:back_pack_extended",
+    "count": 1
+  }
+}

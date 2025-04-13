@@ -1,0 +1,42 @@
+{
+  "_fv": 77,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "climbing_pick",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Climbing Pick",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1800,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mythril"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "ClimbingPickQuandLoutilEstDansLinventaireParTick"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 150,
+  "ingredient": "losthorizon:arapaima_raw",
+  "result": {
+    "id": "losthorizon:arapaima_cooked"
+  }
+}

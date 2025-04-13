@@ -1,0 +1,80 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Veil of Shadows",
+    "supportedSlots": "armor",
+    "weight": 2,
+    "anvilCost": 6,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "AQUA_AFFINITY"
+      },
+      {
+        "value": "RESPIRATION"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:RuniteArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:RuniteArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:MythrilArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedArmor.boots"
+      },
+      {
+        "value": "Items.LEATHER_HELMET"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.CHAINMAIL_HELMET"
+      },
+      {
+        "value": "Items.CHAINMAIL_BOOTS"
+      },
+      {
+        "value": "Items.IRON_HELMET"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "Items.GOLDEN_HELMET"
+      },
+      {
+        "value": "Items.GOLDEN_BOOTS"
+      },
+      {
+        "value": "Items.DIAMOND_HELMET"
+      },
+      {
+        "value": "Items.DIAMOND_BOOTS"
+      },
+      {
+        "value": "Items.NETHERITE_HELMET"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

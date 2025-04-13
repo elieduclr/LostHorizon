@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "losthorizon:mythril",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:mythril_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 150,
+  "ingredient": "losthorizon:red_bellied_piranha_raw",
+  "result": {
+    "id": "losthorizon:red_bellied_piranha_cooked"
+  }
+}

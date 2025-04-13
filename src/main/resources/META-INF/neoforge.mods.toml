@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="losthorizon"
+version="1.0.0"
+displayName="LostHorizon"
+displayURL="https://github.com/elieduclr/LostHorizon"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="elie, MCreator"
+description="LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des m\u00E9tiers in\u00E9dits et des objets vari\u00E9s. Explore des ruines oubli\u00E9es, affronte des cr\u00E9atures dangereuses et d\u00E9couvre des artefacts rares, tout en restant fid\u00E8le \u00E0 l\u2019esprit du jeu. Ajoute plus de d\u00E9fis et d\u2019immersion \u00E0 la survie !"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.losthorizon]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.123,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.losthorizon]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
