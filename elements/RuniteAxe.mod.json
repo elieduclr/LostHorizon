@@ -34,6 +34,9 @@
     "blockDropsTier": "DIAMOND",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil"
+    }
   }
 }

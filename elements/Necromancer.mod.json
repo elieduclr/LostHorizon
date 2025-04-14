@@ -1,0 +1,16 @@
+{
+  "_fv": 77,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Necromancer",
+    "pointOfInterest": {
+      "value": "CUSTOM:OnyxOre"
+    },
+    "actionSound": {
+      "value": "entity.villager.celebrate"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager_necromancer.png",
+    "zombifiedProfessionTextureFile": "villager_necromancer_zoombie.png"
+  }
+}

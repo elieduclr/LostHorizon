@@ -1,0 +1,159 @@
+{
+  "_fv": 77,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Necromancer"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.SHIELD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.TORCH"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:LanternShield"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 4,
+            "xp": 7,
+            "priceMultiplier": 0.09999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Onyx"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:OnyxKnife"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:RuniteIngot"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 6,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 7,
+            "priceMultiplier": 0.06999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:RuniteIngot"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RuniteSword"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 4,
+            "xp": 8,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:IceCrystal"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": "Items.TOTEM_OF_UNDYING"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TotemOfTheMoon"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 2,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Mythril"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.TOTEM_OF_UNDYING"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AnchorTotem"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 2,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TotemOfTheMoon"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:RuniteIngot"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:TechnobladeTotem"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BasaltObsidianOre"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BasaltEdge"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

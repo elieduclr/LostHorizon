@@ -1,0 +1,53 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Dimensional Step",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 7,
+    "maxLevel": 2,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "FEATHER_FALLING"
+      },
+      {
+        "value": "SOUL_SPEED"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:RuniteArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedArmor.boots"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.CHAINMAIL_BOOTS"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "Items.GOLDEN_BOOTS"
+      },
+      {
+        "value": "Items.DIAMOND_BOOTS"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

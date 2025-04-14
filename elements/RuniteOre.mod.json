@@ -38,8 +38,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 6.0,
-    "resistance": 8.705505632961241,
+    "hardness": 45.0,
+    "resistance": 500.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [

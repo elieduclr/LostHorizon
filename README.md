@@ -21,6 +21,7 @@
 - **Magnetism** : Attire les objets autour de toi, avec une portée croissante selon le niveau.
 - **Lunar Grace** : Offre un bonus de vitesse et permet de voir dans la nuit.
 - **Bloodlust** : Restaure 1/2 (par niveau) cœur de vie pour chaque kill, mais l'arme se dégrade 2 fois plus vite.
+- **Dimensional Step** : Permet de faire des doubles/triples sauts. La hauteur varie selon le niveau.
 
 ### ✨ Potions
 - **Furtivity** : Augmente la vitesse en mode sneak.
@@ -42,6 +43,20 @@
 - **Totem of the Moon** : Night vision + furtivité pendant 2 minutes.
 - **Knife & Onyx Knife** : Couteaux à lancer (onyx inflige Wither).
 - **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
+
+### 👨‍🌾 Métiers de villageois
+
+**LostHorizon** introduit de nouveaux métiers de villageois immersifs, en lien avec les thématiques du mod (magie, exploration, technologie oubliée...). Ces villageois ajoutent une dimension RPG et permettent d’accéder à des objets uniques ou rares via le commerce.
+
+#### 🧟‍♂️ Nécromancien
+
+Un villageois étrange au regard vide, souvent trouvé près des **Mushroom Houses**.
+
+-   **Bloc de métier** : Minerai d'onyx
+-   **Échanges** (exemples, selon le niveau) :
+    -   💀 8 Onyx → 3 Onyx Knife
+    -   👻 3 Crystaux de glace + 1 Totem d'immortalité → 1 Totem de la lune
+    -   ⚔️ 5 Minerais de Basalt Obsidian → 1 Basalt Edge
 
 ### 🏠 Structures générées
 - **Fisherman Hut** : Petite cabane à côté des rivières (normales ou gelées).

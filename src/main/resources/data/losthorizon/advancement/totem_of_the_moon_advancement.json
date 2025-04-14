@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:totem_of_the_moon"
+    },
+    "title": {
+      "translate": "advancements.totem_of_the_moon_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.totem_of_the_moon_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "totem_of_the_moon_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "losthorizon:lost_horizon_advancement"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:runite_sword"
+    },
+    "title": {
+      "translate": "advancements.runic_arsenal_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.runic_arsenal_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "runic_arsenal_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "losthorizon:totem_of_the_moon_advancement"
+}

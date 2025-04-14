@@ -5,8 +5,8 @@
     "name": "Bloodlust",
     "supportedSlots": "any",
     "weight": 1,
-    "anvilCost": 8,
-    "maxLevel": 1,
+    "anvilCost": 10,
+    "maxLevel": 2,
     "damageModifier": 0,
     "incompatibleEnchantments": [
       {

@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.losthorizon.network.LosthorizonModVariables;
+import net.mcreator.losthorizon.init.LosthorizonModVillagerProfessions;
 import net.mcreator.losthorizon.init.LosthorizonModTabs;
 import net.mcreator.losthorizon.init.LosthorizonModSounds;
+import net.mcreator.losthorizon.init.LosthorizonModPotions;
 import net.mcreator.losthorizon.init.LosthorizonModMobEffects;
 import net.mcreator.losthorizon.init.LosthorizonModMenus;
 import net.mcreator.losthorizon.init.LosthorizonModItems;
@@ -52,8 +54,11 @@ public class LosthorizonMod {
 		LosthorizonModTabs.REGISTRY.register(modEventBus);
 		LosthorizonModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
+		LosthorizonModPotions.REGISTRY.register(modEventBus);
 		LosthorizonModMobEffects.REGISTRY.register(modEventBus);
 		LosthorizonModMenus.REGISTRY.register(modEventBus);
+
+		LosthorizonModVillagerProfessions.PROFESSIONS.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

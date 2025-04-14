@@ -84,7 +84,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "NETHER_ORE"
     },
     "breakSound": {
       "value": ""
