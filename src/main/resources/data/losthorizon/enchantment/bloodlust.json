@@ -1,0 +1,45 @@
+{
+  "description": {
+    "translate": "enchantment.losthorizon.bloodlust"
+  },
+  "supported_items": [
+    "losthorizon:runite_sword",
+    "losthorizon:mythril_sword",
+    "losthorizon:mythril_enchanted_sword",
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "losthorizon:frosbite_dagger",
+    "losthorizon:basalt_edge",
+    "losthorizon:runite_axe",
+    "losthorizon:mythril_axe",
+    "losthorizon:mythril_enchanted_axe",
+    "minecraft:wooden_axe",
+    "minecraft:stone_axe",
+    "minecraft:iron_axe",
+    "minecraft:golden_axe",
+    "minecraft:diamond_axe",
+    "minecraft:netherite_axe"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": [
+    "mending",
+    "looting"
+  ]
+}

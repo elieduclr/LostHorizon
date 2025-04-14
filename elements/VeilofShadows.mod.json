@@ -21,52 +21,55 @@
         "value": "CUSTOM:RuniteArmor.helmet"
       },
       {
-        "value": "CUSTOM:RuniteArmor.boots"
-      },
-      {
         "value": "CUSTOM:MythrilArmor.helmet"
-      },
-      {
-        "value": "CUSTOM:MythrilArmor.boots"
       },
       {
         "value": "CUSTOM:MythrilEnchantedArmor.helmet"
       },
       {
-        "value": "CUSTOM:MythrilEnchantedArmor.boots"
-      },
-      {
         "value": "Items.LEATHER_HELMET"
-      },
-      {
-        "value": "Items.LEATHER_BOOTS"
       },
       {
         "value": "Items.CHAINMAIL_HELMET"
       },
       {
-        "value": "Items.CHAINMAIL_BOOTS"
+        "value": "Items.TURTLE_HELMET"
       },
       {
         "value": "Items.IRON_HELMET"
       },
       {
-        "value": "Items.IRON_BOOTS"
-      },
-      {
         "value": "Items.GOLDEN_HELMET"
-      },
-      {
-        "value": "Items.GOLDEN_BOOTS"
       },
       {
         "value": "Items.DIAMOND_HELMET"
       },
       {
-        "value": "Items.DIAMOND_BOOTS"
+        "value": "Items.NETHERITE_HELMET"
       },
       {
-        "value": "Items.NETHERITE_HELMET"
+        "value": "CUSTOM:RuniteArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedArmor.boots"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.CHAINMAIL_BOOTS"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "Items.GOLDEN_BOOTS"
+      },
+      {
+        "value": "Items.DIAMOND_BOOTS"
       },
       {
         "value": "Items.NETHERITE_BOOTS"

@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
+    "losthorizon:bloodlust",
+    "losthorizon:lunar_grace",
     "losthorizon:magnetism",
-    "losthorizon:veil_of_shadows",
-    "losthorizon:arcane_pulse"
+    "losthorizon:veil_of_shadows"
   ]
 }

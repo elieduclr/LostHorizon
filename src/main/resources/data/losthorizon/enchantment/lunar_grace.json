@@ -1,0 +1,41 @@
+{
+  "description": {
+    "translate": "enchantment.losthorizon.lunar_grace"
+  },
+  "supported_items": [
+    "losthorizon:runite_armor_helmet",
+    "losthorizon:mythril_armor_helmet",
+    "losthorizon:mythril_enchanted_armor_helmet",
+    "minecraft:leather_helmet",
+    "minecraft:chainmail_helmet",
+    "minecraft:turtle_helmet",
+    "minecraft:iron_helmet",
+    "minecraft:golden_helmet",
+    "minecraft:diamond_helmet",
+    "minecraft:netherite_helmet",
+    "losthorizon:runite_armor_boots",
+    "losthorizon:mythril_armor_boots",
+    "losthorizon:mythril_enchanted_armor_boots",
+    "minecraft:leather_boots",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_boots",
+    "minecraft:golden_boots",
+    "minecraft:diamond_boots",
+    "minecraft:netherite_boots"
+  ],
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

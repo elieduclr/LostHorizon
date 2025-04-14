@@ -2544,19 +2544,6 @@
       "path": "~/Enchant"
     },
     {
-      "name": "ArcanePulse",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcane_pulse",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/losthorizon/enchantment/arcane_pulse.json"
-        ]
-      },
-      "path": "~/Enchant"
-    },
-    {
       "name": "MushroomHouseStructure",
       "type": "structure",
       "compiles": true,
@@ -2624,6 +2611,102 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "LunarGrace",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunar_grace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/lunar_grace.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "LunarGraceProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunar_grace_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/LunarGraceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "Bloodlust",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodlust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/bloodlust.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "BloodlustProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodlust_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/BloodlustProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchant"
     }
   ],
   "variable_elements": [
@@ -2697,6 +2780,9 @@
       "~CUSTOM:MythrilEnchantedHoe",
       "~CUSTOM:MythrilHoe",
       "~CUSTOM:RuniteHoe"
+    ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~CUSTOM:Bloodlust"
     ],
     "ITEMS:losthorizon:mythril_enchanted_armor_repair_items": [
       "~CUSTOM:Mythril"
@@ -2792,12 +2878,14 @@
       "~CUSTOM:BasaltObsidianOre"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
-      "~CUSTOM:ArcanePulse",
+      "~CUSTOM:Bloodlust",
+      "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
       "~CUSTOM:VeilofShadows"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
-      "~CUSTOM:ArcanePulse",
+      "~CUSTOM:Bloodlust",
+      "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
       "~CUSTOM:VeilofShadows"
     ],
@@ -2815,9 +2903,10 @@
       "~CUSTOM:RuniteArmor.boots"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Bloodlust",
+      "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
-      "~CUSTOM:VeilofShadows",
-      "~CUSTOM:ArcanePulse"
+      "~CUSTOM:VeilofShadows"
     ],
     "ITEMS:losthorizon:mythril_hoe_repair_items": [
       "~CUSTOM:Mythril"
@@ -2837,6 +2926,7 @@
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "enchantment.losthorizon.bloodlust": "Bloodlust",
       "advancements.runite_advancement.title": "Rune Whisperer",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Mythril Ore",
@@ -2858,7 +2948,6 @@
       "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "item.losthorizon.ice_crystal": "Ice Crystal",
-      "enchantment.losthorizon.arcane_pulse": "Arcane Pulse",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
@@ -2916,6 +3005,7 @@
       "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
       "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
       "entity.losthorizon.sculk_witch": "Sculk Witch",
+      "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.climbing_pick": "Climbing Pick",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Beyond Survival",
@@ -2931,6 +3021,7 @@
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "enchantment.losthorizon.bloodlust": "Bloodlust",
       "advancements.runite_advancement.title": "Rune Whisperer",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Mythril Ore",
@@ -2952,7 +3043,6 @@
       "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "item.losthorizon.ice_crystal": "Ice Crystal",
-      "enchantment.losthorizon.arcane_pulse": "Arcane Pulse",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
@@ -3010,6 +3100,7 @@
       "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
       "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
       "entity.losthorizon.sculk_witch": "Sculk Witch",
+      "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.climbing_pick": "Climbing Pick",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Lost Horizon Advancement",
