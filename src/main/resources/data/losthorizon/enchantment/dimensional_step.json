@@ -1,0 +1,34 @@
+{
+  "description": {
+    "translate": "enchantment.losthorizon.dimensional_step"
+  },
+  "supported_items": [
+    "losthorizon:runite_armor_boots",
+    "losthorizon:mythril_armor_boots",
+    "losthorizon:mythril_enchanted_armor_boots",
+    "minecraft:leather_boots",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_boots",
+    "minecraft:golden_boots",
+    "minecraft:diamond_boots",
+    "minecraft:netherite_boots"
+  ],
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 7,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": [
+    "feather_falling",
+    "soul_speed"
+  ]
+}

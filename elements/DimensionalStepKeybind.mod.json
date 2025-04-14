@@ -1,0 +1,12 @@
+{
+  "_fv": 77,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Dimensional Step Keybind",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "DimensionalStepProcedure"
+    }
+  }
+}

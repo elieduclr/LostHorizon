@@ -65,6 +65,7 @@ public class LosthorizonModVariables {
 			clone.homeY = original.homeY;
 			if (!event.isWasDeath()) {
 				clone.PreventClimbingFallDamage = original.PreventClimbingFallDamage;
+				clone.nbrjump = original.nbrjump;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -75,6 +76,7 @@ public class LosthorizonModVariables {
 		public double homeX = 0;
 		public double homeZ = 0;
 		public double homeY = 0;
+		public double nbrjump = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -83,6 +85,7 @@ public class LosthorizonModVariables {
 			nbt.putDouble("homeX", homeX);
 			nbt.putDouble("homeZ", homeZ);
 			nbt.putDouble("homeY", homeY);
+			nbt.putDouble("nbrjump", nbrjump);
 			return nbt;
 		}
 
@@ -92,6 +95,7 @@ public class LosthorizonModVariables {
 			homeX = nbt.getDouble("homeX");
 			homeZ = nbt.getDouble("homeZ");
 			homeY = nbt.getDouble("homeY");
+			nbrjump = nbt.getDouble("nbrjump");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

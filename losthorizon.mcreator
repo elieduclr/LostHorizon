@@ -2707,6 +2707,55 @@
         ]
       },
       "path": "~/Enchant"
+    },
+    {
+      "name": "DimensionalStep",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_step",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/enchantment/dimensional_step.json"
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "DimensionalStepProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_step_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/DimensionalStepProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchant"
+    },
+    {
+      "name": "DimensionalStepKeybind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_step_keybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/network/DimensionalStepKeybindMessage.java"
+        ]
+      },
+      "path": "~/Enchant"
     }
   ],
   "variable_elements": [
@@ -2732,6 +2781,12 @@
       "name": "homeY",
       "type": "number",
       "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "nbrjump",
+      "type": "number",
+      "scope": "player_lifetime",
       "value": "0"
     }
   ],
@@ -2776,13 +2831,13 @@
       "~CUSTOM:OnyxBlock",
       "~CUSTOM:OnyxOre"
     ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~CUSTOM:Bloodlust"
+    ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:MythrilEnchantedHoe",
       "~CUSTOM:MythrilHoe",
       "~CUSTOM:RuniteHoe"
-    ],
-    "ENCHANTMENTS:minecraft:curse": [
-      "~CUSTOM:Bloodlust"
     ],
     "ITEMS:losthorizon:mythril_enchanted_armor_repair_items": [
       "~CUSTOM:Mythril"
@@ -2878,12 +2933,14 @@
       "~CUSTOM:BasaltObsidianOre"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:DimensionalStep",
       "~CUSTOM:Bloodlust",
       "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
       "~CUSTOM:VeilofShadows"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:DimensionalStep",
       "~CUSTOM:Bloodlust",
       "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
@@ -2903,6 +2960,7 @@
       "~CUSTOM:RuniteArmor.boots"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:DimensionalStep",
       "~CUSTOM:Bloodlust",
       "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
@@ -2925,8 +2983,8 @@
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
-      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
+      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
       "advancements.runite_advancement.title": "Rune Whisperer",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Mythril Ore",
@@ -2949,9 +3007,11 @@
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
+      "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
       "item.losthorizon.mythril_armor_boots": "Mythril Boots",
+      "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
       "advancements.lost_horizon_advancement.descr": "Il y a plus que la survie. Il y a l\u0027exploration.",
       "item.losthorizon.runite_axe": "Runite Axe",
       "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Cooked",
@@ -3020,8 +3080,8 @@
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
-      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
+      "advancements.runite_advancement.descr": "Tu entends ces voix ?",
       "advancements.runite_advancement.title": "Rune Whisperer",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Mythril Ore",
@@ -3044,9 +3104,11 @@
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
+      "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
       "item.losthorizon.mythril_armor_boots": "Mythril Boots",
+      "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
       "advancements.lost_horizon_advancement.descr": "Lost Horizon Advancement",
       "item.losthorizon.runite_axe": "Runite Axe",
       "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Raw",
