@@ -1,0 +1,86 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Bloodlust",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 8,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "LOOTING"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:RuniteSword"
+      },
+      {
+        "value": "CUSTOM:MythrilSword"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedSword"
+      },
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "CUSTOM:FrosbiteDagger"
+      },
+      {
+        "value": "CUSTOM:BasaltEdge"
+      },
+      {
+        "value": "CUSTOM:RuniteAxe"
+      },
+      {
+        "value": "CUSTOM:MythrilAxe"
+      },
+      {
+        "value": "CUSTOM:MythrilEnchantedAxe"
+      },
+      {
+        "value": "Items.WOODEN_AXE"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

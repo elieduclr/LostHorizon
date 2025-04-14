@@ -21,7 +21,7 @@ public class RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure {
 				_level.explode(null, x, y, z, 1, Level.ExplosionInteraction.NONE);
 		} else if (random > 60 && random <= 80) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2, false, false));
 		} else if (random > 80 && random <= 100) {
 			itemstack.setDamageValue((int) (itemstack.getDamageValue() - 5));
 		}
