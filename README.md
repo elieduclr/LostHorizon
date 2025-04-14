@@ -21,6 +21,7 @@
 - **Magnetism** : Attire les objets autour de toi, avec une portée croissante selon le niveau.
 - **Lunar Grace** : Offre un bonus de vitesse et permet de voir dans la nuit.
 - **Bloodlust** : Restaure 1/2 (par niveau) cœur de vie pour chaque kill, mais l'arme se dégrade 2 fois plus vite.
+- **Dimensional Step** : Permet de faire des doubles/triples sauts. La hauteur varie selon le niveau.
 
 ### ✨ Potions
 - **Furtivity** : Augmente la vitesse en mode sneak.
