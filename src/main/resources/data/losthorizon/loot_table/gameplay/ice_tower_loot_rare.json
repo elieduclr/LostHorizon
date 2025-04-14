@@ -1,6 +1,18 @@
 {
   "type": "minecraft:generic",
   "pools": [
+  	{
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:ice_crystal"
+        }
+      ]
+    },
     {
       "rolls": {
         "min": 3,

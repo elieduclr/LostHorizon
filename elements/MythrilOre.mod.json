@@ -38,8 +38,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 45.0,
+    "resistance": 500.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -52,7 +52,7 @@
       "value": "CUSTOM:Mythril"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

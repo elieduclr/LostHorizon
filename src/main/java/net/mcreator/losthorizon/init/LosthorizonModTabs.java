@@ -57,6 +57,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModBlocks.RUNITE_BLOCK.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MYTHRIL_ORE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MYTHRIL_BLOCK.get().asItem());
+			tabData.accept(LosthorizonModBlocks.BASALT_OBSIDIAN_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LosthorizonModItems.TOTEM_OF_THE_MOON.get());
 			tabData.accept(LosthorizonModItems.RUNITE_PICKAXE.get());
