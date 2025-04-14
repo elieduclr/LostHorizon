@@ -27,5 +27,32 @@ public class LosthorizonModTrades {
 					.add(new BasicItemListing(new ItemStack(LosthorizonModItems.TOTEM_OF_THE_MOON.get()), new ItemStack(LosthorizonModItems.RUNITE_INGOT.get(), 2), new ItemStack(LosthorizonModItems.TECHNOBLADE_TOTEM.get()), 2, 10, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(LosthorizonModBlocks.BASALT_OBSIDIAN_ORE.get(), 5), new ItemStack(LosthorizonModItems.BASALT_EDGE.get()), 2, 15, 0.05f));
 		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.ARROW, 16), new ItemStack(Items.EMERALD, 2), 15, 5, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(Items.SPECTRAL_ARROW, 5), 15, 5, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.LEATHER, 6), new ItemStack(Items.EMERALD), 10, 6, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(LosthorizonModBlocks.TRAP.get()), 8, 7, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(LosthorizonModItems.CLIMBING_PICK.get()), 8, 7, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(LosthorizonModItems.TOTEM_OF_THE_MOON.get()), 6, 10, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(Items.IRON_INGOT, 2), new ItemStack(LosthorizonModItems.KNIFE.get(), 3), 6, 10, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 6), new ItemStack(LosthorizonModItems.FROSBITE_DAGGER.get()), 2, 15, 0.05f));
+		}
+		if (event.getType() == LosthorizonModVillagerProfessions.HUNTER.get()) {
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 8), new ItemStack(LosthorizonModItems.ANCHOR_TOTEM.get()), 2, 15, 0.05f));
+		}
 	}
 }

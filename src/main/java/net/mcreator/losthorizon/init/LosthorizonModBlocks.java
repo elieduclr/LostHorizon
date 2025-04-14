@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.losthorizon.block.TrapBlock;
 import net.mcreator.losthorizon.block.RuniteOreBlock;
 import net.mcreator.losthorizon.block.RuniteBlockBlock;
 import net.mcreator.losthorizon.block.OnyxOreBlock;
@@ -30,6 +31,7 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> MYTHRIL_ORE = register("mythril_ore", MythrilOreBlock::new);
 	public static final DeferredBlock<Block> MYTHRIL_BLOCK = register("mythril_block", MythrilBlockBlock::new);
 	public static final DeferredBlock<Block> BASALT_OBSIDIAN_ORE = register("basalt_obsidian_ore", BasaltObsidianOreBlock::new);
+	public static final DeferredBlock<Block> TRAP = register("trap", TrapBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

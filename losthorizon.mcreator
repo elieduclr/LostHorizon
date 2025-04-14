@@ -2391,19 +2391,6 @@
       "path": "~/Tools/AnchorTotem"
     },
     {
-      "name": "MythrilOreLoot",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythril_ore_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/losthorizon/loot_table/blocks/mythril_ore.json"
-        ]
-      },
-      "path": "~/Ore/Mythril"
-    },
-    {
       "name": "OnyxOreLoot",
       "type": "loottable",
       "compiles": true,
@@ -2814,6 +2801,108 @@
         "files": []
       },
       "path": "~/Villager"
+    },
+    {
+      "name": "NecromancerAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "necromancer_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/necromancer_advancement.json"
+        ]
+      },
+      "path": "~/Villager"
+    },
+    {
+      "name": "Trap",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/trap.json",
+          "src/main/java/net/mcreator/losthorizon/block/TrapBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/trap.json",
+          "src/main/resources/assets/losthorizon/blockstates/trap.json",
+          "src/main/resources/assets/losthorizon/models/item/trap.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/trap.json"
+        ]
+      },
+      "path": "~/Tools/Trap"
+    },
+    {
+      "name": "TrapDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trap_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/damage_type/trap_damage.json"
+        ]
+      },
+      "path": "~/Tools/Trap"
+    },
+    {
+      "name": "TrapQuandLentiteEntreEnCollisionAvecLeBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trap_quand_lentite_entre_en_collision_avec_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/TrapQuandLentiteEntreEnCollisionAvecLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Trap"
+    },
+    {
+      "name": "MythrilLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/mythril_ore.json"
+        ]
+      },
+      "path": "~/Ore/Mythril"
+    },
+    {
+      "name": "Hunter",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunter",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
+    },
+    {
+      "name": "HunterTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunter_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
     }
   ],
   "variable_elements": [
@@ -3045,10 +3134,12 @@
       "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "effect.losthorizon.fire": "Fire",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
+      "death.attack.trap_damage": "%1$s a été déchiqueté par un piège rouillé.",
       "item.losthorizon.back_pack": "Survival Backpack",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
+      "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
       "item.losthorizon.arapaima_cooked": "Arapaima Raw",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
@@ -3067,8 +3158,8 @@
       "item.losthorizon.mythril": "Mythril",
       "enchantment.losthorizon.magnetism": "Magnetism",
       "item.losthorizon.mythril_sword": "Mythril Sword",
-      "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
       "advancements.lantern_shield_advancement.title": "A Light in the Dark",
+      "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
       "item.minecraft.potion.effect.furtivity_potion": "Potion of Furtivity Potion",
       "item.losthorizon.anchor_totem": "Anchor Totem",
       "item.losthorizon.runite_shovel": "Runite Shovel",
@@ -3088,6 +3179,8 @@
       "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
       "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
       "item.losthorizon.onyx_knife": "Onyx Knife",
+      "advancements.necromancer_advancement.title": "Cursed Knowledge",
+      "item.losthorizon.trap": "Trap",
       "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Beyond Survival",
@@ -3100,11 +3193,13 @@
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
       "advancements.back_pack_advancement.title": "Travel Light, Carry More",
       "advancements.mythril_advancement.title": "Deep Blue Shine",
       "advancements.basalt_obsidian_advancement.descr": "La lave ne brûle pas que les fous.",
       "item.losthorizon.lantern_shield": "Lantern Shield",
+      "advancements.necromancer_advancement.descr": "La connaissance a un prix.",
       "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
@@ -3131,6 +3226,7 @@
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "item.losthorizon.onyx_ore": "Onyx Ore",
+      "entity.minecraft.villager.losthorizon.hunter": "Hunter",
       "entity.losthorizon.ancient_golem": "Ancient Golem",
       "gui.losthorizon.back_pack_gui.label_backpack": "Survival Backpack",
       "item.losthorizon.mythril_hoe": "Mythril Hoe",
@@ -3151,10 +3247,12 @@
       "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "effect.losthorizon.fire": "Fire",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
+      "death.attack.trap_damage": "%1$s a été déchiqueté par un piège rouillé.",
       "item.losthorizon.back_pack": "Survival Backpack",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
+      "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
       "item.losthorizon.arapaima_cooked": "Arapaima Raw",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
@@ -3194,6 +3292,8 @@
       "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
       "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
       "item.losthorizon.onyx_knife": "Onyx Knife",
+      "advancements.necromancer_advancement.title": "Cursed Knowledge",
+      "item.losthorizon.trap": "Trap",
       "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Lost Horizon Advancement",
@@ -3206,11 +3306,13 @@
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frosbite Dagger",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
       "advancements.back_pack_advancement.title": "Travel Light, Carry More",
       "advancements.mythril_advancement.title": "Deep Blue Shine",
       "advancements.basalt_obsidian_advancement.descr": "La lave ne brûle pas que les fous.",
       "item.losthorizon.lantern_shield": "Lantern Shield",
+      "advancements.necromancer_advancement.descr": "La connaissance a un prix.",
       "item.losthorizon.runite_armor_chestplate": "Plastron en Runite",
       "item.losthorizon.frosbite_dagger": "Frosbite Dagger",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
@@ -3237,6 +3339,7 @@
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "item.losthorizon.onyx_ore": "Onyx Ore",
+      "entity.minecraft.villager.losthorizon.hunter": "Hunter",
       "entity.losthorizon.ancient_golem": "Ancient Golem",
       "gui.losthorizon.back_pack_gui.label_backpack": "Survival Backpack",
       "item.losthorizon.mythril_hoe": "Mythril Hoe",
@@ -3318,6 +3421,10 @@
           {
             "name": "AnchorTotem",
             "children": []
+          },
+          {
+            "name": "Trap",
+            "children": []
           }
         ]
       },
@@ -3364,7 +3471,7 @@
   "workspaceSettings": {
     "modid": "losthorizon",
     "modName": "LostHorizon",
-    "version": "1.0.0",
+    "version": "0.0.6",
     "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
     "author": "elie, MCreator",
     "websiteURL": "https://github.com/elieduclr/LostHorizon",

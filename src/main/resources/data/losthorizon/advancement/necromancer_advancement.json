@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "losthorizon:anchor_totem"
+    },
+    "title": {
+      "translate": "advancements.necromancer_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.necromancer_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "traded_with_necromancer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{profession:\"losthorizon:necromancer\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "losthorizon:runic_arsenal_advancement"
+}

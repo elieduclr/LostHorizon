@@ -43,6 +43,7 @@
 - **Totem of the Moon** : Night vision + furtivité pendant 2 minutes.
 - **Knife & Onyx Knife** : Couteaux à lancer (onyx inflige Wither).
 - **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
+- **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
 
 ### 👨‍🌾 Métiers de villageois
 
@@ -50,13 +51,19 @@
 
 #### 🧟‍♂️ Nécromancien
 
-Un villageois étrange au regard vide, souvent trouvé près des **Mushroom Houses**.
-
 -   **Bloc de métier** : Minerai d'onyx
 -   **Échanges** (exemples, selon le niveau) :
     -   💀 8 Onyx → 3 Onyx Knife
     -   👻 3 Crystaux de glace + 1 Totem d'immortalité → 1 Totem de la lune
     -   ⚔️ 5 Minerais de Basalt Obsidian → 1 Basalt Edge
+
+#### ⚔️ Chasseur
+
+-   **Bloc de métier** : Piège
+-   **Échanges** (exemples, selon le niveau) :
+    -   16 Flèches → 2 Emeraudes
+    -   1 Emeraude → 1 Piège
+    -   ⚔️ 3 Emeraude + 2 Lingot de Fer → 3 Couteau
 
 ### 🏠 Structures générées
 - **Fisherman Hut** : Petite cabane à côté des rivières (normales ou gelées).

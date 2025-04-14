@@ -1,0 +1,12 @@
+{
+  "_fv": 77,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.15000000000000002,
+    "scaling": "always",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s a été déchiqueté par un piège rouillé.",
+    "itemDeathMessage": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
+    "playerDeathMessage": "%1$s est tombé dans un piège rouillé tendu par %2$s."
+  }
+}

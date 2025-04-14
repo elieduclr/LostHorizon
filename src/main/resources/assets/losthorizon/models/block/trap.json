@@ -1,0 +1,9 @@
+{
+  "parent": "losthorizon:custom/trap",
+  "textures": {
+    "all": "losthorizon:block/trap",
+    "particle": "losthorizon:block/trap",
+    "0": "losthorizon:block/trap"
+  },
+  "render_type": "solid"
+}

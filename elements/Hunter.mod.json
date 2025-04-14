@@ -1,0 +1,16 @@
+{
+  "_fv": 77,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Hunter",
+    "pointOfInterest": {
+      "value": "CUSTOM:Trap"
+    },
+    "actionSound": {
+      "value": "entity.villager.celebrate"
+    },
+    "hat": "None",
+    "professionTextureFile": "hunter.png",
+    "zombifiedProfessionTextureFile": "hunter_zoombie.png"
+  }
+}

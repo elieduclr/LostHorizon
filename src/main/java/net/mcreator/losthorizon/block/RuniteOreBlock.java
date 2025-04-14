@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Block;
 
 public class RuniteOreBlock extends Block {
 	public RuniteOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(45f, 500f).requiresCorrectToolForDrops());
+		super(properties.instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(20f, 500f).requiresCorrectToolForDrops());
 	}
 
 	@Override

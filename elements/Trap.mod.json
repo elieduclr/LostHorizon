@@ -1,0 +1,320 @@
+{
+  "_fv": 77,
+  "_type": "block",
+  "definition": {
+    "texture": "trap",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "trap:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 2.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 1.0,
+        "Mx": 0.5,
+        "My": 4.0,
+        "Mz": 3.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 4.0,
+        "Mx": 0.5,
+        "My": 4.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 7.0,
+        "Mx": 0.5,
+        "My": 4.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 10.0,
+        "Mx": 0.5,
+        "My": 4.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 13.0,
+        "Mx": 0.5,
+        "My": 4.0,
+        "Mz": 15.0,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 2.0,
+        "mz": 0.5,
+        "Mx": 3.0,
+        "My": 4.0,
+        "Mz": 0.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 2.0,
+        "mz": 0.5,
+        "Mx": 6.0,
+        "My": 4.0,
+        "Mz": 0.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 2.0,
+        "mz": 0.5,
+        "Mx": 9.0,
+        "My": 4.0,
+        "Mz": 0.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.0,
+        "my": 2.0,
+        "mz": 0.5,
+        "Mx": 12.0,
+        "My": 4.0,
+        "Mz": 0.5,
+        "subtract": false
+      },
+      {
+        "mx": 13.0,
+        "my": 2.0,
+        "mz": 0.5,
+        "Mx": 15.0,
+        "My": 4.0,
+        "Mz": 0.5,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 1.0,
+        "Mx": 15.5,
+        "My": 4.0,
+        "Mz": 3.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 4.0,
+        "Mx": 15.5,
+        "My": 4.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 7.0,
+        "Mx": 15.5,
+        "My": 4.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 10.0,
+        "Mx": 15.5,
+        "My": 4.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 13.0,
+        "Mx": 15.5,
+        "My": 4.0,
+        "Mz": 15.0,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 3.0,
+        "My": 4.0,
+        "Mz": 15.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 6.0,
+        "My": 4.0,
+        "Mz": 15.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 9.0,
+        "My": 4.0,
+        "Mz": 15.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.0,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 12.0,
+        "My": 4.0,
+        "Mz": 15.5,
+        "subtract": false
+      },
+      {
+        "mx": 13.0,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 15.0,
+        "My": 4.0,
+        "Mz": 15.5,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Trap",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 3.0,
+    "resistance": 200.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "TRANSPORTATION"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "CUSTOM:Trap"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 0.0,
+    "jumpFactor": 0.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "TrapQuandLentiteEntreEnCollisionAvecLeBloc"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

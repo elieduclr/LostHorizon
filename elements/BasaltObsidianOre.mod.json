@@ -41,7 +41,7 @@
         "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer."
       ]
     },
-    "hardness": 75.0,
+    "hardness": 20.0,
     "resistance": 2000.0,
     "hasGravity": false,
     "isWaterloggable": false,

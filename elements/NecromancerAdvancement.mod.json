@@ -1,0 +1,24 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Cursed Knowledge",
+    "achievementDescription": "La connaissance a un prix.",
+    "achievementIcon": {
+      "value": "CUSTOM:AnchorTotem"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 200,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:RunicArsenalAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

@@ -27,7 +27,7 @@ import java.util.List;
 
 public class BasaltObsidianOreBlock extends Block {
 	public BasaltObsidianOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHER_ORE).strength(75f, 2000f).lightLevel(s -> 2).requiresCorrectToolForDrops());
+		super(properties.instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHER_ORE).strength(20f, 2000f).lightLevel(s -> 2).requiresCorrectToolForDrops());
 	}
 
 	@Override

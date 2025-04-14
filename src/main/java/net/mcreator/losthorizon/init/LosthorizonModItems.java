@@ -122,6 +122,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> ANCIENT_GOLEM_SPAWN_EGG = register("ancient_golem_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.ANCIENT_GOLEM.get(), properties));
 	public static final DeferredItem<Item> TECHNOBLADE_TOTEM = register("technoblade_totem", TechnobladeTotemItem::new);
 	public static final DeferredItem<Item> ANCHOR_TOTEM = register("anchor_totem", AnchorTotemItem::new);
+	public static final DeferredItem<Item> TRAP = block(LosthorizonModBlocks.TRAP);
 
 	// Start of user code block custom items
 	// End of user code block custom items

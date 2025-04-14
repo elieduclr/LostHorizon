@@ -38,7 +38,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 45.0,
+    "hardness": 20.0,
     "resistance": 500.0,
     "hasGravity": false,
     "isWaterloggable": false,

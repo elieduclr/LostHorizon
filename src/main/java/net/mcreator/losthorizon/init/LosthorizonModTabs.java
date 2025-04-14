@@ -84,6 +84,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.RED_BELLIED_PIRANHA_COOKED.get());
 			tabData.accept(LosthorizonModItems.ARAPAIMA_RAW.get());
 			tabData.accept(LosthorizonModItems.ARAPAIMA_COOKED.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(LosthorizonModBlocks.TRAP.get().asItem());
 		}
 	}
 }
