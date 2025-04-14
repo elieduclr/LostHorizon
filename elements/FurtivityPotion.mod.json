@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Furtivity Potion",
+    "splashName": "Splash Potion of Furtivity Potion",
+    "lingeringName": "Lingering Potion of Furtivity Potion",
+    "arrowName": "Arrow of Furtivity Potion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Furtivity"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
