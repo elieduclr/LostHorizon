@@ -9,12 +9,14 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.mcreator.losthorizon.client.model.Modelwolf;
+import net.mcreator.losthorizon.client.model.Modelnecromancer;
+import net.mcreator.losthorizon.client.model.Modelcryptguardian;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class LosthorizonModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(Modelwolf.LAYER_LOCATION, Modelwolf::createBodyLayer);
+		event.registerLayerDefinition(Modelcryptguardian.LAYER_LOCATION, Modelcryptguardian::createBodyLayer);
+		event.registerLayerDefinition(Modelnecromancer.LAYER_LOCATION, Modelnecromancer::createBodyLayer);
 	}
 }

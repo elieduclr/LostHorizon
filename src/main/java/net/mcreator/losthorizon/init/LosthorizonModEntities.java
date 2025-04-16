@@ -20,25 +20,23 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.losthorizon.entity.ThrowingOnyxKnifeEntity;
 import net.mcreator.losthorizon.entity.ThrowingKnifeEntity;
-import net.mcreator.losthorizon.entity.SculkWitchEntity;
-import net.mcreator.losthorizon.entity.AncientGolemEntity;
+import net.mcreator.losthorizon.entity.NecromancerBossEntity;
+import net.mcreator.losthorizon.entity.CryptGuardianEntity;
 import net.mcreator.losthorizon.LosthorizonMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class LosthorizonModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, LosthorizonMod.MODID);
-	public static final DeferredHolder<EntityType<?>, EntityType<SculkWitchEntity>> SCULK_WITCH = register("sculk_witch",
-			EntityType.Builder.<SculkWitchEntity>of(SculkWitchEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.6f, 1.95f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ThrowingKnifeEntity>> THROWING_KNIFE = register("throwing_knife",
 			EntityType.Builder.<ThrowingKnifeEntity>of(ThrowingKnifeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ThrowingOnyxKnifeEntity>> THROWING_ONYX_KNIFE = register("throwing_onyx_knife",
 			EntityType.Builder.<ThrowingOnyxKnifeEntity>of(ThrowingOnyxKnifeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<AncientGolemEntity>> ANCIENT_GOLEM = register("ancient_golem",
-			EntityType.Builder.<AncientGolemEntity>of(AncientGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+	public static final DeferredHolder<EntityType<?>, EntityType<NecromancerBossEntity>> NECROMANCER = register("necromancer",
+			EntityType.Builder.<NecromancerBossEntity>of(NecromancerBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(1f, 2f));
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CryptGuardianEntity>> CRYPT_GUARDIAN = register("crypt_guardian",
+			EntityType.Builder.<CryptGuardianEntity>of(CryptGuardianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -48,13 +46,13 @@ public class LosthorizonModEntities {
 
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		SculkWitchEntity.init(event);
-		AncientGolemEntity.init(event);
+		NecromancerBossEntity.init(event);
+		CryptGuardianEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(SCULK_WITCH.get(), SculkWitchEntity.createAttributes().build());
-		event.put(ANCIENT_GOLEM.get(), AncientGolemEntity.createAttributes().build());
+		event.put(NECROMANCER.get(), NecromancerBossEntity.createAttributes().build());
+		event.put(CRYPT_GUARDIAN.get(), CryptGuardianEntity.createAttributes().build());
 	}
 }

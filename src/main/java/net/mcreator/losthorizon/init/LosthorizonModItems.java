@@ -34,6 +34,7 @@ import net.mcreator.losthorizon.item.RedBelliedPiranhaRawItem;
 import net.mcreator.losthorizon.item.RedBelliedPiranhaCookedItem;
 import net.mcreator.losthorizon.item.OnyxKnifeItem;
 import net.mcreator.losthorizon.item.OnyxItem;
+import net.mcreator.losthorizon.item.NecromancerGrimoireItem;
 import net.mcreator.losthorizon.item.MythrilSwordItem;
 import net.mcreator.losthorizon.item.MythrilShovelItem;
 import net.mcreator.losthorizon.item.MythrilPickaxeItem;
@@ -65,8 +66,7 @@ import java.util.function.Function;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class LosthorizonModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(LosthorizonMod.MODID);
-	public static final DeferredItem<Item> SCULK_WITCH_SPAWN_EGG = register("sculk_witch_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.SCULK_WITCH.get(), properties));
-	public static final DeferredItem<Item> FROSBITE_DAGGER = register("frosbite_dagger", FrosbiteDaggerItem::new);
+	public static final DeferredItem<Item> FROSTBITE_DAGGER = register("frostbite_dagger", FrosbiteDaggerItem::new);
 	public static final DeferredItem<Item> KNIFE = register("knife", KnifeItem::new);
 	public static final DeferredItem<Item> ONYX = register("onyx", OnyxItem::new);
 	public static final DeferredItem<Item> ONYX_ORE = block(LosthorizonModBlocks.ONYX_ORE);
@@ -119,10 +119,13 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> RED_BELLIED_PIRANHA_COOKED = register("red_bellied_piranha_cooked", RedBelliedPiranhaCookedItem::new);
 	public static final DeferredItem<Item> ARAPAIMA_RAW = register("arapaima_raw", ArapaimaRawItem::new);
 	public static final DeferredItem<Item> ARAPAIMA_COOKED = register("arapaima_cooked", ArapaimaCookedItem::new);
-	public static final DeferredItem<Item> ANCIENT_GOLEM_SPAWN_EGG = register("ancient_golem_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.ANCIENT_GOLEM.get(), properties));
 	public static final DeferredItem<Item> TECHNOBLADE_TOTEM = register("technoblade_totem", TechnobladeTotemItem::new);
 	public static final DeferredItem<Item> ANCHOR_TOTEM = register("anchor_totem", AnchorTotemItem::new);
 	public static final DeferredItem<Item> TRAP = block(LosthorizonModBlocks.TRAP);
+	public static final DeferredItem<Item> NECROMANCER_GRIMOIRE_BLOCK = block(LosthorizonModBlocks.NECROMANCER_GRIMOIRE_BLOCK);
+	public static final DeferredItem<Item> NECROMANCER_SPAWN_EGG = register("necromancer_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.NECROMANCER.get(), properties));
+	public static final DeferredItem<Item> CRYPT_GUARDIAN_SPAWN_EGG = register("crypt_guardian_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.CRYPT_GUARDIAN.get(), properties));
+	public static final DeferredItem<Item> NECROMANCER_GRIMOIRE = register("necromancer_grimoire", NecromancerGrimoireItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

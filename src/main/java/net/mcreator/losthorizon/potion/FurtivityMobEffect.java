@@ -15,6 +15,6 @@ public class FurtivityMobEffect extends MobEffect {
 	public FurtivityMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -13434829, mobEffectInstance -> ParticleTypes.WITCH);
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.player.splash.high_speed")));
-		this.addAttributeModifier(Attributes.SNEAKING_SPEED, ResourceLocation.fromNamespaceAndPath(LosthorizonMod.MODID, "effect.furtivity_0"), 0.3, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
+		this.addAttributeModifier(Attributes.SNEAKING_SPEED, ResourceLocation.fromNamespaceAndPath(LosthorizonMod.MODID, "effect.furtivity_0"), 0.4, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
 	}
 }

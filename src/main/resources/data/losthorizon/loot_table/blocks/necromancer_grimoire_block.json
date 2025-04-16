@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "losthorizon:blocks/necromancer_grimoire_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:necromancer_grimoire"
+        }
+      ]
+    }
+  ]
+}

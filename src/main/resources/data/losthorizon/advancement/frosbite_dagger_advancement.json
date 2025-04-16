@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "losthorizon:frosbite_dagger"
+      "id": "losthorizon:frostbite_dagger"
     },
     "title": {
       "translate": "advancements.frosbite_dagger_advancement.title"
@@ -18,7 +18,7 @@
     "frosbite_dagger_advancement_0": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "losthorizon:frosbite_dagger_recipe"
+        "recipe_id": "losthorizon:frostbite_dagger_recipe"
       }
     }
   },

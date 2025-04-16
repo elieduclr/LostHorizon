@@ -25,14 +25,7 @@
             "maxTrades": 15,
             "xp": 5,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
@@ -50,14 +43,7 @@
             "maxTrades": 15,
             "xp": 5,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.LEATHER"
@@ -75,14 +61,7 @@
             "maxTrades": 10,
             "xp": 6,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
@@ -100,14 +79,7 @@
             "maxTrades": 8,
             "xp": 7,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
@@ -124,20 +96,13 @@
             "level": 3,
             "maxTrades": 8,
             "xp": 7,
-            "priceMultiplier": 0.049999999999999996
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+            "priceMultiplier": 0.05
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 5,
+            "countPrice1": 1,
             "price2": {
               "value": ""
             },
@@ -150,14 +115,7 @@
             "maxTrades": 6,
             "xp": 10,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
@@ -170,19 +128,12 @@
             "offer": {
               "value": "CUSTOM:Knife"
             },
-            "countOffer": 3,
+            "countOffer": 1,
             "level": 4,
             "maxTrades": 6,
             "xp": 10,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"
@@ -200,14 +151,7 @@
             "maxTrades": 2,
             "xp": 15,
             "priceMultiplier": 0.05
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "CUSTOM:Hunter"
-        },
-        "entries": [
+          },
           {
             "price1": {
               "value": "Items.EMERALD"

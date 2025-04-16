@@ -2,10 +2,10 @@
   "_fv": 77,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Furtivity Potion",
-    "splashName": "Splash Potion of Furtivity Potion",
-    "lingeringName": "Lingering Potion of Furtivity Potion",
-    "arrowName": "Arrow of Furtivity Potion",
+    "potionName": "Potion of Furtivity",
+    "splashName": "Splash Potion of Furtivity",
+    "lingeringName": "Lingering Potion of Furtivity",
+    "arrowName": "Arrow of Furtivity",
     "effects": [
       {
         "effect": {

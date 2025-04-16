@@ -66,6 +66,7 @@ public class LosthorizonModVariables {
 			if (!event.isWasDeath()) {
 				clone.PreventClimbingFallDamage = original.PreventClimbingFallDamage;
 				clone.nbrjump = original.nbrjump;
+				clone.necromancer_grimoire = original.necromancer_grimoire;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -77,6 +78,7 @@ public class LosthorizonModVariables {
 		public double homeZ = 0;
 		public double homeY = 0;
 		public double nbrjump = 0;
+		public boolean necromancer_grimoire = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -86,6 +88,7 @@ public class LosthorizonModVariables {
 			nbt.putDouble("homeZ", homeZ);
 			nbt.putDouble("homeY", homeY);
 			nbt.putDouble("nbrjump", nbrjump);
+			nbt.putBoolean("necromancer_grimoire", necromancer_grimoire);
 			return nbt;
 		}
 
@@ -96,6 +99,7 @@ public class LosthorizonModVariables {
 			homeZ = nbt.getDouble("homeZ");
 			homeY = nbt.getDouble("homeY");
 			nbrjump = nbt.getDouble("nbrjump");
+			necromancer_grimoire = nbt.getBoolean("necromancer_grimoire");
 		}
 
 		public void syncPlayerVariables(Entity entity) {
