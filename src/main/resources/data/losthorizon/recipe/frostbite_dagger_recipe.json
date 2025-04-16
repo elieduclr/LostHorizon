@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "losthorizon:ice_crystal",
+    "b": "losthorizon:onyx",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:frostbite_dagger",
+    "count": 1
+  }
+}

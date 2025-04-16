@@ -21,11 +21,8 @@ public class LosthorizonModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(LosthorizonModItems.SCULK_WITCH_SPAWN_EGG.get());
-			tabData.accept(LosthorizonModItems.ANCIENT_GOLEM_SPAWN_EGG.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(LosthorizonModItems.FROSBITE_DAGGER.get());
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(LosthorizonModItems.FROSTBITE_DAGGER.get());
 			tabData.accept(LosthorizonModItems.KNIFE.get());
 			tabData.accept(LosthorizonModItems.ONYX_KNIFE.get());
 			tabData.accept(LosthorizonModItems.LANTERN_SHIELD.get());
@@ -77,6 +74,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.CLIMBING_PICK.get());
 			tabData.accept(LosthorizonModItems.TECHNOBLADE_TOTEM.get());
 			tabData.accept(LosthorizonModItems.ANCHOR_TOTEM.get());
+			tabData.accept(LosthorizonModItems.NECROMANCER_GRIMOIRE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());
@@ -86,6 +84,9 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.ARAPAIMA_COOKED.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.TRAP.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(LosthorizonModItems.NECROMANCER_SPAWN_EGG.get());
+			tabData.accept(LosthorizonModItems.CRYPT_GUARDIAN_SPAWN_EGG.get());
 		}
 	}
 }

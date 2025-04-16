@@ -15,6 +15,7 @@ import net.mcreator.losthorizon.block.RuniteOreBlock;
 import net.mcreator.losthorizon.block.RuniteBlockBlock;
 import net.mcreator.losthorizon.block.OnyxOreBlock;
 import net.mcreator.losthorizon.block.OnyxBlockBlock;
+import net.mcreator.losthorizon.block.NecromancerGrimoireBlocBlock;
 import net.mcreator.losthorizon.block.MythrilOreBlock;
 import net.mcreator.losthorizon.block.MythrilBlockBlock;
 import net.mcreator.losthorizon.block.BasaltObsidianOreBlock;
@@ -32,6 +33,7 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> MYTHRIL_BLOCK = register("mythril_block", MythrilBlockBlock::new);
 	public static final DeferredBlock<Block> BASALT_OBSIDIAN_ORE = register("basalt_obsidian_ore", BasaltObsidianOreBlock::new);
 	public static final DeferredBlock<Block> TRAP = register("trap", TrapBlock::new);
+	public static final DeferredBlock<Block> NECROMANCER_GRIMOIRE_BLOCK = register("necromancer_grimoire_block", NecromancerGrimoireBlocBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

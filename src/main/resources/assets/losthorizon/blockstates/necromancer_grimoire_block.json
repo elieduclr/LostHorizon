@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "losthorizon:block/necromancer_grimoire_block"
+    },
+    "facing=east": {
+      "model": "losthorizon:block/necromancer_grimoire_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "losthorizon:block/necromancer_grimoire_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "losthorizon:block/necromancer_grimoire_block",
+      "y": 270
+    }
+  }
+}

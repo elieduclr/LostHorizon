@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "losthorizon:crypt_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 15,
+    "salt": 791466682
+  }
+}

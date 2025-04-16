@@ -44,6 +44,19 @@
 - **Knife & Onyx Knife** : Couteaux à lancer (onyx inflige Wither).
 - **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
 - **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
+- **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
+
+### 👹 Boss
+
+#### 🧙‍♂️ Nécromancien
+
+- Boss invoqué en détruisant le Grimoire (bloc).
+- Utilise des attaques de mêlée, des boules de feu, et peut se soigner pendant le combat.
+
+#### 🛡️ Gardien de la Crypte
+
+- Neutre par défaut, il attaque uniquement si provoqué.
+- Capable d’attaquer au corps-à-corps et d’utiliser des potions offensives.
 
 ### 👨‍🌾 Métiers de villageois
 
@@ -70,6 +83,7 @@
 - **Explorer’s Hideout** : Structure moyenne, abri d’un aventurier disparu.
 - **Mushroom House** : Maison mystique dans les forêts sombres, marécages ou champignons géants.
 - **Ice Tower** : Tour glacée mystérieuse pleine de secrets.
+- **Crypt** : Structure rare et dangereuse contenant du loot précieux.
 
 ### 🧭 Commandes utiles
 - `/sethome` : Définit ta position de maison.

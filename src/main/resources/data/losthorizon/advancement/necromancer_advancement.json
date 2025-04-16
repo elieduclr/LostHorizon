@@ -20,7 +20,7 @@
       "conditions": {
         "villager": {
           "type": "minecraft:villager",
-          "nbt": "{VillagerData:{profession:\"losthorizon:necromancer\"}}"
+          "nbt": "{VillagerData:{profession:\"losthorizon:necromancer_work\"}}"
         }
       }
     }

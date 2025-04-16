@@ -34,9 +34,9 @@ import com.google.common.collect.ImmutableSet;
 public class LosthorizonModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(Registries.VILLAGER_PROFESSION, LosthorizonMod.MODID);
-	public static final DeferredHolder<VillagerProfession, VillagerProfession> NECROMANCER = registerProfession("necromancer", () -> LosthorizonModBlocks.ONYX_ORE.get(),
-			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.villager.celebrate")));
 	public static final DeferredHolder<VillagerProfession, VillagerProfession> HUNTER = registerProfession("hunter", () -> LosthorizonModBlocks.TRAP.get(),
+			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.villager.celebrate")));
+	public static final DeferredHolder<VillagerProfession, VillagerProfession> NECROMANCER_WORK = registerProfession("necromancer_work", () -> LosthorizonModBlocks.ONYX_ORE.get(),
 			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.villager.celebrate")));
 
 	private static DeferredHolder<VillagerProfession, VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {

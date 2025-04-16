@@ -1,0 +1,219 @@
+{
+  "_fv": 77,
+  "_type": "block",
+  "definition": {
+    "texture": "necromancer_grimoire_bloc",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "necromancer_grimoire:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "necromancer_grimoire",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.5,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 15.5,
+        "My": 2.0,
+        "Mz": 15.5,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 2.0,
+        "mz": 0.0,
+        "Mx": 0.5,
+        "My": 2.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 0.5,
+        "My": 0.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 0.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 2.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 2.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 0.5,
+        "My": 2.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 15.5,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 2.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 2.0,
+        "mz": 15.5,
+        "Mx": 15.5,
+        "My": 2.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 0.0,
+        "mz": 15.5,
+        "Mx": 15.5,
+        "My": 0.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": -1.0,
+        "my": 0.5,
+        "mz": 6.0,
+        "Mx": 1.0,
+        "My": 0.5,
+        "Mz": 7.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Necromancer Grimoire Bloc",
+    "specialInformation": {
+      "fixedValue": [
+        "Un livre ancien scellé par magie."
+      ]
+    },
+    "hardness": 1.0,
+    "resistance": 500.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "CUSTOM:NecromancerGrimoire"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "CHISELED_BOOKSHELF"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onStartToDestroy": {
+      "name": "NecromancerGrimoireBlocQuandLeJoueurCommenceADetruire"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

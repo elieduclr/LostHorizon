@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "losthorizon:item/necromancer_grimoire"
+  },
+  "render_type": "translucent"
+}

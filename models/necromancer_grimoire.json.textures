@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "necromancer_grimoire_bloc"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -17,7 +17,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.losthorizon.procedures.FrosbiteDaggerQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure;
 
 public class FrosbiteDaggerItem extends SwordItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 350, 6f, 0, 2, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:frosbite_dagger_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 350, 6f, 0, 2, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:frostbite_dagger_repair_items")));
 
 	public FrosbiteDaggerItem(Item.Properties properties) {
 		super(TOOL_MATERIAL, 3.5f, -1.5f, properties);

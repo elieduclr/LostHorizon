@@ -1,0 +1,9 @@
+{
+  "parent": "losthorizon:custom/necromancer_grimoire",
+  "textures": {
+    "all": "losthorizon:block/necromancer_grimoire_bloc",
+    "particle": "losthorizon:block/necromancer_grimoire_bloc",
+    "0": "losthorizon:block/necromancer_grimoire_bloc"
+  },
+  "render_type": "solid"
+}
