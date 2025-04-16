@@ -4,6 +4,8 @@ package net.mcreator.losthorizon.entity;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
@@ -47,7 +49,7 @@ public class NecromancerBossEntity extends Monster {
 
 	public NecromancerBossEntity(EntityType<NecromancerBossEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 100;
 		setNoAi(false);
 	}
 
@@ -73,6 +75,11 @@ public class NecromancerBossEntity extends Monster {
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
+	}
+
+	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(serverLevel, source, recentlyHitIn);
+		this.spawnAtLocation(serverLevel, new ItemStack(Items.SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE));
 	}
 
 	@Override
