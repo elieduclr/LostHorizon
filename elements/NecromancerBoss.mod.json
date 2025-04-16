@@ -115,7 +115,7 @@
     "trackingRange": 64,
     "followRange": 16,
     "health": 250,
-    "xpAmount": 0,
+    "xpAmount": 100,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -144,7 +144,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.SILENCE_ARMOR_TRIM"
     },
     "livingSound": {
       "value": ""
