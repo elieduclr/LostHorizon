@@ -2,6 +2,34 @@
   "type": "minecraft:generic",
   "pools": [
     {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Journal détrempé"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Cela fait trois jours que l’eau ne veut plus me rendre ce que je pêche. Des ombres sous la glace. Je dors mal. Et ce totem… il a clignoté cette nuit.",
+                  "type": "text"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {

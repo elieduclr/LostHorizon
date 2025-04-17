@@ -3581,6 +3581,21 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "IceStatueStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_statue_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure/ice_statue_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/ice_statue_structure.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/ice_statue_structure.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [
@@ -3827,6 +3842,7 @@
       "death.attack.trap_damage.item": "%1$s got caught in a rusty trap set by %2$s with the help of %3$s.",
       "item.losthorizon.arapaima_cooked": "Arapaima Cooked",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
+      "book.losthorizon.frozen_grimoire.page1": "13 days I\u0027ve been here… Without my frozen sword, I wouldn\u0027t have made it.",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
@@ -3866,6 +3882,7 @@
       "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
       "item.losthorizon.onyx_knife": "Onyx Knife",
       "advancements.necromancer_advancement.title": "Cursed Knowledge",
+      "book.losthorizon.mycelia_tome.page1": "The mushroom sings when the moon is high.",
       "item.losthorizon.trap": "Trap",
       "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.runite_ingot": "Runite",
@@ -3875,6 +3892,7 @@
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
       "item.losthorizon.back_pack_extended": "Survival Backpack",
       "item.losthorizon.arapaima_raw": "Arapaima Raw",
+      "book.losthorizon.rythe_notes.page1": "I saw bluish shards in the northeast cave. They resonated… like they were alive. Runite, Mythril? I\u0027ll return with gear. If anyone reads this, lok for the frozzen statue.",
       "advancements.onyx_advancement.descr": "The stone whispers strange things...",
       "item.losthorizon.basalt_edge": "Basalt Edge",
       "effect.losthorizon.furtivity": "Furtivity",
@@ -3910,8 +3928,10 @@
       "gui.losthorizon.back_pack_extended_gui.label_backpack": "Survival Backpack",
       "item.losthorizon.mythril_enchanted_axe": "Mythril Enchanted Axe",
       "item.losthorizon.mythril_armor_chestplate": "Mythril Chestplate",
+      "book.losthorizon.codex.page1": "We walked between worlds. Blood seals, onyx opens. He who dies under the eclipse returns, but his name is erased.",
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "advancements.runic_arsenal_advancement.descr": "Ancient powers awaken.",
+      "book.losthorizon.frozen_grimoire.title": "Frozen Grimoire",
       "item.losthorizon.onyx_ore": "Onyx Ore",
       "entity.minecraft.villager.losthorizon.hunter": "Hunter",
       "gui.losthorizon.back_pack_gui.label_backpack": "Survival Backpack",
@@ -3944,6 +3964,7 @@
       "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
       "item.losthorizon.arapaima_cooked": "Arapaïma cuit",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
+      "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
       "item.losthorizon.mythril_enchanted_hoe": "Houe en mythril enchanté",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
@@ -3983,6 +4004,7 @@
       "item.losthorizon.mythril_enchanted_shovel": "Pelle en mythril enchanté",
       "item.losthorizon.onyx_knife": "Couteau en onyx",
       "advancements.necromancer_advancement.title": "Connaissance Maudite",
+      "book.losthorizon.mycelia_tome.page1": "Le champignon chante lorsque la lune est haute.",
       "item.losthorizon.trap": "Piège",
       "enchantment.losthorizon.lunar_grace": "Grâce Lunaire",
       "item.losthorizon.runite_ingot": "Runite",
@@ -3992,6 +4014,7 @@
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Plastron en mythril enchanté",
       "item.losthorizon.back_pack_extended": "Sac de Survie",
       "item.losthorizon.arapaima_raw": "Arapaïma cru",
+      "book.losthorizon.rythe_notes.page1": "J’ai vu des éclats bleutés dans la grotte du nord-est. Ils résonnaient... comme s’ils vivaient. Runite, Mythril ? Je reviendrai équipé. Si quelqu’un lit ceci, cherchez la statue glacée.",
       "item.losthorizon.basalt_edge": "Basalt Edge",
       "advancements.onyx_advancement.descr": "La pierre murmure des choses étranges…",
       "effect.losthorizon.furtivity": "Furtivité",
@@ -4027,8 +4050,10 @@
       "gui.losthorizon.back_pack_extended_gui.label_backpack": "Sac de Survie",
       "item.losthorizon.mythril_enchanted_axe": "Hache en mythril enchanté",
       "item.losthorizon.mythril_armor_chestplate": "Plastron en mythril",
+      "book.losthorizon.codex.page1": "Nous avons marché entre les mondes. Le sang scelle, l’onyx ouvre. Celui qui meurt sous l’éclipse revient, mais son nom est effacé.",
       "item.losthorizon.red_grouper_cooked": "Mérou rouge cuit",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
+      "book.losthorizon.frozen_grimoire.title": "Grimoire Gelé",
       "item.losthorizon.onyx_ore": "Minerai d\u0027onyx",
       "entity.minecraft.villager.losthorizon.hunter": "Chasseur",
       "gui.losthorizon.back_pack_gui.label_backpack": "Sac de Survie",
@@ -4165,7 +4190,7 @@
   "workspaceSettings": {
     "modid": "losthorizon",
     "modName": "LostHorizon",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
     "author": "elie, MCreator",
     "websiteURL": "https://github.com/elieduclr/LostHorizon",

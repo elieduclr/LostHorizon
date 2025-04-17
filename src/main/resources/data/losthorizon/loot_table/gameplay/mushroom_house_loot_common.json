@@ -2,6 +2,34 @@
   "type": "minecraft:generic",
   "pools": [
     {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "translate": "book.losthorizon.mycelia_tome.page1"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Tome de Mycélia",
+              "author": "Mycélia"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "food_pool",
       "rolls": {
         "min": 2,
