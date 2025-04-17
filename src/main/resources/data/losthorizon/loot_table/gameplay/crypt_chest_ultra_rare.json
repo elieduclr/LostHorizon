@@ -3,6 +3,35 @@
   "pools": [
     {
       "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "translate": "book.losthorizon.codex.page1"
+                }
+              ],
+              "mode": "replace_all",
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Codex des ombres",
+              "author": "Unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
         "min": 4,
         "max": 6
       },
