@@ -1,5 +1,7 @@
 # LostHorizon  
 
+[🇫🇷 Version française](https://github.com/elieduclr/LostHorizon/blob/main/README.fr.md) | [🇺🇸 English version](https://github.com/elieduclr/LostHorizon/blob/main/README.md)
+
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.4-blue)  
 ![Mod Loader](https://img.shields.io/badge/Forge/NeoForge-FML-orange)  
 ![License](https://img.shields.io/github/license/elieduclr/LostHorizon)  
