@@ -17,11 +17,11 @@
         "value": "TOOLS"
       }
     ],
-    "efficiency": 9.0,
-    "attackSpeed": 6.0,
-    "enchantability": 28,
-    "damageVsEntity": 8.0,
-    "usageCount": 660,
+    "efficiency": 9.5,
+    "attackSpeed": 1.2999999999999998,
+    "enchantability": 18,
+    "damageVsEntity": 7.0,
+    "usageCount": 800,
     "glowCondition": {
       "fixedValue": false
     },

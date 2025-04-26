@@ -10,9 +10,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 public class RuniteHoeItem extends HoeItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 660, 9f, 0, 28, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_hoe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 800, 9.5f, 0, 18, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_hoe_repair_items")));
 
 	public RuniteHoeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 7f, 2f, properties);
+		super(TOOL_MATERIAL, 0f, -0f, properties);
 	}
 }

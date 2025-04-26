@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 40,
-    "separation": 20,
+    "spacing": 50,
+    "separation": 25,
     "restrictionBiomes": [
       {
         "value": "plains"

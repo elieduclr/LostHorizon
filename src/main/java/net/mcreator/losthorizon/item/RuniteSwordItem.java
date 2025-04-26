@@ -14,10 +14,10 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.losthorizon.procedures.RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure;
 
 public class RuniteSwordItem extends SwordItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1000, 9f, 0, 15, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_sword_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 800, 9.5f, 0, 18, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_sword_repair_items")));
 
 	public RuniteSwordItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 7f, -1f, properties);
+		super(TOOL_MATERIAL, 7f, -2.1f, properties);
 	}
 
 	@Override

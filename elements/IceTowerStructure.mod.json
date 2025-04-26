@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 12,
-    "separation": 7,
+    "spacing": 35,
+    "separation": 20,
     "restrictionBiomes": [
       {
         "value": "mutated_ice_flats"
