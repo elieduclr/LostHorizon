@@ -14,10 +14,10 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.losthorizon.procedures.RuniteSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure;
 
 public class RuniteAxeItem extends AxeItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 660, 9f, 0, 28, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_axe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 800, 9.5f, 0, 18, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:runite_axe_repair_items")));
 
 	public RuniteAxeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 7f, 2f, properties);
+		super(TOOL_MATERIAL, 9f, -2.9f, properties);
 	}
 
 	@Override

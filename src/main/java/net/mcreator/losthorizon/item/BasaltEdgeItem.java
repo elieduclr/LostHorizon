@@ -20,7 +20,7 @@ public class BasaltEdgeItem extends SwordItem {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1800, 10f, 0, 17, TagKey.create(Registries.ITEM, ResourceLocation.parse("losthorizon:basalt_edge_repair_items")));
 
 	public BasaltEdgeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 8f, -1.6f, properties);
+		super(TOOL_MATERIAL, 6f, -2.3f, properties);
 	}
 
 	@Override
