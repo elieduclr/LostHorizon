@@ -82,7 +82,7 @@ public class BackPackGuiMenu extends AbstractContainerMenu implements Supplier<M
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 44, 20) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 53, 20) {
 			private final int slot = 0;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
@@ -92,37 +92,37 @@ public class BackPackGuiMenu extends AbstractContainerMenu implements Supplier<M
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 98, 20) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 89, 20) {
 			private final int slot = 2;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 44, 47) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 53, 38) {
 			private final int slot = 3;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 71, 47) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 71, 38) {
 			private final int slot = 4;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 98, 47) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 89, 38) {
 			private final int slot = 5;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 44, 74) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 53, 56) {
 			private final int slot = 6;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 71, 74) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 71, 56) {
 			private final int slot = 7;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 98, 74) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 89, 56) {
 			private final int slot = 8;
 			private int x = BackPackGuiMenu.this.x;
 			private int y = BackPackGuiMenu.this.y;
