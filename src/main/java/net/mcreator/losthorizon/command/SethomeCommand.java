@@ -35,7 +35,7 @@ public class SethomeCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			SethomeProcedureProcedure.execute(world, arguments, entity);
+			SethomeProcedureProcedure.execute(world, arguments);
 			return 0;
 		}))).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();

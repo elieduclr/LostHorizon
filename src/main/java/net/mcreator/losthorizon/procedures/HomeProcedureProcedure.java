@@ -25,46 +25,39 @@ import com.mojang.brigadier.context.CommandContext;
 
 public class HomeProcedureProcedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments) {
-		{
-			Entity _ent = (commandParameterEntity(arguments, "target"));
-			_ent.teleportTo((commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
-					(commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ);
-			if (_ent instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.connection.teleport((commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX,
-						(commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, _ent.getYRot(),
-						_ent.getXRot());
-		}
-		if ((commandParameterEntity(arguments, "target")) instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal("\uD83C\uDF00 Le tissu de la r\u00E9alit\u00E9 se tord... Votre \u00EAtre se fragmente un instant."), false);
-		if (world instanceof Level _level) {
-			if (!_level.isClientSide()) {
-				_level.playSound(null,
-						BlockPos.containing((commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
-								(commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ),
-						BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.growl")), SoundSource.HOSTILE, 1, 1);
-			} else {
-				_level.playLocalSound((commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
-						(commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.growl")), SoundSource.HOSTILE, 1, 1,
-						false);
-			}
-		}
-		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX,
-					(commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY, (commandParameterEntity(arguments, "target")).getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, 200, 2, 3, 2, 1);
-		if ((commandParameterEntity(arguments, "target")) instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 160, 1, false, false));
-		if ((commandParameterEntity(arguments, "target")) instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 320, 1, false, false));
-		if ((commandParameterEntity(arguments, "target")) instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 240, 1, false, false));
-	}
-
-	private static Entity commandParameterEntity(CommandContext<CommandSourceStack> arguments, String parameter) {
 		try {
-			return EntityArgument.getEntity(arguments, parameter);
+			for (Entity entityiterator : EntityArgument.getEntities(arguments, "target")) {
+				{
+					Entity _ent = entityiterator;
+					_ent.teleportTo(entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
+							entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ);
+					if (_ent instanceof ServerPlayer _serverPlayer)
+						_serverPlayer.connection.teleport(entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
+								entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, _ent.getYRot(), _ent.getXRot());
+				}
+				if (entityiterator instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("\uD83C\uDF00 Le tissu de la r\u00E9alit\u00E9 se tord... Votre \u00EAtre se fragmente un instant."), false);
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
+								entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.growl")), SoundSource.HOSTILE, 1, 1);
+					} else {
+						_level.playLocalSound(entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
+								entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.growl")), SoundSource.HOSTILE, 1, 1, false);
+					}
+				}
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeX, entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeY,
+							entityiterator.getData(LosthorizonModVariables.PLAYER_VARIABLES).homeZ, 200, 2, 3, 2, 1);
+				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 160, 1, false, false));
+				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 320, 1, false, false));
+				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 240, 1, false, false));
+			}
 		} catch (CommandSyntaxException e) {
 			e.printStackTrace();
-			return null;
 		}
 	}
 }
