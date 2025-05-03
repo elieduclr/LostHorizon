@@ -80,6 +80,25 @@
     -   1 Emerald → 1 Trap
     -   ⚔️ 3 Emeralds + 2 Iron Ingots → 3 Knives
 
+### 🌿 Biomes
+
+**LostHorizon** also introduces mystical **biomes** with their own atmosphere, resources and ambience.
+
+#### ✨ Enchanted Forest
+
+A magical, mysterious biome bathed in supernatural light and populated by luminescent vegetation.
+
+- **Magic Wood**: Used to make stairs, slabs, buttons, pressure plates, etc.
+    
+- **Luminous Berries**: Rare fruit that regenerates life and gives night vision.
+    
+- **Enchanted Blossom**: Can be used in suspicious soup to obtain night vision.
+    
+- **Unique Ambiance**: Coloured fog, shimmering particles and glowing vegetation.
+    
+
+> Many other biomes are in development, each with its own secrets, unique resources and gameplay mechanics.
+
 ### 🏠 Generated Structures
 - **Fisherman Hut**: Small cabin next to rivers (normal or frozen).
 - **Explorer's Hideout**: Medium structure, shelter of a missing adventurer.

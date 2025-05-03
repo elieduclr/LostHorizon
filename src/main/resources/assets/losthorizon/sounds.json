@@ -14,5 +14,29 @@
         "stream": true
       }
     ]
+  },
+  "fairy_humeur": {
+    "sounds": [
+      {
+        "name": "losthorizon:fairy_humeur",
+        "stream": false
+      }
+    ]
+  },
+  "fairy_ambient": {
+    "sounds": [
+      {
+        "name": "losthorizon:fairy_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "fairy_birds": {
+    "sounds": [
+      {
+        "name": "losthorizon:fairy_birds",
+        "stream": false
+      }
+    ]
   }
 }

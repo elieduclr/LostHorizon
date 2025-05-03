@@ -80,6 +80,25 @@
     -   1 Emeraude → 1 Piège
     -   ⚔️ 3 Emeraude + 2 Lingot de Fer → 3 Couteau
 
+### 🌿 Biomes
+
+**LostHorizon** introduit également des **biomes mystiques** avec leur propre atmosphère, ressources et ambiance.
+
+#### ✨ Forêt Enchantée _(Enchanted Forest)_
+
+Un biome magique et mystérieux, baigné d'une lumière surnaturelle et peuplé de végétation luminescente.
+
+-   **Bois magique** : Utilisé pour fabriquer escaliers, dalles, boutons, plaque de pression, etc.
+    
+-   **Baies lumineuses** : Fruit rare régénérant la vie et conférant la vision nocturne.
+    
+-   **Fleur enchantée** : Peut être utilisée dans une soupe suspecte pour obtenir de la vision nocturne.
+    
+-   **Ambiance unique** : Brouillard coloré, particules scintillantes et végétation luisante.
+    
+
+> De nombreux autres biomes sont en développement, chacun avec ses secrets, ses ressources uniques et ses mécaniques de gameplay.
+
 ### 🏠 Structures générées
 - **Fisherman Hut** : Petite cabane à côté des rivières (normales ou gelées).
 - **Explorer’s Hideout** : Structure moyenne, abri d’un aventurier disparu.

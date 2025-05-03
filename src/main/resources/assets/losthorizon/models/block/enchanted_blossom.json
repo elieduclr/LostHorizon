@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "losthorizon:block/enchanted_blossum",
+    "particle": "losthorizon:block/enchanted_blossum"
+  },
+  "render_type": "cutout"
+}

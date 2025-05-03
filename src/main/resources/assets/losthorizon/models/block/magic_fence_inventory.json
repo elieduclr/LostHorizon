@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "losthorizon:block/magic_planks",
+    "particle": "losthorizon:block/magic_planks"
+  },
+  "render_type": "solid"
+}

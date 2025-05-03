@@ -21,6 +21,7 @@ import net.mcreator.losthorizon.item.inventory.BackPackInventoryCapability;
 import net.mcreator.losthorizon.item.inventory.BackPackExtendedInventoryCapability;
 import net.mcreator.losthorizon.item.TotemOfTheMoonItem;
 import net.mcreator.losthorizon.item.TechnobladeTotemItem;
+import net.mcreator.losthorizon.item.SuspiciousStewEnchantedBlossumItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
 import net.mcreator.losthorizon.item.RuniteShovelItem;
 import net.mcreator.losthorizon.item.RunitePickaxeItem;
@@ -48,6 +49,7 @@ import net.mcreator.losthorizon.item.MythrilEnchantedAxeItem;
 import net.mcreator.losthorizon.item.MythrilEnchantedArmorItem;
 import net.mcreator.losthorizon.item.MythrilAxeItem;
 import net.mcreator.losthorizon.item.MythrilArmorItem;
+import net.mcreator.losthorizon.item.LuminousBerriesItem;
 import net.mcreator.losthorizon.item.LanternShieldItem;
 import net.mcreator.losthorizon.item.KnifeItem;
 import net.mcreator.losthorizon.item.IceCrystalItem;
@@ -126,6 +128,19 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> NECROMANCER_SPAWN_EGG = register("necromancer_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.NECROMANCER.get(), properties));
 	public static final DeferredItem<Item> CRYPT_GUARDIAN_SPAWN_EGG = register("crypt_guardian_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.CRYPT_GUARDIAN.get(), properties));
 	public static final DeferredItem<Item> NECROMANCER_GRIMOIRE = register("necromancer_grimoire", NecromancerGrimoireItem::new);
+	public static final DeferredItem<Item> MAGIC_WOOD = block(LosthorizonModBlocks.MAGIC_WOOD);
+	public static final DeferredItem<Item> MAGIC_LOG = block(LosthorizonModBlocks.MAGIC_LOG);
+	public static final DeferredItem<Item> MAGIC_PLANKS = block(LosthorizonModBlocks.MAGIC_PLANKS);
+	public static final DeferredItem<Item> MAGIC_LEAVES = block(LosthorizonModBlocks.MAGIC_LEAVES);
+	public static final DeferredItem<Item> MAGIC_STAIRS = block(LosthorizonModBlocks.MAGIC_STAIRS);
+	public static final DeferredItem<Item> MAGIC_SLAB = block(LosthorizonModBlocks.MAGIC_SLAB);
+	public static final DeferredItem<Item> MAGIC_FENCE = block(LosthorizonModBlocks.MAGIC_FENCE);
+	public static final DeferredItem<Item> MAGIC_FENCE_GATE = block(LosthorizonModBlocks.MAGIC_FENCE_GATE);
+	public static final DeferredItem<Item> MAGIC_PRESSURE_PLATE = block(LosthorizonModBlocks.MAGIC_PRESSURE_PLATE);
+	public static final DeferredItem<Item> MAGIC_BUTTON = block(LosthorizonModBlocks.MAGIC_BUTTON);
+	public static final DeferredItem<Item> LUMINOUS_BERRIES = register("luminous_berries", LuminousBerriesItem::new);
+	public static final DeferredItem<Item> ENCHANTED_BLOSSOM = block(LosthorizonModBlocks.ENCHANTED_BLOSSOM);
+	public static final DeferredItem<Item> SUSPICIOUS_STEW_ENCHANTED_BLOSSUM = register("suspicious_stew_enchanted_blossum", SuspiciousStewEnchantedBlossumItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

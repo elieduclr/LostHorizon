@@ -19,4 +19,7 @@ public class LosthorizonModSounds {
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("losthorizon", "technoblade_movie_tribute")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> TECHNOBLADE_NEVER_DIES = REGISTRY.register("technoblade_never_dies",
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("losthorizon", "technoblade_never_dies")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> FAIRY_HUMEUR = REGISTRY.register("fairy_humeur", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("losthorizon", "fairy_humeur")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> FAIRY_AMBIENT = REGISTRY.register("fairy_ambient", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("losthorizon", "fairy_ambient")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> FAIRY_BIRDS = REGISTRY.register("fairy_birds", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("losthorizon", "fairy_birds")));
 }

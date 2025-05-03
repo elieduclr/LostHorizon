@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "losthorizon:magic_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "losthorizon:magic_fence",
+    "count": 3
+  }
+}

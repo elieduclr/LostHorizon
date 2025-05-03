@@ -18,6 +18,17 @@ import net.mcreator.losthorizon.block.OnyxBlockBlock;
 import net.mcreator.losthorizon.block.NecromancerGrimoireBlocBlock;
 import net.mcreator.losthorizon.block.MythrilOreBlock;
 import net.mcreator.losthorizon.block.MythrilBlockBlock;
+import net.mcreator.losthorizon.block.MagicWoodBlock;
+import net.mcreator.losthorizon.block.MagicStairsBlock;
+import net.mcreator.losthorizon.block.MagicSlabBlock;
+import net.mcreator.losthorizon.block.MagicPressurePlateBlock;
+import net.mcreator.losthorizon.block.MagicPlanksBlock;
+import net.mcreator.losthorizon.block.MagicLogBlock;
+import net.mcreator.losthorizon.block.MagicLeavesBlock;
+import net.mcreator.losthorizon.block.MagicFenceGateBlock;
+import net.mcreator.losthorizon.block.MagicFenceBlock;
+import net.mcreator.losthorizon.block.MagicButtonBlock;
+import net.mcreator.losthorizon.block.EnchantedBlossomBlock;
 import net.mcreator.losthorizon.block.BasaltObsidianOreBlock;
 import net.mcreator.losthorizon.LosthorizonMod;
 
@@ -34,6 +45,17 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> BASALT_OBSIDIAN_ORE = register("basalt_obsidian_ore", BasaltObsidianOreBlock::new);
 	public static final DeferredBlock<Block> TRAP = register("trap", TrapBlock::new);
 	public static final DeferredBlock<Block> NECROMANCER_GRIMOIRE_BLOCK = register("necromancer_grimoire_block", NecromancerGrimoireBlocBlock::new);
+	public static final DeferredBlock<Block> MAGIC_WOOD = register("magic_wood", MagicWoodBlock::new);
+	public static final DeferredBlock<Block> MAGIC_LOG = register("magic_log", MagicLogBlock::new);
+	public static final DeferredBlock<Block> MAGIC_PLANKS = register("magic_planks", MagicPlanksBlock::new);
+	public static final DeferredBlock<Block> MAGIC_LEAVES = register("magic_leaves", MagicLeavesBlock::new);
+	public static final DeferredBlock<Block> MAGIC_STAIRS = register("magic_stairs", MagicStairsBlock::new);
+	public static final DeferredBlock<Block> MAGIC_SLAB = register("magic_slab", MagicSlabBlock::new);
+	public static final DeferredBlock<Block> MAGIC_FENCE = register("magic_fence", MagicFenceBlock::new);
+	public static final DeferredBlock<Block> MAGIC_FENCE_GATE = register("magic_fence_gate", MagicFenceGateBlock::new);
+	public static final DeferredBlock<Block> MAGIC_PRESSURE_PLATE = register("magic_pressure_plate", MagicPressurePlateBlock::new);
+	public static final DeferredBlock<Block> MAGIC_BUTTON = register("magic_button", MagicButtonBlock::new);
+	public static final DeferredBlock<Block> ENCHANTED_BLOSSOM = register("enchanted_blossom", EnchantedBlossomBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

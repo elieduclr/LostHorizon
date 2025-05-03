@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "losthorizon:enchanted_blossom",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "losthorizon:suspicious_stew_enchanted_blossum",
+    "count": 1
+  }
+}

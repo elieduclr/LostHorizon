@@ -17,12 +17,12 @@ public class NecromancerBossChaqueMiseAJourDeTickDeLentiteProcedure {
 			if (entity instanceof NecromancerBossEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_idle, false);
 			if (entity instanceof NecromancerBossEntity _datEntSetL)
-				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, true);
+				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, false);
 		} else {
 			if (entity instanceof NecromancerBossEntity _datEntSetL)
-				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_idle, true);
-			if (entity instanceof NecromancerBossEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, false);
+			if (entity instanceof NecromancerBossEntity _datEntSetL)
+				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_idle, true);
 			entity.getPersistentData().putDouble("IA", 0);
 			entity.getPersistentData().putString("State", "Idle");
 		}

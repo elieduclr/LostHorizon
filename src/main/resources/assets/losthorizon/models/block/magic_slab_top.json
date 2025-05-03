@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "losthorizon:block/magic_planks",
+    "bottom": "losthorizon:block/magic_planks",
+    "top": "losthorizon:block/magic_planks",
+    "side": "losthorizon:block/magic_planks"
+  },
+  "render_type": "solid"
+}

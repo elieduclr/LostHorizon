@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "particle": "losthorizon:block/magic_planks",
+    "texture": "losthorizon:block/magic_planks"
+  },
+  "render_type": "solid"
+}

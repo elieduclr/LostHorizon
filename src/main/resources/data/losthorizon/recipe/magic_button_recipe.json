@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "losthorizon:magic_planks"
+  ],
+  "result": {
+    "id": "losthorizon:magic_button",
+    "count": 1
+  }
+}
