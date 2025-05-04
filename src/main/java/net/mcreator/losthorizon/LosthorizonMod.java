@@ -28,6 +28,7 @@ import net.mcreator.losthorizon.init.LosthorizonModMenus;
 import net.mcreator.losthorizon.init.LosthorizonModItems;
 import net.mcreator.losthorizon.init.LosthorizonModEntities;
 import net.mcreator.losthorizon.init.LosthorizonModBlocks;
+import net.mcreator.losthorizon.init.LosthorizonModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -48,7 +49,7 @@ public class LosthorizonMod {
 		modEventBus.addListener(this::registerNetworking);
 		LosthorizonModSounds.REGISTRY.register(modEventBus);
 		LosthorizonModBlocks.REGISTRY.register(modEventBus);
-
+		LosthorizonModBlockEntities.REGISTRY.register(modEventBus);
 		LosthorizonModItems.REGISTRY.register(modEventBus);
 		LosthorizonModEntities.REGISTRY.register(modEventBus);
 		LosthorizonModTabs.REGISTRY.register(modEventBus);

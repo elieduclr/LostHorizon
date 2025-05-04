@@ -47,6 +47,7 @@
 - **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
 - **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
+- **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
 
 ### 👹 Boss
 
@@ -105,6 +106,7 @@ Un biome magique et mystérieux, baigné d'une lumière surnaturelle et peuplé 
 - **Mushroom House** : Maison mystique dans les forêts sombres, marécages ou champignons géants.
 - **Ice Tower** : Tour glacée mystérieuse pleine de secrets.
 - **Crypt** : Structure rare et dangereuse contenant du loot précieux.
+- **Stone Ritual**: Structure contenant du loot et un infuseur de bague, qu'on trouve dans le biome Enchanted Forest.
 
 ### 🧭 Commandes utiles
 - `/sethome` : Définit ta position de maison.

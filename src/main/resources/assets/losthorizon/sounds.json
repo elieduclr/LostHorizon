@@ -38,5 +38,13 @@
         "stream": false
       }
     ]
+  },
+  "ring_infuser": {
+    "sounds": [
+      {
+        "name": "losthorizon:ring_infuser",
+        "stream": false
+      }
+    ]
   }
 }

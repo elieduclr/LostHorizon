@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.losthorizon.block.TrapBlock;
 import net.mcreator.losthorizon.block.RuniteOreBlock;
 import net.mcreator.losthorizon.block.RuniteBlockBlock;
+import net.mcreator.losthorizon.block.RingInfuserBlock;
 import net.mcreator.losthorizon.block.OnyxOreBlock;
 import net.mcreator.losthorizon.block.OnyxBlockBlock;
 import net.mcreator.losthorizon.block.NecromancerGrimoireBlocBlock;
@@ -56,6 +57,7 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> MAGIC_PRESSURE_PLATE = register("magic_pressure_plate", MagicPressurePlateBlock::new);
 	public static final DeferredBlock<Block> MAGIC_BUTTON = register("magic_button", MagicButtonBlock::new);
 	public static final DeferredBlock<Block> ENCHANTED_BLOSSOM = register("enchanted_blossom", EnchantedBlossomBlock::new);
+	public static final DeferredBlock<Block> RING_INFUSER = register("ring_infuser", RingInfuserBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

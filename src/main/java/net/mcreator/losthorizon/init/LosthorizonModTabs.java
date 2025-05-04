@@ -94,6 +94,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.LUMINOUS_BERRIES.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.TRAP.get().asItem());
+			tabData.accept(LosthorizonModBlocks.RING_INFUSER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LosthorizonModItems.NECROMANCER_SPAWN_EGG.get());
 			tabData.accept(LosthorizonModItems.CRYPT_GUARDIAN_SPAWN_EGG.get());

@@ -1,0 +1,12 @@
+{
+  "_fv": 77,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "thorns",
+    "normalDeathMessage": "%1$s was consumed by corruption.",
+    "itemDeathMessage": "%1$s was slain by %2$s, who fed on the shadows.",
+    "playerDeathMessage": "%1$s couldn’t escape %2$s and the creeping corruption."
+  }
+}

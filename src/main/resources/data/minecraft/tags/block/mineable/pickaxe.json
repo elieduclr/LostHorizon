@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "losthorizon:ring_infuser",
     "losthorizon:basalt_obsidian_ore",
     "losthorizon:mythril_block",
     "losthorizon:mythril_ore",

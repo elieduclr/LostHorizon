@@ -47,6 +47,7 @@
 - **Frostbite Dagger**: Slows the target and creates snow particles.
 - **Trap**: Trap that deals damage when stepped on.
 - **Necromancer's Grimoire**: When held in the off-hand, it increases max health from 20 to 22 hearts.
+- **Ring infuser**: Block used to give powers to rings (gold or iron) by infusing a gem (ice crystal, mythril or onyx).
 
 ### 👹 Bosses
 
@@ -105,6 +106,7 @@ A magical, mysterious biome bathed in supernatural light and populated by lumine
 - **Mushroom House**: Mystical house in dark forests, swamps, or giant mushroom biomes.
 - **Ice Tower**: Mysterious icy tower full of secrets.
 - **Crypt**: Rare and dangerous structure containing precious loot.
+- **Stone Ritual**: A structure containing loot and a ring infuser, found in the Enchanted Forest biome.
 
 ### 🧭 Useful Commands
 - `/sethome`: Sets your home position.

@@ -22,6 +22,7 @@ import net.mcreator.losthorizon.item.inventory.BackPackExtendedInventoryCapabili
 import net.mcreator.losthorizon.item.TotemOfTheMoonItem;
 import net.mcreator.losthorizon.item.TechnobladeTotemItem;
 import net.mcreator.losthorizon.item.SuspiciousStewEnchantedBlossumItem;
+import net.mcreator.losthorizon.item.SilverRingItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
 import net.mcreator.losthorizon.item.RuniteShovelItem;
 import net.mcreator.losthorizon.item.RunitePickaxeItem;
@@ -33,14 +34,18 @@ import net.mcreator.losthorizon.item.RedGrouperRawItem;
 import net.mcreator.losthorizon.item.RedGrouperCookedItem;
 import net.mcreator.losthorizon.item.RedBelliedPiranhaRawItem;
 import net.mcreator.losthorizon.item.RedBelliedPiranhaCookedItem;
+import net.mcreator.losthorizon.item.OnyxSilverRingItem;
 import net.mcreator.losthorizon.item.OnyxKnifeItem;
 import net.mcreator.losthorizon.item.OnyxItem;
+import net.mcreator.losthorizon.item.OnyxGoldRingItem;
 import net.mcreator.losthorizon.item.NecromancerGrimoireItem;
 import net.mcreator.losthorizon.item.MythrilSwordItem;
+import net.mcreator.losthorizon.item.MythrilSilverRingItem;
 import net.mcreator.losthorizon.item.MythrilShovelItem;
 import net.mcreator.losthorizon.item.MythrilPickaxeItem;
 import net.mcreator.losthorizon.item.MythrilItem;
 import net.mcreator.losthorizon.item.MythrilHoeItem;
+import net.mcreator.losthorizon.item.MythrilGoldRingItem;
 import net.mcreator.losthorizon.item.MythrilEnchantedSwordItem;
 import net.mcreator.losthorizon.item.MythrilEnchantedShovelItem;
 import net.mcreator.losthorizon.item.MythrilEnchantedPickaxeItem;
@@ -52,7 +57,10 @@ import net.mcreator.losthorizon.item.MythrilArmorItem;
 import net.mcreator.losthorizon.item.LuminousBerriesItem;
 import net.mcreator.losthorizon.item.LanternShieldItem;
 import net.mcreator.losthorizon.item.KnifeItem;
+import net.mcreator.losthorizon.item.IceCrystalSilverRingItem;
 import net.mcreator.losthorizon.item.IceCrystalItem;
+import net.mcreator.losthorizon.item.IceCrystalGoldRingItem;
+import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
 import net.mcreator.losthorizon.item.BasaltEdgeItem;
@@ -141,6 +149,15 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> LUMINOUS_BERRIES = register("luminous_berries", LuminousBerriesItem::new);
 	public static final DeferredItem<Item> ENCHANTED_BLOSSOM = block(LosthorizonModBlocks.ENCHANTED_BLOSSOM);
 	public static final DeferredItem<Item> SUSPICIOUS_STEW_ENCHANTED_BLOSSUM = register("suspicious_stew_enchanted_blossum", SuspiciousStewEnchantedBlossumItem::new);
+	public static final DeferredItem<Item> RING_INFUSER = block(LosthorizonModBlocks.RING_INFUSER);
+	public static final DeferredItem<Item> GOLD_RING = register("gold_ring", GoldRingItem::new);
+	public static final DeferredItem<Item> IRON_RING = register("iron_ring", SilverRingItem::new);
+	public static final DeferredItem<Item> ICE_CRYSTAL_GOLD_RING = register("ice_crystal_gold_ring", IceCrystalGoldRingItem::new);
+	public static final DeferredItem<Item> ICE_CRYSTAL_IRON_RING = register("ice_crystal_iron_ring", IceCrystalSilverRingItem::new);
+	public static final DeferredItem<Item> MYTHRIL_GOLD_RING = register("mythril_gold_ring", MythrilGoldRingItem::new);
+	public static final DeferredItem<Item> MYTHRIL_IRON_RING = register("mythril_iron_ring", MythrilSilverRingItem::new);
+	public static final DeferredItem<Item> ONYX_GOLD_RING = register("onyx_gold_ring", OnyxGoldRingItem::new);
+	public static final DeferredItem<Item> ONYX_IRON_RING = register("onyx_iron_ring", OnyxSilverRingItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
