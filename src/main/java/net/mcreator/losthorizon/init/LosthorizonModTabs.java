@@ -55,6 +55,15 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModBlocks.MYTHRIL_ORE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MYTHRIL_BLOCK.get().asItem());
 			tabData.accept(LosthorizonModBlocks.BASALT_OBSIDIAN_ORE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_WOOD.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_LOG.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_PLANKS.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_STAIRS.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_SLAB.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_FENCE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_FENCE_GATE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_PRESSURE_PLATE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.MAGIC_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LosthorizonModItems.TOTEM_OF_THE_MOON.get());
 			tabData.accept(LosthorizonModItems.RUNITE_PICKAXE.get());
@@ -82,11 +91,16 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.RED_BELLIED_PIRANHA_COOKED.get());
 			tabData.accept(LosthorizonModItems.ARAPAIMA_RAW.get());
 			tabData.accept(LosthorizonModItems.ARAPAIMA_COOKED.get());
+			tabData.accept(LosthorizonModItems.LUMINOUS_BERRIES.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.TRAP.get().asItem());
+			tabData.accept(LosthorizonModBlocks.RING_INFUSER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LosthorizonModItems.NECROMANCER_SPAWN_EGG.get());
 			tabData.accept(LosthorizonModItems.CRYPT_GUARDIAN_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(LosthorizonModBlocks.MAGIC_LEAVES.get().asItem());
+			tabData.accept(LosthorizonModBlocks.ENCHANTED_BLOSSOM.get().asItem());
 		}
 	}
 }

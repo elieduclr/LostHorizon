@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "losthorizon:block/magic_log_side",
+    "particle": "losthorizon:block/magic_log_side"
+  },
+  "render_type": "solid"
+}

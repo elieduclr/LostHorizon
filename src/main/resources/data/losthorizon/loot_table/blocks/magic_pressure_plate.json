@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "losthorizon:blocks/magic_pressure_plate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:magic_pressure_plate"
+        }
+      ]
+    }
+  ]
+}

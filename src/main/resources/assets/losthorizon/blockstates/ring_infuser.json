@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "losthorizon:block/ring_infuser"
+    },
+    "facing=east": {
+      "model": "losthorizon:block/ring_infuser",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "losthorizon:block/ring_infuser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "losthorizon:block/ring_infuser",
+      "y": 270
+    }
+  }
+}

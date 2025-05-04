@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "losthorizon:block/magic_slab"
+    },
+    "type=top": {
+      "model": "losthorizon:block/magic_slab_top"
+    },
+    "type=double": {
+      "model": "losthorizon:block/magic_slab_full"
+    }
+  }
+}

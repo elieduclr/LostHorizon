@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "wooden_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagicPlanks"
+      },
+      {
+        "value": "CUSTOM:MagicPlanks"
+      },
+      {
+        "value": "CUSTOM:MagicPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagicSlab"
+    },
+    "name": "magic_slab_recipe",
+    "namespace": "mod"
+  }
+}

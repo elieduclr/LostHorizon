@@ -47,6 +47,78 @@
 - **Frostbite Dagger** : Ralentit la cible et fait apparaître des particules de neige.
 - **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
+- **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
+
+### 💍 Bagues et gemmes infusées
+
+L’**Infuseur de bague** permet de combiner des **bagues en or ou en argent** avec des **gemmes mystiques**. Chaque combinaison confère des effets uniques au joueur, équilibrés par une contrepartie.
+
+----------
+
+#### ❄️ Cristal de glace – Gemme de froid magique
+
+**💍 Bague en or infusée avec un Cristal de glace**  
+Effets :
+
+-   **Vitesse I** pendant 15 secondes toutes les 60 secondes
+    
+-   **Résistance au feu I** pendant 10 secondes toutes les 60 secondes
+    
+
+**💍 Bague en argent infusée avec un Cristal de glace**  
+Effets :
+
+-   Applique **Lenteur I** aux ennemis dans un rayon de 10 blocs pendant 5 secondes, toutes les 20 secondes
+    
+-   **Résistance I** pendant 10 secondes quand les PV sont inférieurs à 8 cœurs
+    
+
+----------
+
+#### 🖤 Onyx – Gemme obscure et vicieuse
+
+**💍 Bague en or infusée avec de l’Onyx**  
+Effets :
+
+-   Inflige **Wither I** aux ennemis touchés pendant 4 secondes
+    
+-   **Vitesse I** pendant 5 secondes après chaque kill
+    
+-   ⚠️ Perte automatique de **½ cœur toutes les 45 secondes** (corruption)
+    
+
+**💍 Bague en argent infusée avec de l’Onyx**  
+Effets :
+
+-   **Invisibilité** pendant 3 secondes si accroupi dans l’obscurité
+    
+-   **Résistance I** la nuit
+    
+-   ⚠️ **Lenteur I** en plein jour
+    
+
+----------
+
+#### 🪙 Mythril – Gemme de vitesse et d’équilibre
+
+**💍 Bague en or infusée avec du Mythril**  
+Effets :
+
+-   **Hâte II** et **Vitesse I** tant que tu sprintes
+    
+-   **Saut amélioré I** pendant 8 secondes après avoir subi des dégâts
+    
+-   ⚠️ **Faim** accrue en sprint (Hunger I)
+    
+
+**💍 Bague en argent infusée avec du Mythril**  
+Effets :
+
+-   **Résistance au recul**
+    
+-   **Chute lente** quand tu chute
+    
+-   ⚠️ **Lenteur I** permanente
 
 ### 👹 Boss
 
@@ -80,12 +152,32 @@
     -   1 Emeraude → 1 Piège
     -   ⚔️ 3 Emeraude + 2 Lingot de Fer → 3 Couteau
 
+### 🌿 Biomes
+
+**LostHorizon** introduit également des **biomes mystiques** avec leur propre atmosphère, ressources et ambiance.
+
+#### ✨ Forêt Enchantée _(Enchanted Forest)_
+
+Un biome magique et mystérieux, baigné d'une lumière surnaturelle et peuplé de végétation luminescente.
+
+-   **Bois magique** : Utilisé pour fabriquer escaliers, dalles, boutons, plaque de pression, etc.
+    
+-   **Baies lumineuses** : Fruit rare régénérant la vie et conférant la vision nocturne.
+    
+-   **Fleur enchantée** : Peut être utilisée dans une soupe suspecte pour obtenir de la vision nocturne.
+    
+-   **Ambiance unique** : Brouillard coloré, particules scintillantes et végétation luisante.
+    
+
+> De nombreux autres biomes sont en développement, chacun avec ses secrets, ses ressources uniques et ses mécaniques de gameplay.
+
 ### 🏠 Structures générées
 - **Fisherman Hut** : Petite cabane à côté des rivières (normales ou gelées).
 - **Explorer’s Hideout** : Structure moyenne, abri d’un aventurier disparu.
 - **Mushroom House** : Maison mystique dans les forêts sombres, marécages ou champignons géants.
 - **Ice Tower** : Tour glacée mystérieuse pleine de secrets.
 - **Crypt** : Structure rare et dangereuse contenant du loot précieux.
+- **Stone Ritual**: Structure contenant du loot et un infuseur de bague, qu'on trouve dans le biome Enchanted Forest.
 
 ### 🧭 Commandes utiles
 - `/sethome` : Définit ta position de maison.

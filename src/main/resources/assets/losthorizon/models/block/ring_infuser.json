@@ -1,0 +1,9 @@
+{
+  "parent": "losthorizon:custom/ring_infuser",
+  "textures": {
+    "all": "losthorizon:block/ring_infuser",
+    "particle": "minecraft:block/obsidian",
+    "0": "losthorizon:block/ring_infuser"
+  },
+  "render_type": "solid"
+}

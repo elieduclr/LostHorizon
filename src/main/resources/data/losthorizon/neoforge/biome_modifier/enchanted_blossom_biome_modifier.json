@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "losthorizon:enchanted_forest",
+  "features": "losthorizon:enchanted_blossom",
+  "step": "vegetal_decoration"
+}

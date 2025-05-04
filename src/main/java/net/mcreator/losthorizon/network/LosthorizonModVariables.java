@@ -67,6 +67,9 @@ public class LosthorizonModVariables {
 				clone.PreventClimbingFallDamage = original.PreventClimbingFallDamage;
 				clone.nbrjump = original.nbrjump;
 				clone.necromancer_grimoire = original.necromancer_grimoire;
+				clone.ice_crystal_silver_ring_cooldown = original.ice_crystal_silver_ring_cooldown;
+				clone.ice_crystal_gold_ring_cooldown = original.ice_crystal_gold_ring_cooldown;
+				clone.onyx_gold_ring_cooldown = original.onyx_gold_ring_cooldown;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -79,6 +82,9 @@ public class LosthorizonModVariables {
 		public double homeY = 0;
 		public double nbrjump = 0;
 		public boolean necromancer_grimoire = false;
+		public boolean ice_crystal_silver_ring_cooldown = false;
+		public boolean ice_crystal_gold_ring_cooldown = false;
+		public boolean onyx_gold_ring_cooldown = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -89,6 +95,9 @@ public class LosthorizonModVariables {
 			nbt.putDouble("homeY", homeY);
 			nbt.putDouble("nbrjump", nbrjump);
 			nbt.putBoolean("necromancer_grimoire", necromancer_grimoire);
+			nbt.putBoolean("ice_crystal_silver_ring_cooldown", ice_crystal_silver_ring_cooldown);
+			nbt.putBoolean("ice_crystal_gold_ring_cooldown", ice_crystal_gold_ring_cooldown);
+			nbt.putBoolean("onyx_gold_ring_cooldown", onyx_gold_ring_cooldown);
 			return nbt;
 		}
 
@@ -100,6 +109,9 @@ public class LosthorizonModVariables {
 			homeY = nbt.getDouble("homeY");
 			nbrjump = nbt.getDouble("nbrjump");
 			necromancer_grimoire = nbt.getBoolean("necromancer_grimoire");
+			ice_crystal_silver_ring_cooldown = nbt.getBoolean("ice_crystal_silver_ring_cooldown");
+			ice_crystal_gold_ring_cooldown = nbt.getBoolean("ice_crystal_gold_ring_cooldown");
+			onyx_gold_ring_cooldown = nbt.getBoolean("onyx_gold_ring_cooldown");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

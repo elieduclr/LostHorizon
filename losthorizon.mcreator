@@ -3592,6 +3592,982 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "MagicWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_wood.json",
+          "src/main/resources/assets/losthorizon/items/magic_wood.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_wood.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_wood.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_wood.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicWoodBlock.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/block/magic_log.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_log.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_log.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicLogBlock.java",
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_log.json",
+          "src/main/resources/assets/losthorizon/items/magic_log.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/block/MagicPlanksBlock.java",
+          "src/main/resources/assets/losthorizon/items/magic_planks.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_planks.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_planks.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_planks.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_planks.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/magic_leaves.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_leaves.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_leaves.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicLeavesBlock.java",
+          "src/main/resources/assets/losthorizon/blockstates/magic_leaves.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_stairs.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_stairs.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_stairs_inner.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_stairs_outer.json",
+          "src/main/resources/assets/losthorizon/items/magic_stairs.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_stairs.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicStairsBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/magic_stairs.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/magic_slab.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_slab.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_slab.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicSlabBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/magic_slab_top.json",
+          "src/main/resources/assets/losthorizon/items/magic_slab.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_slab.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_slab_full.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_fence.json",
+          "src/main/resources/assets/losthorizon/items/magic_fence.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicFenceBlock.java",
+          "src/main/resources/assets/losthorizon/models/item/magic_fence.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_inventory.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_fence.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_post.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_gate_wall.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_fence_gate.json",
+          "src/main/resources/assets/losthorizon/items/magic_fence_gate.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_fence_gate.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_fence_gate.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_gate.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicFenceGateBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_gate_wall_open.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_pressure_plate.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_pressure_plate.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicPressurePlateBlock.java",
+          "src/main/resources/assets/losthorizon/items/magic_pressure_plate.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_pressure_plate.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_pressure_plate.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/block/magic_button.json",
+          "src/main/resources/assets/losthorizon/models/block/magic_button_pressed.json",
+          "src/main/java/net/mcreator/losthorizon/block/MagicButtonBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/magic_button_inventory.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_button.json",
+          "src/main/resources/assets/losthorizon/models/item/magic_button.json",
+          "src/main/resources/assets/losthorizon/blockstates/magic_button.json",
+          "src/main/resources/assets/losthorizon/items/magic_button.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_wood_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_slab_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_fence_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_button_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/magic_stick_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "LuminousBerries",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_berries",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/luminous_berries.json",
+          "src/main/resources/assets/losthorizon/models/item/luminous_berries.json",
+          "src/main/java/net/mcreator/losthorizon/item/LuminousBerriesItem.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "LuminousBerriesLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_berries_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/LuminousBerriesLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "MagicLeavesLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/magic_leaves.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "EnchantedBlossom",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_blossom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/block/EnchantedBlossomBlock.java",
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/enchanted_blossom.json",
+          "src/main/resources/assets/losthorizon/models/item/enchanted_blossom.json",
+          "src/main/resources/data/losthorizon/neoforge/biome_modifier/enchanted_blossom_biome_modifier.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/enchanted_blossom.json",
+          "src/main/resources/assets/losthorizon/items/enchanted_blossom.json",
+          "src/main/resources/assets/losthorizon/blockstates/enchanted_blossom.json",
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/enchanted_blossom.json",
+          "src/main/resources/assets/losthorizon/models/block/enchanted_blossom.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "EnchantedForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/configured_feature/enchanted_forest_tree.json",
+          "src/main/resources/data/losthorizon/worldgen/placed_feature/enchanted_forest_tree.json",
+          "src/main/java/net/mcreator/losthorizon/world/features/treedecorators/EnchantedForestTrunkDecorator.java",
+          "src/main/java/net/mcreator/losthorizon/world/features/treedecorators/EnchantedForestLeaveDecorator.java",
+          "src/main/resources/data/losthorizon/worldgen/biome/enchanted_forest.json",
+          "src/main/java/net/mcreator/losthorizon/world/features/treedecorators/EnchantedForestFruitDecorator.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "SuspiciousStewEnchantedBlossum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_stew_enchanted_blossum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/suspicious_stew_enchanted_blossum.json",
+          "src/main/java/net/mcreator/losthorizon/item/SuspiciousStewEnchantedBlossumItem.java",
+          "src/main/resources/assets/losthorizon/items/suspicious_stew_enchanted_blossum.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "SuspiciousStewEnchantedBlossumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_stew_enchanted_blossum_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/suspicious_stew_enchanted_blossum_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "SuspiciousStewEnchantedBlossumQuandLeJoueurACesseDutiliser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_stew_enchanted_blossum_quand_le_joueur_a_cesse_dutiliser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SuspiciousStewEnchantedBlossumQuandLeJoueurACesseDutiliserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "StoneRitual",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ritual",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/template_pool/stone_ritual.json",
+          "src/main/resources/data/losthorizon/worldgen/structure/stone_ritual.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/stone_ritual.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "StoneRitualPot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ritual_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/stone_ritual_pot.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "StoneRitualLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_ritual_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/gameplay/stone_ritual_loot.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "RingInfuser",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_infuser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/loot_table/blocks/ring_infuser.json",
+          "src/main/resources/assets/losthorizon/blockstates/ring_infuser.json",
+          "src/main/resources/assets/losthorizon/items/ring_infuser.json",
+          "src/main/java/net/mcreator/losthorizon/block/RingInfuserBlock.java",
+          "src/main/resources/assets/losthorizon/models/block/ring_infuser.json",
+          "src/main/java/net/mcreator/losthorizon/block/entity/RingInfuserBlockEntity.java",
+          "src/main/resources/assets/losthorizon/models/item/ring_infuser.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "RingInfuserGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_infuser_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/network/RingInfuserGUIButtonMessage.java",
+          "src/main/java/net/mcreator/losthorizon/world/inventory/RingInfuserGUIMenu.java",
+          "src/main/java/net/mcreator/losthorizon/client/gui/RingInfuserGUIScreen.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "GoldRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/gold_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/GoldRingItem.java",
+          "src/main/resources/assets/losthorizon/items/gold_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "SilverRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/iron_ring.json",
+          "src/main/resources/assets/losthorizon/items/iron_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/SilverRingItem.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "IceCrystalGoldRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_gold_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/ice_crystal_gold_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/IceCrystalGoldRingItem.java",
+          "src/main/resources/assets/losthorizon/items/ice_crystal_gold_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "IceCrystalSilverRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/IceCrystalSilverRingItem.java",
+          "src/main/resources/assets/losthorizon/models/item/ice_crystal_iron_ring.json",
+          "src/main/resources/assets/losthorizon/items/ice_crystal_iron_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "RingInfuserProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_infuser_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/RingInfuserProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "IceCrystalSilverRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_iron_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/IceCrystalSilverRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "IceCrystalGoldRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_gold_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/IceCrystalGoldRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilGoldRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_gold_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_gold_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilGoldRingItem.java",
+          "src/main/resources/assets/losthorizon/items/mythril_gold_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilSilverRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/mythril_iron_ring.json",
+          "src/main/resources/assets/losthorizon/items/mythril_iron_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/MythrilSilverRingItem.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxGoldRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gold_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/onyx_gold_ring.json",
+          "src/main/resources/assets/losthorizon/models/item/onyx_gold_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/OnyxGoldRingItem.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxSilverRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/onyx_iron_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/OnyxSilverRingItem.java",
+          "src/main/resources/assets/losthorizon/models/item/onyx_iron_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxGoldRingOnKill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gold_ring_on_kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/OnyxGoldRingOnKillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "Corruption",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/damage_type/corruption.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxGoldRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gold_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/OnyxGoldRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxSilverRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_iron_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/OnyxSilverRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "OnyxGoldRingOnHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gold_ring_on_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/OnyxGoldRingOnHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilGoldRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_gold_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MythrilGoldRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilGoldRingOnHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_gold_ring_on_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MythrilGoldRingOnHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilSilverRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_iron_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MythrilSilverRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilSilverRingOnFall",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_iron_ring_on_fall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MythrilSilverRingOnFallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "MythrilSilverRingKnockback",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythril_iron_ring_knockback",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/MythrilSilverRingKnockbackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "GoldRingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/gold_ring_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "IronRing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/iron_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
     }
   ],
   "variable_elements": [
@@ -3630,6 +4606,24 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "ice_crystal_silver_ring_cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "ice_crystal_gold_ring_cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "onyx_gold_ring_cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3648,6 +4642,38 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "fairy_humeur",
+      "files": [
+        "fairy_humeur"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "fairy_ambient",
+      "files": [
+        "fairy_ambient"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "fairy_birds",
+      "files": [
+        "fairy_birds"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ring_infuser",
+      "files": [
+        "ring_infuser"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3661,10 +4687,8 @@
       "~CUSTOM:TechnobladeTotem",
       "~CUSTOM:TotemOfTheMoon"
     ],
-    "ITEMS:losthorizon:runite_sword_repair_items": [
-      "~CUSTOM:RuniteIngot"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RingInfuser",
       "~CUSTOM:BasaltObsidianOre",
       "~CUSTOM:MythrilBlock",
       "~CUSTOM:MythrilOre",
@@ -3673,24 +4697,18 @@
       "~CUSTOM:OnyxBlock",
       "~CUSTOM:OnyxOre"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:MythrilEnchantedHoe",
-      "~CUSTOM:MythrilHoe",
-      "~CUSTOM:RuniteHoe"
-    ],
-    "ENCHANTMENTS:minecraft:curse": [
-      "~CUSTOM:Bloodlust"
-    ],
-    "ITEMS:losthorizon:mythril_enchanted_armor_repair_items": [
-      "~CUSTOM:Mythril"
-    ],
     "ITEMS:losthorizon:climbing_pick_repair_items": [
       "~CUSTOM:Mythril"
     ],
     "ITEMS:losthorizon:frostbite_dagger_repair_items": [
       "~Blocks.ICE"
     ],
+    "ITEMS:mod:ring": [
+      "CUSTOM:GoldRing",
+      "CUSTOM:SilverRing"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:RingInfuser",
       "~CUSTOM:BasaltObsidianOre",
       "~CUSTOM:RuniteBlock",
       "~CUSTOM:RuniteOre",
@@ -3702,17 +4720,6 @@
       "~CUSTOM:MythrilEnchantedAxe",
       "~CUSTOM:MythrilAxe",
       "~CUSTOM:RuniteAxe"
-    ],
-    "ITEMS:losthorizon:runite_shovel_repair_items": [
-      "~CUSTOM:RuniteIngot"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:ClimbingPick",
-      "~CUSTOM:BasaltEdge",
-      "~CUSTOM:MythrilEnchantedSword",
-      "~CUSTOM:MythrilSword",
-      "~CUSTOM:RuniteSword",
-      "~CUSTOM:FrosbiteDagger"
     ],
     "ITEMS:losthorizon:runite_hoe_repair_items": [
       "~CUSTOM:RuniteIngot"
@@ -3728,30 +4735,21 @@
     "ITEMS:losthorizon:runite_armor_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
-    "ITEMS:losthorizon:mythril_pickaxe_repair_items": [
-      "~CUSTOM:Mythril"
-    ],
     "ITEMS:losthorizon:runite_axe_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
     "ITEMS:losthorizon:mythril_sword_repair_items": [
       "~CUSTOM:Mythril"
     ],
-    "ITEMS:losthorizon:runite_pickaxe_repair_items": [
-      "~CUSTOM:RuniteIngot"
-    ],
     "ITEMS:losthorizon:mythril_enchanted_shovel_repair_items": [
       "~CUSTOM:Mythril"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ClimbingPick",
-      "~CUSTOM:MythrilEnchantedPickaxe",
-      "~CUSTOM:MythrilPickaxe",
-      "~CUSTOM:RunitePickaxe"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:MythrilBlock",
       "~CUSTOM:MythrilOre"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MagicSlab"
     ],
     "ITEMS:losthorizon:mythril_axe_repair_items": [
       "~CUSTOM:Mythril"
@@ -3762,17 +4760,11 @@
     "ITEMS:losthorizon:mythril_enchanted_sword_repair_items": [
       "~CUSTOM:Mythril"
     ],
-    "ITEMS:losthorizon:mythril_enchanted_pickaxe_repair_items": [
-      "~CUSTOM:Mythril"
-    ],
     "ITEMS:losthorizon:mythril_shovel_repair_items": [
       "~CUSTOM:Mythril"
     ],
     "ITEMS:losthorizon:mythril_enchanted_hoe_repair_items": [
       "~CUSTOM:Mythril"
-    ],
-    "ITEMS:losthorizon:basalt_edge_repair_items": [
-      "~CUSTOM:BasaltObsidianOre"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
       "~CUSTOM:DimensionalStep",
@@ -3780,18 +4772,6 @@
       "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
       "~CUSTOM:VeilofShadows"
-    ],
-    "ENCHANTMENTS:minecraft:tradeable": [
-      "~CUSTOM:DimensionalStep",
-      "~CUSTOM:Bloodlust",
-      "~CUSTOM:LunarGrace",
-      "~CUSTOM:Magnetism",
-      "~CUSTOM:VeilofShadows"
-    ],
-    "ITEMS:minecraft:shovels": [
-      "~CUSTOM:MythrilEnchantedShovel",
-      "~CUSTOM:MythrilShovel",
-      "~CUSTOM:RuniteShovel"
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:MythrilEnchantedArmor.boots",
@@ -3808,6 +4788,101 @@
     "ITEMS:losthorizon:mythril_hoe_repair_items": [
       "~CUSTOM:Mythril"
     ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:MagicFence"
+    ],
+    "ITEMS:losthorizon:runite_sword_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:MagicLog"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:MagicPlanks",
+      "~CUSTOM:MagicLog",
+      "~CUSTOM:MagicWood"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MythrilEnchantedHoe",
+      "~CUSTOM:MythrilHoe",
+      "~CUSTOM:RuniteHoe"
+    ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~CUSTOM:Bloodlust"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MagicStairs"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_armor_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:minecraft:small_flowers": [
+      "CUSTOM:EnchantedBlossom"
+    ],
+    "BLOCKS:minecraft:small_flowers": [
+      "CUSTOM:EnchantedBlossom"
+    ],
+    "ITEMS:mod:gem": [
+      "CUSTOM:IceCrystal",
+      "CUSTOM:Onyx",
+      "CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:runite_shovel_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ClimbingPick",
+      "~CUSTOM:BasaltEdge",
+      "~CUSTOM:MythrilEnchantedSword",
+      "~CUSTOM:MythrilSword",
+      "~CUSTOM:RuniteSword",
+      "~CUSTOM:FrosbiteDagger"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:MagicPlanks"
+    ],
+    "ITEMS:losthorizon:mythril_pickaxe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:MagicFence"
+    ],
+    "ITEMS:losthorizon:runite_pickaxe_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:MagicLeaves"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ClimbingPick",
+      "~CUSTOM:MythrilEnchantedPickaxe",
+      "~CUSTOM:MythrilPickaxe",
+      "~CUSTOM:RunitePickaxe"
+    ],
+    "ITEMS:mod:infused_ring": [
+      "CUSTOM:IceCrystalGoldRing",
+      "CUSTOM:IceCrystalSilverRing",
+      "CUSTOM:MythrilGoldRing",
+      "CUSTOM:MythrilSilverRing"
+    ],
+    "ITEMS:losthorizon:mythril_enchanted_pickaxe_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:basalt_edge_repair_items": [
+      "~CUSTOM:BasaltObsidianOre"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:DimensionalStep",
+      "~CUSTOM:Bloodlust",
+      "~CUSTOM:LunarGrace",
+      "~CUSTOM:Magnetism",
+      "~CUSTOM:VeilofShadows"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MythrilEnchantedShovel",
+      "~CUSTOM:MythrilShovel",
+      "~CUSTOM:RuniteShovel"
+    ],
     "ITEMS:minecraft:leg_armor": [
       "~CUSTOM:MythrilEnchantedArmor.legs",
       "~CUSTOM:MythrilArmor.legs",
@@ -3817,51 +4892,69 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.losthorizon.necromancer_grimoire_block.description_0": "An ancient book magically sealed.",
+      "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.magic_log": "Magic Log",
       "advancements.back_pack_advancement.descr": "Less weight, more loot.",
       "entity.losthorizon.crypt_guardian": "Crypt Guardian",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
       "advancements.runite_advancement.title": "Rune Whisperer",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Mythril Ore",
-      "advancements.onyx_advancement.title": "Darkest Depths",
-      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "effect.losthorizon.fire": "Fire",
-      "block.losthorizon.basalt_obsidian_ore.description_0": "An ancestral block, a brutal fusion of obsidian and basalt, formed in the deepest volcanic faults.",
-      "death.attack.trap_damage": "%1$s was shredded by a rusty trap.",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
+      "advancements.onyx_advancement.title": "Darkest Depths",
+      "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
+      "death.attack.trap_damage": "%1$s a été déchiqueté par un piège rouillé.",
+      "gui.losthorizon.ring_infuser_gui.button_infuse": "Infuse",
       "item.losthorizon.back_pack": "Survival Backpack",
       "entity.losthorizon.necromancer": "Necromancer",
-      "block.losthorizon.basalt_obsidian_ore.description_1": "Its surface absorbs light and pulses with silent warmth, like an extinguished heart ready to be rekindled.",
+      "item.losthorizon.ice_crystal_gold_ring": "Gold Ring Infused",
+      "subtitles.ring_infuser": "",
+      "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
       "item.losthorizon.necromancer_grimoire_block": "Necromancer Grimoire Bloc",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
-      "death.attack.trap_damage.item": "%1$s got caught in a rusty trap set by %2$s with the help of %3$s.",
-      "item.losthorizon.arapaima_cooked": "Arapaima Cooked",
+      "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
+      "item.losthorizon.magic_stairs": "Magic Stairs",
+      "item.losthorizon.mythril_gold_ring": "Gold Ring Infused",
+      "item.losthorizon.arapaima_cooked": "Arapaima Raw",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
       "book.losthorizon.frozen_grimoire.page1": "13 days I\u0027ve been here… Without my frozen sword, I wouldn\u0027t have made it.",
+      "item.losthorizon.onyx_iron_ring.description_0": "Infused with onyx",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
+      "subtitles.fairy_humeur": "",
+      "death.attack.corruption.player": "%1$s couldn’t escape %2$s and the creeping corruption.",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
+      "biome.losthorizon.enchanted_forest": "Enchanted Forest",
       "advancements.lost_horizon_advancement.descr": "There\u0027s more than survival. There\u0027s exploration.",
       "advancements.runic_arsenal_advancement.title": "Runic Arsenal",
       "item.losthorizon.runite_axe": "Runite Axe",
+      "item.losthorizon.mythril_gold_ring.description_0": "Infused with mythril",
       "item.losthorizon.mythril_axe": "Mythril Axe",
+      "item.losthorizon.iron_ring": "Iron Ring",
+      "item.losthorizon.magic_fence": "Magic Fence",
       "item.losthorizon.runite_sword": "Runite Sword",
+      "item.losthorizon.onyx_gold_ring": "Gold Ring Infused",
       "item.losthorizon.runite_block": "Block of Runite",
-      "item.losthorizon.technoblade_totem.description_1": "never really leave...",
-      "item.losthorizon.technoblade_totem.description_0": "The souls of the greatest warriors",
-      "item.losthorizon.technoblade_totem.description_2": "they always come back.",
+      "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
+      "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
+      "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
       "item.losthorizon.mythril": "Mythril",
       "enchantment.losthorizon.magnetism": "Magnetism",
       "item.losthorizon.mythril_sword": "Mythril Sword",
+      "item.losthorizon.ice_crystal_iron_ring.description_0": "Infused with ice crystal",
+      "item.losthorizon.mythril_iron_ring": "Iron Ring Infused",
       "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
       "advancements.lantern_shield_advancement.title": "A Light in the Dark",
+      "item.losthorizon.luminous_berries": "Luminous Berries",
       "item.minecraft.potion.effect.furtivity_potion": "Potion of Furtivity",
       "item.losthorizon.anchor_totem": "Anchor Totem",
       "item.losthorizon.runite_shovel": "Runite Shovel",
       "item.losthorizon.mythril_enchanted_pickaxe": "Mythril Enchanted Pickaxe",
       "item.minecraft.splash_potion.effect.furtivity_potion": "Splash Potion of Furtivity",
+      "item.losthorizon.magic_button": "Magic Button",
       "item.losthorizon.runite_armor_leggings": "Runite Leggings",
       "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
       "subtitles.technoblade_movie_tribute": "",
@@ -3872,6 +4965,7 @@
       "advancements.frosbite_dagger_advancement.descr": "Frost bites harder than iron.",
       "item.minecraft.tipped_arrow.effect.furtivity_potion": "Arrow of Furtivity",
       "item.losthorizon.runite_pickaxe": "Runite Pickaxe",
+      "item.losthorizon.magic_pressure_plate": "Magic Pressure Plate",
       "item.losthorizon.knife": "Knife",
       "item.losthorizon.mythril_enchanted_armor_helmet": "Mythril Enchanted Helmet",
       "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
@@ -3881,38 +4975,49 @@
       "book.losthorizon.mycelia_tome.page1": "The mushroom sings when the moon is high.",
       "item.losthorizon.trap": "Trap",
       "enchantment.losthorizon.lunar_grace": "Lunar Grace",
+      "item.losthorizon.magic_slab": "Magic Slab",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Beyond Survival",
       "item.losthorizon.technoblade_totem": "Technoblade Totem",
-      "item.losthorizon.frostbite_dagger": "Frosttbite Dagger",
+      "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
+      "subtitles.fairy_ambient": "",
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
       "item.losthorizon.back_pack_extended": "Survival Backpack",
       "item.losthorizon.arapaima_raw": "Arapaima Raw",
       "book.losthorizon.rythe_notes.page1": "I saw bluish shards in the northeast cave. They resonated… like they were alive. Runite, Mythril? I\u0027ll return with gear. If anyone reads this, lok for the frozzen statue.",
       "advancements.onyx_advancement.descr": "The stone whispers strange things...",
       "item.losthorizon.basalt_edge": "Basalt Edge",
+      "item.losthorizon.gold_ring": "Gold Ring",
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
+      "item.losthorizon.suspicious_stew_enchanted_blossum": "Suspicious Stew",
       "advancements.runite_advancement.descr": "Do you hear those voices?",
-      "death.attack.trap_damage.player": "%1$s has fallen into a rusty trap set by %2$s.",
+      "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
       "advancements.back_pack_advancement.title": "Travel Light, Carry More",
-      "item.losthorizon.necromancer_grimoire.description_0": "An ancient book magically sealed.",
+      "item.losthorizon.magic_planks": "Magic Planks",
+      "item.losthorizon.necromancer_grimoire.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.mythril_iron_ring.description_0": "Infused with mythril",
       "advancements.mythril_advancement.title": "Deep Blue Shine",
       "advancements.basalt_obsidian_advancement.descr": "Lava doesn\u0027t just burn crazy people.",
       "item.losthorizon.lantern_shield": "Lantern Shield",
       "advancements.necromancer_advancement.descr": "Knowledge has a price.",
+      "gui.losthorizon.ring_infuser_gui.label_ring_infuser": "Ring Infuser",
       "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
+      "item.losthorizon.ice_crystal_iron_ring": "Iron Ring Infused",
+      "item.losthorizon.onyx_iron_ring": "Silver Ring Infused",
+      "item.losthorizon.ring_infuser": "Ring Infuser",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
       "item.losthorizon.mythril_armor_boots": "Mythril Boots",
       "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
+      "subtitles.fairy_birds": "",
       "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Cooked",
       "item.losthorizon.runite_armor_helmet": "Runite Helmet",
       "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
       "item.losthorizon.basalt_obsidian_ore": "Basalt Obsidian Ore",
       "item.losthorizon.runite_ore": "Runite Ore",
       "item.losthorizon.onyx_block": "Block of Onyx",
-      "advancements.totem_of_the_moon_advancement.descr": "You walk in lunar shadows.",
+      "advancements.totem_of_the_moon_advancement.descr": "Tu marches dans les ombres lunaires.",
       "entity.minecraft.villager.losthorizon.necromancer_work": "Necromancer",
       "item.losthorizon.totem_of_the_moon": "Totem Of The Moon",
       "item.losthorizon.mythril_block": "Block of Mythril",
@@ -3925,8 +5030,10 @@
       "item.losthorizon.mythril_enchanted_axe": "Mythril Enchanted Axe",
       "item.losthorizon.mythril_armor_chestplate": "Mythril Chestplate",
       "book.losthorizon.codex.page1": "We walked between worlds. Blood seals, onyx opens. He who dies under the eclipse returns, but his name is erased.",
+      "item.losthorizon.magic_fence_gate": "Magic Fence Gate",
+      "item.losthorizon.onyx_gold_ring.description_0": "Infused with onyx",
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
-      "advancements.runic_arsenal_advancement.descr": "Ancient powers awaken.",
+      "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Frozen Grimoire",
       "item.losthorizon.onyx_ore": "Onyx Ore",
       "entity.minecraft.villager.losthorizon.hunter": "Hunter",
@@ -3935,41 +5042,61 @@
       "subtitles.technoblade_never_dies": "",
       "advancements.mythril_advancement.descr": "A blue glow in the darkness...",
       "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
+      "item.losthorizon.magic_leaves": "Magic Leaves",
+      "death.attack.corruption.item": "%1$s was slain by %2$s, who fed on the shadows.",
       "item.losthorizon.climbing_pick": "Climbing Pick",
-      "item.minecraft.lingering_potion.effect.furtivity_potion": "Lingering Potion of Furtivity"
+      "item.minecraft.lingering_potion.effect.furtivity_potion": "Lingering Potion of Furtivity",
+      "item.losthorizon.ice_crystal_gold_ring.description_0": "Infused with ice crystal",
+      "death.attack.corruption": "%1$s was consumed by corruption.",
+      "item.losthorizon.enchanted_blossom": "Enchanted Blossom",
+      "item.losthorizon.magic_wood": "Magic Wood"
     },
     "fr_fr": {
       "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.magic_log": "Tronc magique",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
       "entity.losthorizon.crypt_guardian": "Gardien de la Crypte",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
       "advancements.runite_advancement.title": "Chuchoteur de Runes",
       "painting.losthorizon.lost_horizon_paint.author": "Elie",
       "item.losthorizon.mythril_ore": "Minerai de Mythril",
-      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
-      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
       "effect.losthorizon.fire": "Feu",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
+      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "death.attack.trap_damage": "%1$s a été déchiqueté par un piège rouillé.",
+      "gui.losthorizon.ring_infuser_gui.button_infuse": "Infuser",
       "item.losthorizon.back_pack": "Sac de Survie",
       "entity.losthorizon.necromancer": "Nécromancien",
+      "item.losthorizon.ice_crystal_gold_ring": "Bague en or infusée",
+      "subtitles.ring_infuser": "",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
       "item.losthorizon.necromancer_grimoire_block": "Bloc du grimoire du nécromancien",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.mythril_enchanted_sword": "Épée en mythril enchanté",
       "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
+      "item.losthorizon.magic_stairs": "Escaliers magiques",
+      "item.losthorizon.mythril_gold_ring": "Bague en or infusée",
       "item.losthorizon.arapaima_cooked": "Arapaïma cuit",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
       "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
+      "item.losthorizon.onyx_iron_ring.description_0": "Infusée avec de l\u0027onyx",
       "item.losthorizon.mythril_enchanted_hoe": "Houe en mythril enchanté",
+      "subtitles.fairy_humeur": "",
+      "death.attack.corruption.player": "%1$s n’a pas pu échapper à %2$s et à la corruption rampante.",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "advancements.frosbite_dagger_advancement.title": "Mains froides, Lame acérée",
+      "biome.losthorizon.enchanted_forest": "Forêt enchantée",
       "advancements.lost_horizon_advancement.descr": "Progrès Lost Horizon",
       "advancements.runic_arsenal_advancement.title": "Arsenal Runique",
       "item.losthorizon.runite_axe": "Hache en runite",
+      "item.losthorizon.mythril_gold_ring.description_0": "Infusée avec du mythril",
       "item.losthorizon.mythril_axe": "Hache en Mythril",
+      "item.losthorizon.iron_ring": "Bague en fer",
+      "item.losthorizon.magic_fence": "Barrière magique",
       "item.losthorizon.runite_sword": "Épée en runite",
+      "item.losthorizon.onyx_gold_ring": "Bague en or infusée",
       "item.losthorizon.runite_block": "Bloc de runite",
       "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
       "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
@@ -3977,13 +5104,17 @@
       "item.losthorizon.mythril": "Mythril",
       "enchantment.losthorizon.magnetism": "Magnétisme",
       "item.losthorizon.mythril_sword": "Épée en mythril",
+      "item.losthorizon.ice_crystal_iron_ring.description_0": "Infusée avec un cristal de glace",
+      "item.losthorizon.mythril_iron_ring": "Bague en fer infusée",
       "advancements.basalt_obsidian_advancement.title": "Obsidienne de Feu",
       "advancements.lantern_shield_advancement.title": "Une lumière dans les Ténèbres",
+      "item.losthorizon.luminous_berries": "Baies lumineuses",
       "item.minecraft.potion.effect.furtivity_potion": "Potion de furtivité",
       "item.losthorizon.anchor_totem": "Totem d\u0027ancrage",
       "item.losthorizon.runite_shovel": "Pelle en runite",
       "item.losthorizon.mythril_enchanted_pickaxe": "Pioche en mythril enchanté",
       "item.minecraft.splash_potion.effect.furtivity_potion": "Potion jetable de furtivité",
+      "item.losthorizon.magic_button": "Bouton magique",
       "item.losthorizon.runite_armor_leggings": "Jambières en runite",
       "item.losthorizon.mythril_pickaxe": "Pioche en mythril",
       "subtitles.technoblade_movie_tribute": "",
@@ -3994,6 +5125,7 @@
       "advancements.frosbite_dagger_advancement.descr": "Le givre mord plus que le fer.",
       "item.minecraft.tipped_arrow.effect.furtivity_potion": "Flèche de furtivité",
       "item.losthorizon.runite_pickaxe": "Pioche en runite",
+      "item.losthorizon.magic_pressure_plate": "Plaque de pression magique",
       "item.losthorizon.knife": "Couteau",
       "item.losthorizon.mythril_enchanted_armor_helmet": "Casque en mythril enchanté",
       "item.losthorizon.red_bellied_piranha_raw": "Piranha à ventre rouge cru",
@@ -4003,35 +5135,46 @@
       "book.losthorizon.mycelia_tome.page1": "Le champignon chante lorsque la lune est haute.",
       "item.losthorizon.trap": "Piège",
       "enchantment.losthorizon.lunar_grace": "Grâce Lunaire",
+      "item.losthorizon.magic_slab": "Dalle magique",
       "item.losthorizon.runite_ingot": "Runite",
       "advancements.lost_horizon_advancement.title": "Progrès Lost Horizon",
       "item.losthorizon.technoblade_totem": "Totem de Technoblade",
       "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
+      "subtitles.fairy_ambient": "",
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Plastron en mythril enchanté",
       "item.losthorizon.back_pack_extended": "Sac de Survie",
       "item.losthorizon.arapaima_raw": "Arapaïma cru",
       "book.losthorizon.rythe_notes.page1": "J’ai vu des éclats bleutés dans la grotte du nord-est. Ils résonnaient... comme s’ils vivaient. Runite, Mythril ? Je reviendrai équipé. Si quelqu’un lit ceci, cherchez la statue glacée.",
       "item.losthorizon.basalt_edge": "Basalt Edge",
       "advancements.onyx_advancement.descr": "La pierre murmure des choses étranges…",
+      "item.losthorizon.gold_ring": "Bague en or",
       "effect.losthorizon.furtivity": "Furtivité",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
+      "item.losthorizon.suspicious_stew_enchanted_blossum": "Soupe suspecte",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
       "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_enchanted_armor_boots": "Bottes en mythril enchanté",
       "advancements.back_pack_advancement.title": "Voyager léger, transporter plus",
+      "item.losthorizon.magic_planks": "Planches magiques",
       "item.losthorizon.necromancer_grimoire.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.mythril_iron_ring.description_0": "Infusée avec du mythril",
       "advancements.mythril_advancement.title": "Bleu Profond Brillant",
       "advancements.basalt_obsidian_advancement.descr": "La lave ne brûle pas que les fous.",
       "item.losthorizon.lantern_shield": "Bouclier Lanterne",
       "advancements.necromancer_advancement.descr": "La connaissance a un prix.",
+      "gui.losthorizon.ring_infuser_gui.label_ring_infuser": "Infuseur de bague",
       "item.losthorizon.runite_armor_chestplate": "Plastron en runite",
+      "item.losthorizon.ice_crystal_iron_ring": "Bague en fer infusée",
+      "item.losthorizon.onyx_iron_ring": "Bague en fer infusée",
+      "item.losthorizon.ring_infuser": "Infuseur de bague",
       "enchantment.losthorizon.veil_of_shadows": "Voile d\u0027ombre",
       "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
       "key.losthorizon.dimensional_step_keybind": "Raccourci Dimensional Step",
+      "subtitles.fairy_birds": "",
       "item.losthorizon.red_bellied_piranha_cooked": "Piranha à ventre rouge cuit",
       "item.losthorizon.runite_armor_helmet": "Casque en runite",
       "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
-      "item.losthorizon.basalt_obsidian_ore": "Minerai deBasalt Obsidian",
+      "item.losthorizon.basalt_obsidian_ore": "Minerai de Basalt Obsidian",
       "item.losthorizon.runite_ore": "Minerai de runite",
       "item.losthorizon.onyx_block": "Bloc d\u0027onyx",
       "advancements.totem_of_the_moon_advancement.descr": "Tu marches dans les ombres lunaires.",
@@ -4047,6 +5190,8 @@
       "item.losthorizon.mythril_enchanted_axe": "Hache en mythril enchanté",
       "item.losthorizon.mythril_armor_chestplate": "Plastron en mythril",
       "book.losthorizon.codex.page1": "Nous avons marché entre les mondes. Le sang scelle, l’onyx ouvre. Celui qui meurt sous l’éclipse revient, mais son nom est effacé.",
+      "item.losthorizon.magic_fence_gate": "Portillon magique",
+      "item.losthorizon.onyx_gold_ring.description_0": "Infusée avec de l\u0027onyx",
       "item.losthorizon.red_grouper_cooked": "Mérou rouge cuit",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Grimoire Gelé",
@@ -4057,8 +5202,14 @@
       "subtitles.technoblade_never_dies": "",
       "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
       "item.losthorizon.red_grouper_raw": "Mérou rouge cru",
+      "item.losthorizon.magic_leaves": "Feuilles magiques",
+      "death.attack.corruption.item": "%1$s a été tué par %2$s, nourri par les ombres.",
       "item.losthorizon.climbing_pick": "Pic d\u0027escalade",
-      "item.minecraft.lingering_potion.effect.furtivity_potion": "Potion persistante de furtivité"
+      "item.minecraft.lingering_potion.effect.furtivity_potion": "Potion persistante de furtivité",
+      "item.losthorizon.ice_crystal_gold_ring.description_0": "Infusée avec un cristal de glace",
+      "death.attack.corruption": "%1$s a été consumé par la corruption.",
+      "item.losthorizon.enchanted_blossom": "Fleur enchantée",
+      "item.losthorizon.magic_wood": "Bois magique"
     }
   },
   "foldersRoot": {
@@ -4180,13 +5331,27 @@
       {
         "name": "Enchant",
         "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "EnchantedForest",
+            "children": [
+              {
+                "name": "Rings",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "losthorizon",
     "modName": "LostHorizon",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
     "author": "elie, MCreator",
     "websiteURL": "https://github.com/elieduclr/LostHorizon",

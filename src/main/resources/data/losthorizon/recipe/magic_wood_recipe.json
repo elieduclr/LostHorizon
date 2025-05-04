@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "losthorizon:magic_log"
+  },
+  "result": {
+    "id": "losthorizon:magic_wood",
+    "count": 3
+  }
+}

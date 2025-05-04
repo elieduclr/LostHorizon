@@ -11,6 +11,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.losthorizon.init.LosthorizonModItems;
+import net.mcreator.losthorizon.entity.NecromancerBossEntity;
 
 public class NecromancerMeleeProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -26,13 +27,19 @@ public class NecromancerMeleeProcedure {
 				if (_entity instanceof Player _player)
 					_player.getInventory().setChanged();
 			}
+			if (entity instanceof NecromancerBossEntity _datEntSetL)
+				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, true);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 120, 1));
 		}
 		if (entity.getPersistentData().getDouble("IA") == 70) {
 			NecromancerDashProcedure.execute(entity);
+			if (entity instanceof NecromancerBossEntity _datEntSetL)
+				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, true);
 		}
 		if (entity.getPersistentData().getDouble("IA") == 100) {
+			if (entity instanceof NecromancerBossEntity _datEntSetL)
+				_datEntSetL.getEntityData().set(NecromancerBossEntity.DATA_attack, true);
 			if (entity instanceof LivingEntity _entity) {
 				ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 				_setstack.setCount(1);

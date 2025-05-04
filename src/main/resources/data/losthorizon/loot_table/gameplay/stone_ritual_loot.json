@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:onyx_knife",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:knife",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:suspicious_stew_enchanted_blossum",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:luminous_berries",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "losthorizon:enchanted_blossom",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "losthorizon:gameplay/stone_ritual_loot"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "losthorizon:gold_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "losthorizon:ice_crystal_gold_ring",
+    "losthorizon:ice_crystal_iron_ring",
+    "losthorizon:mythril_gold_ring",
+    "losthorizon:mythril_iron_ring"
+  ]
+}

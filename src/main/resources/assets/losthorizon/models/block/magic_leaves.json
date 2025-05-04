@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "losthorizon:block/magic_leaves",
+    "particle": "losthorizon:block/magic_leaves"
+  }
+}

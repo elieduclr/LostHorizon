@@ -1,0 +1,84 @@
+{
+  "has_precipitation": true,
+  "temperature": 1.2,
+  "downfall": 0.8,
+  "effects": {
+    "ambient_sound": "losthorizon:fairy_ambient",
+    "mood_sound": {
+      "sound": "losthorizon:fairy_humeur",
+      "tick_delay": 3000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "losthorizon:fairy_birds",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "enchant"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -13447886,
+    "grass_color": -16711809,
+    "sky_color": -5185306,
+    "fog_color": -5403173,
+    "water_color": -16724271,
+    "water_fog_color": -10510688
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "losthorizon:enchanted_forest_tree",
+      "minecraft:patch_tall_grass"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

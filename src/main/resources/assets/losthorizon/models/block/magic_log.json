@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "losthorizon:block/magic_log_top",
+    "up": "losthorizon:block/magic_log_top",
+    "north": "losthorizon:block/magic_log_side",
+    "east": "losthorizon:block/magic_log_side",
+    "south": "losthorizon:block/magic_log_side",
+    "west": "losthorizon:block/magic_log_side",
+    "particle": "losthorizon:block/magic_log_top"
+  },
+  "render_type": "solid"
+}
