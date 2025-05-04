@@ -49,6 +49,78 @@
 - **Necromancer's Grimoire**: When held in the off-hand, it increases max health from 20 to 22 hearts.
 - **Ring infuser**: Block used to give powers to rings (gold or iron) by infusing a gem (ice crystal, mythril or onyx).
 
+
+### 💍 Infused Rings and Gems
+
+The **Ring Infuser** allows you to combine **gold or silver rings** with **mystical gems**. Each combination grants unique effects to the player, balanced with a drawback.
+
+----------
+
+#### ❄️ Ice Crystal – Magical Frost Gem
+
+**💍 Gold ring infused with an Ice Crystal**  
+Effects:
+
+-   **Speed I** for 15 seconds every 60 seconds
+    
+-   **Fire Resistance I** for 10 seconds every 60 seconds
+    
+
+**💍 Silver ring infused with an Ice Crystal**  
+Effects:
+
+-   Applies **Slowness I** to enemies within a 10-block radius for 5 seconds every 20 seconds
+    
+-   **Resistance I** for 10 seconds when HP is below 8 hearts
+    
+
+----------
+
+#### 🖤 Onyx – Dark and Devious Gem
+
+**💍 Gold ring infused with Onyx**  
+Effects:
+
+-   Inflicts **Wither I** on hit enemies for 4 seconds
+    
+-   **Speed I** for 5 seconds after each kill
+    
+-   ⚠️ Automatically loses **½ heart every 45 seconds** (corruption)
+    
+
+**💍 Silver ring infused with Onyx**  
+Effects:
+
+-   **Invisibility** for 3 seconds when sneaking in darkness
+    
+-   **Resistance I** at night
+    
+-   ⚠️ **Slowness I** in daylight
+    
+
+----------
+
+#### 🪙 Mythril – Gem of Speed and Balance
+
+**💍 Gold ring infused with Mythril**  
+Effects:
+
+-   **Haste II** and **Speed I** while sprinting
+    
+-   **Jump Boost I** for 8 seconds after taking damage
+    
+-   ⚠️ Increased **Hunger** while sprinting (Hunger I)
+    
+
+**💍 Silver ring infused with Mythril**  
+Effects:
+
+-   **Knockback Resistance**
+    
+-   **Slow Falling** while falling
+    
+-   ⚠️ Permanent **Slowness I**
+
 ### 👹 Bosses
 
 #### 🧙‍♂️ Necromancer

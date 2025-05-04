@@ -49,6 +49,77 @@
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
 - **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
 
+### 💍 Bagues et gemmes infusées
+
+L’**Infuseur de bague** permet de combiner des **bagues en or ou en argent** avec des **gemmes mystiques**. Chaque combinaison confère des effets uniques au joueur, équilibrés par une contrepartie.
+
+----------
+
+#### ❄️ Cristal de glace – Gemme de froid magique
+
+**💍 Bague en or infusée avec un Cristal de glace**  
+Effets :
+
+-   **Vitesse I** pendant 15 secondes toutes les 60 secondes
+    
+-   **Résistance au feu I** pendant 10 secondes toutes les 60 secondes
+    
+
+**💍 Bague en argent infusée avec un Cristal de glace**  
+Effets :
+
+-   Applique **Lenteur I** aux ennemis dans un rayon de 10 blocs pendant 5 secondes, toutes les 20 secondes
+    
+-   **Résistance I** pendant 10 secondes quand les PV sont inférieurs à 8 cœurs
+    
+
+----------
+
+#### 🖤 Onyx – Gemme obscure et vicieuse
+
+**💍 Bague en or infusée avec de l’Onyx**  
+Effets :
+
+-   Inflige **Wither I** aux ennemis touchés pendant 4 secondes
+    
+-   **Vitesse I** pendant 5 secondes après chaque kill
+    
+-   ⚠️ Perte automatique de **½ cœur toutes les 45 secondes** (corruption)
+    
+
+**💍 Bague en argent infusée avec de l’Onyx**  
+Effets :
+
+-   **Invisibilité** pendant 3 secondes si accroupi dans l’obscurité
+    
+-   **Résistance I** la nuit
+    
+-   ⚠️ **Lenteur I** en plein jour
+    
+
+----------
+
+#### 🪙 Mythril – Gemme de vitesse et d’équilibre
+
+**💍 Bague en or infusée avec du Mythril**  
+Effets :
+
+-   **Hâte II** et **Vitesse I** tant que tu sprintes
+    
+-   **Saut amélioré I** pendant 8 secondes après avoir subi des dégâts
+    
+-   ⚠️ **Faim** accrue en sprint (Hunger I)
+    
+
+**💍 Bague en argent infusée avec du Mythril**  
+Effets :
+
+-   **Résistance au recul**
+    
+-   **Chute lente** quand tu chute
+    
+-   ⚠️ **Lenteur I** permanente
+
 ### 👹 Boss
 
 #### 🧙‍♂️ Nécromancien
