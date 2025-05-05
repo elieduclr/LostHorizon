@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "Rings",
+    "icon": {
+      "value": "CUSTOM:IceCrystalGoldRing"
+    },
+    "showSearch": true
+  }
+}

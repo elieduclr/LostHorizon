@@ -5,12 +5,15 @@
 package net.mcreator.losthorizon.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.losthorizon.LosthorizonMod;
@@ -18,6 +21,18 @@ import net.mcreator.losthorizon.LosthorizonMod;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class LosthorizonModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LosthorizonMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> RINGS = REGISTRY.register("rings",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.losthorizon.rings")).icon(() -> new ItemStack(LosthorizonModItems.ICE_CRYSTAL_GOLD_RING.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(LosthorizonModBlocks.RING_INFUSER.get().asItem());
+				tabData.accept(LosthorizonModItems.GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.IRON_RING.get());
+				tabData.accept(LosthorizonModItems.ICE_CRYSTAL_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.ICE_CRYSTAL_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.MYTHRIL_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.MYTHRIL_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.ONYX_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.ONYX_IRON_RING.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

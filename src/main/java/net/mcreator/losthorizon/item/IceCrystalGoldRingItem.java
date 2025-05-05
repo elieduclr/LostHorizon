@@ -26,6 +26,9 @@ public class IceCrystalGoldRingItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
 		list.add(Component.translatable("item.losthorizon.ice_crystal_gold_ring.description_0"));
+		list.add(Component.translatable("item.losthorizon.ice_crystal_gold_ring.description_1"));
+		list.add(Component.translatable("item.losthorizon.ice_crystal_gold_ring.description_2"));
+		list.add(Component.translatable("item.losthorizon.ice_crystal_gold_ring.description_3"));
 	}
 
 	@Override

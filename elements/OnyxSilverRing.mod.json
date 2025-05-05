@@ -9,7 +9,11 @@
     "states": [],
     "name": "Silver Ring",
     "rarity": "UNCOMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Rings"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
@@ -26,7 +30,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Infused with onyx"
+        "Infused with onyx",
+        "",
+        "",
+        ""
       ]
     },
     "glowCondition": {
