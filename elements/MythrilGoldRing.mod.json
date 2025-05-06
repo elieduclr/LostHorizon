@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Gold Ring",
+    "name": "Ring of the Dancing Wind",
     "rarity": "RARE",
     "creativeTabs": [
       {
@@ -30,10 +30,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Infused with mythril",
-        "",
-        "",
-        ""
+        "Born of myrthril and gold, this",
+        "light circle inspires the wearer",
+        "the momentum of the cliffs",
+        "and the grace of the wind."
       ]
     },
     "glowCondition": {

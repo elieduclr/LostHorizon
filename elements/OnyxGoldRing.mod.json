@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Gold Ring",
+    "name": "Shadow Thirst Ring",
     "rarity": "RARE",
     "creativeTabs": [
       {
@@ -30,10 +30,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Infused with onyx",
-        "",
-        "",
-        ""
+        "Black onyx does not reflect",
+        "light, it absorbs it. This cursed",
+        "ring promises power...",
+        "at the cost of soul fragments."
       ]
     },
     "glowCondition": {

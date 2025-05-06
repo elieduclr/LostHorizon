@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Iron Ring Infused",
+    "name": "Ring of winter silence",
     "rarity": "UNCOMMON",
     "creativeTabs": [
       {
@@ -30,10 +30,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Infused with ice crystal",
-        "",
-        "",
-        ""
+        "Enveloped in the calm of",
+        "frozen storms, this ring",
+        "whispers to discreet souls. The",
+        "night becomes their ally."
       ]
     },
     "glowCondition": {

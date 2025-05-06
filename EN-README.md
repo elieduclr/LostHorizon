@@ -66,13 +66,37 @@ Effects:
 -   **Fire Resistance I** for 10 seconds every 60 seconds
     
 
-**💍 Silver ring infused with an Ice Crystal**  
+**💍 Iron ring infused with an Ice Crystal**  
 Effects:
 
 -   Applies **Slowness I** to enemies within a 10-block radius for 5 seconds every 20 seconds
     
 -   **Resistance I** for 10 seconds when HP is below 8 hearts
     
+
+----------
+
+#### 🌿 Emerald – Nature Gem
+
+**💍 Gold Ring infused with an Emerald**
+
+Effects:
+
+-   **Regeneration I** for 5 seconds every 60 seconds
+
+-   **Resistance I** in forest-type biomes
+
+-   ⚠️ Suffers **Weakness I** in the Nether  
+
+**💍 Iron Ring infused with an Emerald**
+
+Effects:
+
+-   Applies **Poison I** to attacked enemies if the player is in a forest-type biome
+
+-   Slows nearby hostile mobs (**Slowness I** within a 5-block radius)
+
+-   ⚠️ **Slowness I** in barren biomes (desert, Nether)
 
 ----------
 
@@ -88,7 +112,7 @@ Effects:
 -   ⚠️ Automatically loses **½ heart every 45 seconds** (corruption)
     
 
-**💍 Silver ring infused with Onyx**  
+**💍 Iron ring infused with Onyx**  
 Effects:
 
 -   **Invisibility** for 3 seconds when sneaking in darkness
@@ -112,7 +136,7 @@ Effects:
 -   ⚠️ Increased **Hunger** while sprinting (Hunger I)
     
 
-**💍 Silver ring infused with Mythril**  
+**💍 Iron ring infused with Mythril**  
 Effects:
 
 -   **Knockback Resistance**

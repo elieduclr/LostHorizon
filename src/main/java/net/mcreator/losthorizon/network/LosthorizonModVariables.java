@@ -70,6 +70,7 @@ public class LosthorizonModVariables {
 				clone.ice_crystal_silver_ring_cooldown = original.ice_crystal_silver_ring_cooldown;
 				clone.ice_crystal_gold_ring_cooldown = original.ice_crystal_gold_ring_cooldown;
 				clone.onyx_gold_ring_cooldown = original.onyx_gold_ring_cooldown;
+				clone.emerald_gold_ring_cooldown = original.emerald_gold_ring_cooldown;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -85,6 +86,7 @@ public class LosthorizonModVariables {
 		public boolean ice_crystal_silver_ring_cooldown = false;
 		public boolean ice_crystal_gold_ring_cooldown = false;
 		public boolean onyx_gold_ring_cooldown = false;
+		public boolean emerald_gold_ring_cooldown = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -98,6 +100,7 @@ public class LosthorizonModVariables {
 			nbt.putBoolean("ice_crystal_silver_ring_cooldown", ice_crystal_silver_ring_cooldown);
 			nbt.putBoolean("ice_crystal_gold_ring_cooldown", ice_crystal_gold_ring_cooldown);
 			nbt.putBoolean("onyx_gold_ring_cooldown", onyx_gold_ring_cooldown);
+			nbt.putBoolean("emerald_gold_ring_cooldown", emerald_gold_ring_cooldown);
 			return nbt;
 		}
 
@@ -112,6 +115,7 @@ public class LosthorizonModVariables {
 			ice_crystal_silver_ring_cooldown = nbt.getBoolean("ice_crystal_silver_ring_cooldown");
 			ice_crystal_gold_ring_cooldown = nbt.getBoolean("ice_crystal_gold_ring_cooldown");
 			onyx_gold_ring_cooldown = nbt.getBoolean("onyx_gold_ring_cooldown");
+			emerald_gold_ring_cooldown = nbt.getBoolean("emerald_gold_ring_cooldown");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

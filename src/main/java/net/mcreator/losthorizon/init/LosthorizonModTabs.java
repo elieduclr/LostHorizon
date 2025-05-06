@@ -32,6 +32,8 @@ public class LosthorizonModTabs {
 				tabData.accept(LosthorizonModItems.MYTHRIL_IRON_RING.get());
 				tabData.accept(LosthorizonModItems.ONYX_GOLD_RING.get());
 				tabData.accept(LosthorizonModItems.ONYX_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.EMERALD_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.EMERALD_IRON_RING.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

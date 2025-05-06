@@ -62,6 +62,8 @@ import net.mcreator.losthorizon.item.IceCrystalItem;
 import net.mcreator.losthorizon.item.IceCrystalGoldRingItem;
 import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
+import net.mcreator.losthorizon.item.EmeraldIronRingItem;
+import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
 import net.mcreator.losthorizon.item.BasaltEdgeItem;
 import net.mcreator.losthorizon.item.BackPackItem;
@@ -158,6 +160,8 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> MYTHRIL_IRON_RING = register("mythril_iron_ring", MythrilSilverRingItem::new);
 	public static final DeferredItem<Item> ONYX_GOLD_RING = register("onyx_gold_ring", OnyxGoldRingItem::new);
 	public static final DeferredItem<Item> ONYX_IRON_RING = register("onyx_iron_ring", OnyxSilverRingItem::new);
+	public static final DeferredItem<Item> EMERALD_GOLD_RING = register("emerald_gold_ring", EmeraldGoldRingItem::new);
+	public static final DeferredItem<Item> EMERALD_IRON_RING = register("emerald_iron_ring", EmeraldIronRingItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -4579,6 +4579,145 @@
         "files": []
       },
       "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "EmeraldGoldRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gold_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/emerald_gold_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/EmeraldGoldRingItem.java",
+          "src/main/resources/assets/losthorizon/items/emerald_gold_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "EmeraldIronRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/emerald_iron_ring.json",
+          "src/main/java/net/mcreator/losthorizon/item/EmeraldIronRingItem.java",
+          "src/main/resources/assets/losthorizon/items/emerald_iron_ring.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "EmeraldGoldRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_gold_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/EmeraldGoldRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "EmeraldIronRingQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_iron_ring_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/EmeraldIronRingQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "EmeraldIronRingQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_iron_ring_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/EmeraldIronRingQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Rings"
     }
   ],
   "variable_elements": [
@@ -4632,6 +4771,12 @@
     },
     {
       "name": "onyx_gold_ring_cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "emerald_gold_ring_cooldown",
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
@@ -4732,19 +4877,21 @@
       "~CUSTOM:MythrilAxe",
       "~CUSTOM:RuniteAxe"
     ],
+    "BLOCKS:minecraft:sand": [],
+    "ITEMS:losthorizon:mythril_armor_repair_items": [
+      "~CUSTOM:Mythril"
+    ],
     "ITEMS:losthorizon:runite_hoe_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
-    "ITEMS:losthorizon:mythril_armor_repair_items": [
-      "~CUSTOM:Mythril"
+    "BLOCKS:minecraft:dirt": [],
+    "ITEMS:losthorizon:runite_armor_repair_items": [
+      "~CUSTOM:RuniteIngot"
     ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:MythrilEnchantedArmor.helmet",
       "~CUSTOM:MythrilArmor.helmet",
       "~CUSTOM:RuniteArmor.helmet"
-    ],
-    "ITEMS:losthorizon:runite_armor_repair_items": [
-      "~CUSTOM:RuniteIngot"
     ],
     "ITEMS:losthorizon:runite_axe_repair_items": [
       "~CUSTOM:RuniteIngot"
@@ -4755,12 +4902,12 @@
     "ITEMS:losthorizon:mythril_enchanted_shovel_repair_items": [
       "~CUSTOM:Mythril"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MagicSlab"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:MythrilBlock",
       "~CUSTOM:MythrilOre"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:MagicSlab"
     ],
     "ITEMS:losthorizon:mythril_axe_repair_items": [
       "~CUSTOM:Mythril"
@@ -4774,6 +4921,7 @@
     "ITEMS:losthorizon:mythril_shovel_repair_items": [
       "~CUSTOM:Mythril"
     ],
+    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:losthorizon:mythril_enchanted_hoe_repair_items": [
       "~CUSTOM:Mythril"
     ],
@@ -4783,6 +4931,17 @@
       "~CUSTOM:LunarGrace",
       "~CUSTOM:Magnetism",
       "~CUSTOM:VeilofShadows"
+    ],
+    "BIOMES:minecraft:is_forest": [
+      "CUSTOM:EnchantedForest",
+      "birch_forest",
+      "crimson_forest",
+      "roofed_forest",
+      "mutated_forest",
+      "forest",
+      "mutated_birch_forest",
+      "warped_forest",
+      "extreme_hills_with_trees"
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:MythrilEnchantedArmor.boots",
@@ -4864,6 +5023,15 @@
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:MagicLeaves"
     ],
+    "BIOMES:minecraft:is_aride": [
+      "desert",
+      "savanna",
+      "savanna_rock",
+      "mutated_savanna",
+      "badlands",
+      "mutated_mesa",
+      "wooded_badlands_plateau"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:ClimbingPick",
       "~CUSTOM:MythrilEnchantedPickaxe",
@@ -4919,7 +5087,7 @@
       "gui.losthorizon.ring_infuser_gui.button_infuse": "Infuse",
       "item.losthorizon.back_pack": "Survival Backpack",
       "entity.losthorizon.necromancer": "Necromancer",
-      "item.losthorizon.ice_crystal_gold_ring": "Gold Ring Infused",
+      "item.losthorizon.ice_crystal_gold_ring": "Imperial ring of frost",
       "subtitles.ring_infuser": "",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
       "item.losthorizon.necromancer_grimoire_block": "Necromancer Grimoire Bloc",
@@ -4927,45 +5095,45 @@
       "item.losthorizon.mythril_enchanted_sword": "Mythril Enchanted Sword",
       "death.attack.trap_damage.item": "%1$s s’est fait happer par un piège rouillé posé par %2$s à l’aide de %3$s.",
       "item.losthorizon.magic_stairs": "Magic Stairs",
-      "item.losthorizon.mythril_gold_ring": "Gold Ring",
+      "item.losthorizon.mythril_gold_ring": "Ring of the Dancing Wind",
       "item.losthorizon.arapaima_cooked": "Arapaima Raw",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
       "book.losthorizon.frozen_grimoire.page1": "13 days I\u0027ve been here… Without my frozen sword, I wouldn\u0027t have made it.",
-      "item.losthorizon.onyx_iron_ring.description_0": "Infused with onyx",
+      "item.losthorizon.onyx_iron_ring.description_0": "This jewel whispers in the",
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "subtitles.fairy_humeur": "",
       "death.attack.corruption.player": "%1$s couldn’t escape %2$s and the creeping corruption.",
       "item.losthorizon.ice_crystal": "Ice Crystal",
-      "item.losthorizon.onyx_iron_ring.description_1": "",
+      "item.losthorizon.onyx_iron_ring.description_1": "darkness. Forged of mourning and",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
-      "item.losthorizon.onyx_iron_ring.description_2": "",
+      "item.losthorizon.onyx_iron_ring.description_2": "onyx, it hides the wearer from the",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
-      "item.losthorizon.onyx_iron_ring.description_3": "",
+      "item.losthorizon.onyx_iron_ring.description_3": "from both the living and the dead.",
       "biome.losthorizon.enchanted_forest": "Enchanted Forest",
       "advancements.lost_horizon_advancement.descr": "There\u0027s more than survival. There\u0027s exploration.",
       "advancements.runic_arsenal_advancement.title": "Runic Arsenal",
       "item.losthorizon.runite_axe": "Runite Axe",
-      "item.losthorizon.mythril_gold_ring.description_0": "Infused with mythril",
+      "item.losthorizon.mythril_gold_ring.description_0": "Born of myrthril and gold, this",
       "item.losthorizon.mythril_axe": "Mythril Axe",
-      "item.losthorizon.mythril_gold_ring.description_1": "",
+      "item.losthorizon.mythril_gold_ring.description_1": "light circle inspires the wearer",
       "item.losthorizon.iron_ring": "Iron Ring",
       "item.losthorizon.magic_fence": "Magic Fence",
       "item.losthorizon.runite_sword": "Runite Sword",
-      "item.losthorizon.mythril_gold_ring.description_2": "",
-      "item.losthorizon.mythril_gold_ring.description_3": "",
-      "item.losthorizon.onyx_gold_ring": "Gold Ring",
-      "item.losthorizon.ice_crystal_iron_ring.description_2": "",
-      "item.losthorizon.ice_crystal_iron_ring.description_1": "",
+      "item.losthorizon.mythril_gold_ring.description_2": "the momentum of the cliffs",
+      "item.losthorizon.mythril_gold_ring.description_3": "and the grace of the wind.",
+      "item.losthorizon.onyx_gold_ring": "Shadow Thirst Ring",
+      "item.losthorizon.ice_crystal_iron_ring.description_2": "whispers to discreet souls. The",
+      "item.losthorizon.ice_crystal_iron_ring.description_1": "frozen storms, this ring",
       "item.losthorizon.runite_block": "Block of Runite",
-      "item.losthorizon.ice_crystal_iron_ring.description_3": "",
+      "item.losthorizon.ice_crystal_iron_ring.description_3": "night becomes their ally.",
       "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
       "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
       "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
       "item.losthorizon.mythril": "Mythril",
       "enchantment.losthorizon.magnetism": "Magnetism",
       "item.losthorizon.mythril_sword": "Mythril Sword",
-      "item.losthorizon.ice_crystal_iron_ring.description_0": "Infused with ice crystal",
-      "item.losthorizon.mythril_iron_ring": "Iron Ring",
+      "item.losthorizon.ice_crystal_iron_ring.description_0": "Enveloped in the calm of",
+      "item.losthorizon.mythril_iron_ring": "Quiet pedestal ring",
       "advancements.basalt_obsidian_advancement.title": "Obsidian of Fire",
       "advancements.lantern_shield_advancement.title": "A Light in the Dark",
       "item.losthorizon.luminous_berries": "Luminous Berries",
@@ -4991,6 +5159,7 @@
       "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
       "item.losthorizon.mythril_enchanted_shovel": "Mythril Enchanted Shovel",
       "item.losthorizon.onyx_knife": "Onyx Knife",
+      "item.losthorizon.emerald_gold_ring": "Ring of the forest",
       "advancements.necromancer_advancement.title": "Cursed Knowledge",
       "book.losthorizon.mycelia_tome.page1": "The mushroom sings when the moon is high.",
       "item.losthorizon.trap": "Trap",
@@ -5014,26 +5183,30 @@
       "advancements.runite_advancement.descr": "Do you hear those voices?",
       "item_group.losthorizon.rings": "Rings",
       "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
-      "item.losthorizon.mythril_iron_ring.description_2": "",
-      "item.losthorizon.mythril_iron_ring.description_3": "",
+      "item.losthorizon.mythril_iron_ring.description_2": "mythril seals the serenity",
+      "item.losthorizon.mythril_iron_ring.description_3": "of an unshakeable heart.",
       "item.losthorizon.mythril_enchanted_armor_boots": "Mythril Enchanted Boots",
       "advancements.back_pack_advancement.title": "Travel Light, Carry More",
       "item.losthorizon.magic_planks": "Magic Planks",
       "item.losthorizon.necromancer_grimoire.description_0": "Un livre ancien scellé par magie.",
-      "item.losthorizon.mythril_iron_ring.description_0": "Infused with mythril",
-      "item.losthorizon.mythril_iron_ring.description_1": "",
+      "item.losthorizon.mythril_iron_ring.description_0": "Stability and balance reside",
+      "item.losthorizon.mythril_iron_ring.description_1": "in this silver circle. The",
       "advancements.mythril_advancement.title": "Deep Blue Shine",
       "advancements.basalt_obsidian_advancement.descr": "Lava doesn\u0027t just burn crazy people.",
-      "item.losthorizon.onyx_gold_ring.description_3": "",
+      "item.losthorizon.onyx_gold_ring.description_3": "at the cost of soul fragments.",
       "item.losthorizon.lantern_shield": "Lantern Shield",
       "advancements.necromancer_advancement.descr": "Knowledge has a price.",
-      "item.losthorizon.onyx_gold_ring.description_1": "",
+      "item.losthorizon.onyx_gold_ring.description_1": "light, it absorbs it. This cursed",
       "gui.losthorizon.ring_infuser_gui.label_ring_infuser": "Ring Infuser",
-      "item.losthorizon.onyx_gold_ring.description_2": "",
+      "item.losthorizon.onyx_gold_ring.description_2": "ring promises power...",
       "item.losthorizon.runite_armor_chestplate": "Runite Chestplate",
-      "item.losthorizon.ice_crystal_iron_ring": "Iron Ring Infused",
-      "item.losthorizon.onyx_iron_ring": "Silver Ring",
+      "item.losthorizon.ice_crystal_iron_ring": "Ring of winter silence",
+      "item.losthorizon.onyx_iron_ring": "Funeral veil ring",
+      "item.losthorizon.emerald_gold_ring.description_3": "But the Nether weakens it.",
+      "item.losthorizon.emerald_gold_ring.description_2": "Forests empower its magic.",
       "item.losthorizon.ring_infuser": "Ring Infuser",
+      "item.losthorizon.emerald_gold_ring.description_1": "It heals and strengthens in nature.",
+      "item.losthorizon.emerald_gold_ring.description_0": "Made to protect travelers of the woods.",
       "enchantment.losthorizon.veil_of_shadows": "Veil of Shadows",
       "item.losthorizon.mythril_armor_boots": "Mythril Boots",
       "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
@@ -5046,12 +5219,13 @@
       "item.losthorizon.onyx_block": "Block of Onyx",
       "advancements.totem_of_the_moon_advancement.descr": "Tu marches dans les ombres lunaires.",
       "entity.minecraft.villager.losthorizon.necromancer_work": "Necromancer",
-      "item.losthorizon.ice_crystal_gold_ring.description_1": "",
+      "item.losthorizon.emerald_iron_ring": "Ring of the Undergrowth",
+      "item.losthorizon.ice_crystal_gold_ring.description_1": "north, this golden jewel encloses a sparkling",
       "item.losthorizon.totem_of_the_moon": "Totem Of The Moon",
       "item.losthorizon.mythril_block": "Block of Mythril",
       "advancements.lantern_shield_advancement.descr": "And the light was... attached to your arm.",
-      "item.losthorizon.ice_crystal_gold_ring.description_2": "",
-      "item.losthorizon.ice_crystal_gold_ring.description_3": "",
+      "item.losthorizon.ice_crystal_gold_ring.description_2": "of pure ice. It makes the blood more",
+      "item.losthorizon.ice_crystal_gold_ring.description_3": "cold, but with a clearer mind.",
       "item.losthorizon.crypt_guardian_spawn_egg": "Crypt Guardian Spawn Egg",
       "item.losthorizon.mythril_armor_leggings": "Mythril Leggings",
       "advancements.totem_of_the_moon_advancement.title": "Moon’s Chosen",
@@ -5060,8 +5234,12 @@
       "item.losthorizon.mythril_enchanted_axe": "Mythril Enchanted Axe",
       "item.losthorizon.mythril_armor_chestplate": "Mythril Chestplate",
       "book.losthorizon.codex.page1": "We walked between worlds. Blood seals, onyx opens. He who dies under the eclipse returns, but his name is erased.",
+      "item.losthorizon.emerald_iron_ring.description_0": "Infused with plant-based venom.",
       "item.losthorizon.magic_fence_gate": "Magic Fence Gate",
-      "item.losthorizon.onyx_gold_ring.description_0": "Infused with onyx",
+      "item.losthorizon.emerald_iron_ring.description_2": "Great for slowing nearby foes.",
+      "item.losthorizon.emerald_iron_ring.description_1": "Strikes silently from tall grass.",
+      "item.losthorizon.onyx_gold_ring.description_0": "Black onyx does not reflect",
+      "item.losthorizon.emerald_iron_ring.description_3": "But heavy in dry lands.",
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Frozen Grimoire",
@@ -5076,7 +5254,7 @@
       "death.attack.corruption.item": "%1$s was slain by %2$s, who fed on the shadows.",
       "item.losthorizon.climbing_pick": "Climbing Pick",
       "item.minecraft.lingering_potion.effect.furtivity_potion": "Lingering Potion of Furtivity",
-      "item.losthorizon.ice_crystal_gold_ring.description_0": "Infused with ice crystal",
+      "item.losthorizon.ice_crystal_gold_ring.description_0": "Forged in the eternal breath of",
       "death.attack.corruption": "%1$s was consumed by corruption.",
       "item.losthorizon.enchanted_blossom": "Enchanted Blossom",
       "item.losthorizon.magic_wood": "Magic Wood"
@@ -5134,7 +5312,7 @@
       "item.losthorizon.mythril_gold_ring.description_3": "et la grâce du vent.",
       "item.losthorizon.onyx_gold_ring": "Anneau de la soif d’ombre",
       "item.losthorizon.ice_crystal_iron_ring.description_2": "murmure aux âmes discrètes. La",
-      "item.losthorizon.ice_crystal_iron_ring.description_1": "tempêtes figées, cet anneau d’argent",
+      "item.losthorizon.ice_crystal_iron_ring.description_1": "tempêtes figées, cet anneau",
       "item.losthorizon.runite_block": "Bloc de runite",
       "item.losthorizon.ice_crystal_iron_ring.description_3": "nuit devient leur alliée.",
       "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
@@ -5170,6 +5348,7 @@
       "item.losthorizon.red_bellied_piranha_raw": "Piranha à ventre rouge cru",
       "item.losthorizon.mythril_enchanted_shovel": "Pelle en mythril enchanté",
       "item.losthorizon.onyx_knife": "Couteau en onyx",
+      "item.losthorizon.emerald_gold_ring": "Bague de la forêt",
       "advancements.necromancer_advancement.title": "Connaissance Maudite",
       "book.losthorizon.mycelia_tome.page1": "Le champignon chante lorsque la lune est haute.",
       "item.losthorizon.trap": "Piège",
@@ -5212,7 +5391,11 @@
       "item.losthorizon.runite_armor_chestplate": "Plastron en runite",
       "item.losthorizon.ice_crystal_iron_ring": "Anneau du silence hivernal",
       "item.losthorizon.onyx_iron_ring": "Anneau du voile funèbre",
+      "item.losthorizon.emerald_gold_ring.description_3": "Mais le Nether affaiblit sa magie.",
+      "item.losthorizon.emerald_gold_ring.description_2": "La forêt lui donne sa puissance.",
       "item.losthorizon.ring_infuser": "Infuseur de bague",
+      "item.losthorizon.emerald_gold_ring.description_1": "Elle soigne et renforce dans la nature.",
+      "item.losthorizon.emerald_gold_ring.description_0": "Forgée pour protéger les voyageurs des bois.",
       "enchantment.losthorizon.veil_of_shadows": "Voile d\u0027ombre",
       "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
       "key.losthorizon.dimensional_step_keybind": "Raccourci Dimensional Step",
@@ -5225,6 +5408,7 @@
       "item.losthorizon.onyx_block": "Bloc d\u0027onyx",
       "advancements.totem_of_the_moon_advancement.descr": "Tu marches dans les ombres lunaires.",
       "entity.minecraft.villager.losthorizon.necromancer_work": "Nécromancien",
+      "item.losthorizon.emerald_iron_ring": "Bague du sous-bois",
       "item.losthorizon.ice_crystal_gold_ring.description_1": "nord, ce bijou d’or enferme un éclat",
       "item.losthorizon.totem_of_the_moon": "Totem de la Lune",
       "item.losthorizon.mythril_block": "Bloc de Mythril",
@@ -5239,8 +5423,12 @@
       "item.losthorizon.mythril_enchanted_axe": "Hache en mythril enchanté",
       "item.losthorizon.mythril_armor_chestplate": "Plastron en mythril",
       "book.losthorizon.codex.page1": "Nous avons marché entre les mondes. Le sang scelle, l’onyx ouvre. Celui qui meurt sous l’éclipse revient, mais son nom est effacé.",
+      "item.losthorizon.emerald_iron_ring.description_0": "Infusée de venin végétal.",
       "item.losthorizon.magic_fence_gate": "Portillon magique",
+      "item.losthorizon.emerald_iron_ring.description_2": "Utile pour ralentir les ennemis proches.",
+      "item.losthorizon.emerald_iron_ring.description_1": "Elle attaque en silence depuis les hautes herbes.",
       "item.losthorizon.onyx_gold_ring.description_0": "L’onyx noir ne reflète pas la",
+      "item.losthorizon.emerald_iron_ring.description_3": "Mais devient lourde en terrain sec.",
       "item.losthorizon.red_grouper_cooked": "Mérou rouge cuit",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Grimoire Gelé",
