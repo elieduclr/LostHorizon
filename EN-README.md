@@ -34,6 +34,7 @@
 - **Onyx** *(Nether)*: Perfect for vicious weapons.
 - **Runite** *(Overworld)*: Provides powerful equipment with random effects (slowness, explosion...).
 - **Mythril** *(Overworld)*: Speed bonus with complete armor. Combined with gold → **Mythril Enchanted** (excellent enchantability).
+- **Starry jade** (layer 100-200): Gives you star jade. A useful gem for making rings.
 
 ### 🛠️ Items and Tools
 - **Anchor Totem**: Sets your home, allows teleportation back.
@@ -73,6 +74,27 @@ Effects:
     
 -   **Resistance I** for 10 seconds when HP is below 8 hearts
     
+----------
+
+#### 🍀 **Starry Jade** - Gem of astral luck
+
+**💍 Gold ring infused with Starry Jade**  
+Effects:
+
+- 20% chance to gain **Regeneration I** for 5 seconds after being hit.
+    
+- **Luck I** temporary (30 seconds) after killing a mob
+    
+- ⚠️ **Weakness I** for 5 seconds when you break an ore
+
+**💍 Silver ring infused with Starry Jade**  
+Effects:
+
+- 25% chance to receive **Resistance I** for 10 seconds when HP drops below 5 hearts.
+    
+- **Luck I** for 30 seconds every 90 seconds
+    
+- ⚠️ **No effect** if the player is wearing another ring
 
 ----------
 

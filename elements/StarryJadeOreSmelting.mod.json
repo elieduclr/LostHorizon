@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 13.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:StarryJadeRaw"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:StarryJade"
+    },
+    "name": "starry_jade_ore_smelting",
+    "namespace": "mod"
+  }
+}

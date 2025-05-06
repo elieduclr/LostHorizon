@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "losthorizon:starry_jade_block",
+    "losthorizon:starry_jade_ore",
     "losthorizon:mythril_block",
     "losthorizon:mythril_ore"
   ]

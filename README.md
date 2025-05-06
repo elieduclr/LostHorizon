@@ -34,6 +34,7 @@
 - **Onyx** *(Nether)* : Parfait pour les armes vicieuses.
 - **Runite** *(Overworld)* : Donne des équipements puissants avec effets aléatoires (ralentissement, explosion...).
 - **Mythril** *(Overworld)* : Bonus de vitesse avec l'armure complète. Combiné avec de l'or → **Mythril Enchanted** (excellente enchantabilité).
+- **Jade étoilée** (couche 100-200) : Permet d'obtenir de la jade étoilée. Une gemme utile pour créer des bagues.
 
 ### 🛠️ Objets et outils
 - **Anchor Totem** : Définit ta maison, permet de s'y téléporter.
@@ -72,6 +73,27 @@ Effets :
     
 -   **Résistance I** pendant 10 secondes quand les PV sont inférieurs à 8 cœurs
     
+----------
+
+#### 🍀 **Jade étoilée** – Gemme de la chance astrale
+
+**💍 Bague en or infusée avec de la Jade étoilée**  
+Effets :
+
+-   20 % de chance de gagner **Régénération I** pendant 5 secondes après avoir été touché
+    
+-   **Luck I** temporaire (30 secondes) après avoir tué un mob
+    
+-   ⚠️ **Faiblesse I** pendant 5 secondes quand tu casses un minerai
+
+**💍 Bague en argent infusée avec de la Jade étoilée**  
+Effets :
+
+-   25 % de chance de recevoir **Résistance I** pendant 10 secondes quand les PV tombent sous 5 cœurs
+    
+-   **Luck I** pendant 30 secondes toutes les 90 secondes
+    
+-   ⚠️ **Pas d’effets** si le joueur porte une autre bague
 
 ----------
 

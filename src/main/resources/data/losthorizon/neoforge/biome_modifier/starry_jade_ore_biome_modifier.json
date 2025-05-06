@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "losthorizon:starry_jade_ore",
+  "step": "underground_ores"
+}

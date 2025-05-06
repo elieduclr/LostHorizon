@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "losthorizon:starry_jade_block"
+  ],
+  "result": {
+    "id": "losthorizon:starry_jade",
+    "count": 9
+  }
+}

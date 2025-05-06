@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.losthorizon.block.TrapBlock;
+import net.mcreator.losthorizon.block.StarryJadeOreBlock;
+import net.mcreator.losthorizon.block.StarryJadeBlockBlock;
 import net.mcreator.losthorizon.block.RuniteOreBlock;
 import net.mcreator.losthorizon.block.RuniteBlockBlock;
 import net.mcreator.losthorizon.block.RingInfuserBlock;
@@ -58,6 +60,8 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> MAGIC_BUTTON = register("magic_button", MagicButtonBlock::new);
 	public static final DeferredBlock<Block> ENCHANTED_BLOSSOM = register("enchanted_blossom", EnchantedBlossomBlock::new);
 	public static final DeferredBlock<Block> RING_INFUSER = register("ring_infuser", RingInfuserBlock::new);
+	public static final DeferredBlock<Block> STARRY_JADE_ORE = register("starry_jade_ore", StarryJadeOreBlock::new);
+	public static final DeferredBlock<Block> STARRY_JADE_BLOCK = register("starry_jade_block", StarryJadeBlockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

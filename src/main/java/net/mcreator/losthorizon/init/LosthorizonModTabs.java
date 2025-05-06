@@ -64,6 +64,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.RUNITE_INGOT.get());
 			tabData.accept(LosthorizonModItems.ICE_CRYSTAL.get());
 			tabData.accept(LosthorizonModItems.MYTHRIL.get());
+			tabData.accept(LosthorizonModItems.STARRY_JADE.get());
+			tabData.accept(LosthorizonModItems.STARRY_JADE_RAW.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.ONYX_ORE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.ONYX_BLOCK.get().asItem());
@@ -81,6 +83,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModBlocks.MAGIC_FENCE_GATE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MAGIC_PRESSURE_PLATE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MAGIC_BUTTON.get().asItem());
+			tabData.accept(LosthorizonModBlocks.STARRY_JADE_ORE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.STARRY_JADE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LosthorizonModItems.TOTEM_OF_THE_MOON.get());
 			tabData.accept(LosthorizonModItems.RUNITE_PICKAXE.get());
