@@ -49,6 +49,7 @@
 - **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
 - **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
+- **Dé du Destin** : Un dé qui donne un effet aléatoire pendant 10 secondes. Le temps de recharge dest de 1 minute.
 
 ### 💍 Bagues et gemmes infusées
 

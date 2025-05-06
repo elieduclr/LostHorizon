@@ -49,6 +49,7 @@
 - **Trap**: Trap that deals damage when stepped on.
 - **Necromancer's Grimoire**: When held in the off-hand, it increases max health from 20 to 22 hearts.
 - **Ring infuser**: Block used to give powers to rings (gold or iron) by infusing a gem (ice crystal, mythril or onyx).
+- **Destiny Dice**: A die that gives a random effect for 10 seconds. The cooldown is 1 minute.
 
 
 ### 💍 Infused Rings and Gems

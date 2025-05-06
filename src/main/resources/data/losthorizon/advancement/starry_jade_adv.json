@@ -22,7 +22,8 @@
     "recipes": [
       "losthorizon:starry_jade_ore_block_recipe",
       "losthorizon:starry_jade_block_ore_recipe",
-      "losthorizon:starry_jade_ore_smelting"
+      "losthorizon:starry_jade_ore_smelting",
+      "losthorizon:destiny_dice_recipe"
     ]
   },
   "parent": "losthorizon:lost_horizon_advancement"

@@ -72,6 +72,7 @@ public class LosthorizonModVariables {
 				clone.onyx_gold_ring_cooldown = original.onyx_gold_ring_cooldown;
 				clone.emerald_gold_ring_cooldown = original.emerald_gold_ring_cooldown;
 				clone.starry_jade_iron_rinh_cooldown = original.starry_jade_iron_rinh_cooldown;
+				clone.dice_cooldown = original.dice_cooldown;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -89,6 +90,7 @@ public class LosthorizonModVariables {
 		public boolean onyx_gold_ring_cooldown = false;
 		public boolean emerald_gold_ring_cooldown = false;
 		public boolean starry_jade_iron_rinh_cooldown = false;
+		public boolean dice_cooldown = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -104,6 +106,7 @@ public class LosthorizonModVariables {
 			nbt.putBoolean("onyx_gold_ring_cooldown", onyx_gold_ring_cooldown);
 			nbt.putBoolean("emerald_gold_ring_cooldown", emerald_gold_ring_cooldown);
 			nbt.putBoolean("starry_jade_iron_rinh_cooldown", starry_jade_iron_rinh_cooldown);
+			nbt.putBoolean("dice_cooldown", dice_cooldown);
 			return nbt;
 		}
 
@@ -120,6 +123,7 @@ public class LosthorizonModVariables {
 			onyx_gold_ring_cooldown = nbt.getBoolean("onyx_gold_ring_cooldown");
 			emerald_gold_ring_cooldown = nbt.getBoolean("emerald_gold_ring_cooldown");
 			starry_jade_iron_rinh_cooldown = nbt.getBoolean("starry_jade_iron_rinh_cooldown");
+			dice_cooldown = nbt.getBoolean("dice_cooldown");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

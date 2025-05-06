@@ -105,6 +105,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.TECHNOBLADE_TOTEM.get());
 			tabData.accept(LosthorizonModItems.ANCHOR_TOTEM.get());
 			tabData.accept(LosthorizonModItems.NECROMANCER_GRIMOIRE.get());
+			tabData.accept(LosthorizonModItems.DESTINY_DICE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());

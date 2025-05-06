@@ -4949,6 +4949,61 @@
         ]
       },
       "path": "~/Biomes/EnchantedForest/Rings"
+    },
+    {
+      "name": "DestinyDice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_dice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/destiny_dice.json",
+          "src/main/java/net/mcreator/losthorizon/item/DestinyDiceItem.java",
+          "src/main/resources/assets/losthorizon/items/destiny_dice.json"
+        ]
+      },
+      "path": "~/Ore/Jade Etoilee"
+    },
+    {
+      "name": "DestinyDiceEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_dice_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/DestinyDiceEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ore/Jade Etoilee"
+    },
+    {
+      "name": "DestinyDiceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_dice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/destiny_dice_recipe.json"
+        ]
+      },
+      "path": "~/Ore/Jade Etoilee"
     }
   ],
   "variable_elements": [
@@ -5017,6 +5072,12 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "dice_cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -5076,6 +5137,7 @@
       "~CUSTOM:RuniteArmor.body"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:DestinyDice",
       "~CUSTOM:AnchorTotem",
       "~CUSTOM:TechnobladeTotem",
       "~CUSTOM:TotemOfTheMoon"
@@ -5310,6 +5372,7 @@
   "language_map": {
     "en_us": {
       "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.destiny_dice": "Dice of Destiny",
       "entity.losthorizon.crypt_guardian": "Crypt Guardian",
       "item.losthorizon.mythril_ore": "Mythril Ore",
       "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
@@ -5318,7 +5381,12 @@
       "entity.losthorizon.necromancer": "Necromancer",
       "subtitles.ring_infuser": "",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
+      "item.losthorizon.destiny_dice.description_0": "Forged from starry jade,",
+      "item.losthorizon.destiny_dice.description_1": "this strange die holds the breath",
+      "item.losthorizon.destiny_dice.description_2": "of ancient gambling gods.",
+      "item.losthorizon.destiny_dice.description_3": "Each roll shakes the fabric of fate,",
       "item.losthorizon.onyx": "Onyx",
+      "item.losthorizon.destiny_dice.description_4": "for better… or for worse.",
       "item.losthorizon.mythril_gold_ring": "Ring of the Dancing Wind",
       "item.losthorizon.magic_stairs": "Magic Stairs",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
@@ -5515,15 +5583,21 @@
     },
     "fr_fr": {
       "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
+      "item.losthorizon.destiny_dice": "Dé du Destin",
       "entity.losthorizon.crypt_guardian": "Gardien de la Crypte",
       "item.losthorizon.mythril_ore": "Minerai de Mythril",
-      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
       "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "entity.losthorizon.necromancer": "Nécromancien",
       "subtitles.ring_infuser": "",
       "block.losthorizon.basalt_obsidian_ore.description_1": "Sa surface absorbe la lumière et pulse une chaleur silencieuse, comme un cœur éteint prêt à se rallumer.",
+      "item.losthorizon.destiny_dice.description_0": "Forgé à partir de jade étoilée,",
+      "item.losthorizon.destiny_dice.description_1": "ce dé étrange contient le souffle",
+      "item.losthorizon.destiny_dice.description_2": "d’anciens dieux joueurs.",
+      "item.losthorizon.destiny_dice.description_3": "Chaque lancer bouleverse la trame",
       "item.losthorizon.onyx": "Onyx",
+      "item.losthorizon.destiny_dice.description_4": "du monde, pour le meilleur… ou le pire.",
       "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.magic_stairs": "Escaliers magiques",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
@@ -5591,8 +5665,8 @@
       "advancements.necromancer_advancement.descr": "La connaissance a un prix.",
       "item.losthorizon.onyx_iron_ring": "Anneau du voile funèbre",
       "item.losthorizon.ring_infuser": "Infuseur de bague",
-      "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
       "key.losthorizon.dimensional_step_keybind": "Raccourci Dimensional Step",
+      "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
       "item.losthorizon.red_bellied_piranha_cooked": "Piranha à ventre rouge cuit",
       "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
       "item.losthorizon.basalt_obsidian_ore": "Minerai de Basalt Obsidian",

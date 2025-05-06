@@ -68,6 +68,7 @@ import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
 import net.mcreator.losthorizon.item.EmeraldIronRingItem;
 import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
+import net.mcreator.losthorizon.item.DestinyDiceItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
 import net.mcreator.losthorizon.item.BasaltEdgeItem;
 import net.mcreator.losthorizon.item.BackPackItem;
@@ -172,6 +173,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> STARRY_JADE_RAW = register("starry_jade_raw", StarryJadeRawItem::new);
 	public static final DeferredItem<Item> STARRY_JADE_GOLD_RING = register("starry_jade_gold_ring", StarryJadeGoldRingItem::new);
 	public static final DeferredItem<Item> STARRY_JADE_IRON_RING = register("starry_jade_iron_ring", StarryJadeIronRingItem::new);
+	public static final DeferredItem<Item> DESTINY_DICE = register("destiny_dice", DestinyDiceItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
