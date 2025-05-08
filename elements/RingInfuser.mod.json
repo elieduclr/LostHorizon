@@ -155,13 +155,16 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 10.0,
     "resistance": 6000.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
       {
         "value": "TRANSPORTATION"
+      },
+      {
+        "value": "CUSTOM:Rings"
       }
     ],
     "destroyTool": "pickaxe",

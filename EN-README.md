@@ -34,6 +34,7 @@
 - **Onyx** *(Nether)*: Perfect for vicious weapons.
 - **Runite** *(Overworld)*: Provides powerful equipment with random effects (slowness, explosion...).
 - **Mythril** *(Overworld)*: Speed bonus with complete armor. Combined with gold → **Mythril Enchanted** (excellent enchantability).
+- **Starry jade** (layer 100-200): Gives you star jade. A useful gem for making rings.
 
 ### 🛠️ Items and Tools
 - **Anchor Totem**: Sets your home, allows teleportation back.
@@ -48,6 +49,7 @@
 - **Trap**: Trap that deals damage when stepped on.
 - **Necromancer's Grimoire**: When held in the off-hand, it increases max health from 20 to 22 hearts.
 - **Ring infuser**: Block used to give powers to rings (gold or iron) by infusing a gem (ice crystal, mythril or onyx).
+- **Destiny Dice**: A die that gives a random effect for 10 seconds. The cooldown is 1 minute.
 
 
 ### 💍 Infused Rings and Gems
@@ -66,13 +68,58 @@ Effects:
 -   **Fire Resistance I** for 10 seconds every 60 seconds
     
 
-**💍 Silver ring infused with an Ice Crystal**  
+**💍 Iron ring infused with an Ice Crystal**  
 Effects:
 
 -   Applies **Slowness I** to enemies within a 10-block radius for 5 seconds every 20 seconds
     
 -   **Resistance I** for 10 seconds when HP is below 8 hearts
     
+----------
+
+#### 🍀 **Starry Jade** - Gem of astral luck
+
+**💍 Gold ring infused with Starry Jade**  
+Effects:
+
+- 20% chance to gain **Regeneration I** for 5 seconds after being hit.
+    
+- **Luck I** temporary (30 seconds) after killing a mob
+    
+- ⚠️ **Weakness I** for 5 seconds when you break an ore
+
+**💍 Silver ring infused with Starry Jade**  
+Effects:
+
+- 25% chance to receive **Resistance I** for 10 seconds when HP drops below 5 hearts.
+    
+- **Luck I** for 30 seconds every 90 seconds
+    
+- ⚠️ **No effect** if the player is wearing another ring
+
+----------
+
+#### 🌿 Emerald – Nature Gem
+
+**💍 Gold Ring infused with an Emerald**
+
+Effects:
+
+-   **Regeneration I** for 5 seconds every 60 seconds
+
+-   **Resistance I** in forest-type biomes
+
+-   ⚠️ Suffers **Weakness I** in the Nether  
+
+**💍 Iron Ring infused with an Emerald**
+
+Effects:
+
+-   Applies **Poison I** to attacked enemies if the player is in a forest-type biome
+
+-   Slows nearby hostile mobs (**Slowness I** within a 5-block radius)
+
+-   ⚠️ **Slowness I** in barren biomes (desert, Nether)
 
 ----------
 
@@ -88,7 +135,7 @@ Effects:
 -   ⚠️ Automatically loses **½ heart every 45 seconds** (corruption)
     
 
-**💍 Silver ring infused with Onyx**  
+**💍 Iron ring infused with Onyx**  
 Effects:
 
 -   **Invisibility** for 3 seconds when sneaking in darkness
@@ -112,7 +159,7 @@ Effects:
 -   ⚠️ Increased **Hunger** while sprinting (Hunger I)
     
 
-**💍 Silver ring infused with Mythril**  
+**💍 Iron ring infused with Mythril**  
 Effects:
 
 -   **Knockback Resistance**

@@ -4,7 +4,7 @@
   "definition": {
     "displayName": "Necromancer",
     "pointOfInterest": {
-      "value": "CUSTOM:OnyxOre"
+      "value": "CUSTOM:RingInfuser"
     },
     "actionSound": {
       "value": "entity.villager.celebrate"

@@ -34,6 +34,7 @@
 - **Onyx** *(Nether)* : Parfait pour les armes vicieuses.
 - **Runite** *(Overworld)* : Donne des équipements puissants avec effets aléatoires (ralentissement, explosion...).
 - **Mythril** *(Overworld)* : Bonus de vitesse avec l'armure complète. Combiné avec de l'or → **Mythril Enchanted** (excellente enchantabilité).
+- **Jade étoilée** (couche 100-200) : Permet d'obtenir de la jade étoilée. Une gemme utile pour créer des bagues.
 
 ### 🛠️ Objets et outils
 - **Anchor Totem** : Définit ta maison, permet de s'y téléporter.
@@ -48,6 +49,7 @@
 - **Trap** : Piège qui fait des dégats lorsqu'on marche dessus.
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
 - **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
+- **Dé du Destin** : Un dé qui donne un effet aléatoire pendant 10 secondes. Le temps de recharge dest de 1 minute.
 
 ### 💍 Bagues et gemmes infusées
 
@@ -65,13 +67,57 @@ Effets :
 -   **Résistance au feu I** pendant 10 secondes toutes les 60 secondes
     
 
-**💍 Bague en argent infusée avec un Cristal de glace**  
+**💍 Bague en fer infusée avec un Cristal de glace**  
 Effets :
 
 -   Applique **Lenteur I** aux ennemis dans un rayon de 10 blocs pendant 5 secondes, toutes les 20 secondes
     
 -   **Résistance I** pendant 10 secondes quand les PV sont inférieurs à 8 cœurs
     
+----------
+
+#### 🍀 **Jade étoilée** – Gemme de la chance astrale
+
+**💍 Bague en or infusée avec de la Jade étoilée**  
+Effets :
+
+-   20 % de chance de gagner **Régénération I** pendant 5 secondes après avoir été touché
+    
+-   **Luck I** temporaire (30 secondes) après avoir tué un mob
+    
+-   ⚠️ **Faiblesse I** pendant 5 secondes quand tu casses un minerai
+
+**💍 Bague en argent infusée avec de la Jade étoilée**  
+Effets :
+
+-   25 % de chance de recevoir **Résistance I** pendant 10 secondes quand les PV tombent sous 5 cœurs
+    
+-   **Luck I** pendant 30 secondes toutes les 90 secondes
+    
+-   ⚠️ **Pas d’effets** si le joueur porte une autre bague
+
+----------
+
+#### 🌿 Émeraude – Gemme de nature
+
+**💍 Bague en or infusée avec une Émeraude**  
+Effets :
+
+-   **Régénération I** pendant 5 secondes toutes les 60 secondes
+    
+-   **Résistance I** dans les biomes de type forêt
+    
+-   ⚠️ Subit **Faiblesse I** dans le Nether
+    
+
+**💍 Bague en fer infusée avec une Émeraude**  
+Effets :
+
+-   Applique **Poison I** aux ennemis attaqués si le joueur est dans un biome de type forêt
+    
+-   Ralentit les mobs hostiles proches (**Lenteur I** dans un rayon de 5 blocs)
+    
+-   ⚠️ **Lenteur I** dans les biomes stériles (désert, Nether)
 
 ----------
 
@@ -87,7 +133,7 @@ Effets :
 -   ⚠️ Perte automatique de **½ cœur toutes les 45 secondes** (corruption)
     
 
-**💍 Bague en argent infusée avec de l’Onyx**  
+**💍 Bague en fer infusée avec de l’Onyx**  
 Effets :
 
 -   **Invisibilité** pendant 3 secondes si accroupi dans l’obscurité
@@ -111,7 +157,7 @@ Effets :
 -   ⚠️ **Faim** accrue en sprint (Hunger I)
     
 
-**💍 Bague en argent infusée avec du Mythril**  
+**💍 Bague en fer infusée avec du Mythril**  
 Effets :
 
 -   **Résistance au recul**

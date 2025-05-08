@@ -7,9 +7,13 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Gold Ring Infused",
+    "name": "Imperial ring of frost",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Rings"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
@@ -26,7 +30,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Infused with ice crystal"
+        "Forged in the eternal breath of",
+        "north, this golden jewel encloses a sparkling",
+        "of pure ice. It makes the blood more",
+        "cold, but with a clearer mind."
       ]
     },
     "glowCondition": {

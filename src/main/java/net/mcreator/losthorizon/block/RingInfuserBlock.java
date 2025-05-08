@@ -43,7 +43,7 @@ public class RingInfuserBlock extends Block implements EntityBlock {
 	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
 
 	public RingInfuserBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NETHER_BRICKS).strength(1f, 6000f).lightLevel(s -> 5).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.NETHER_BRICKS).strength(10f, 6000f).lightLevel(s -> 5).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

@@ -22,6 +22,10 @@ import net.mcreator.losthorizon.item.inventory.BackPackExtendedInventoryCapabili
 import net.mcreator.losthorizon.item.TotemOfTheMoonItem;
 import net.mcreator.losthorizon.item.TechnobladeTotemItem;
 import net.mcreator.losthorizon.item.SuspiciousStewEnchantedBlossumItem;
+import net.mcreator.losthorizon.item.StarryJadeRawItem;
+import net.mcreator.losthorizon.item.StarryJadeItem;
+import net.mcreator.losthorizon.item.StarryJadeIronRingItem;
+import net.mcreator.losthorizon.item.StarryJadeGoldRingItem;
 import net.mcreator.losthorizon.item.SilverRingItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
 import net.mcreator.losthorizon.item.RuniteShovelItem;
@@ -62,6 +66,9 @@ import net.mcreator.losthorizon.item.IceCrystalItem;
 import net.mcreator.losthorizon.item.IceCrystalGoldRingItem;
 import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
+import net.mcreator.losthorizon.item.EmeraldIronRingItem;
+import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
+import net.mcreator.losthorizon.item.DestinyDiceItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
 import net.mcreator.losthorizon.item.BasaltEdgeItem;
 import net.mcreator.losthorizon.item.BackPackItem;
@@ -158,6 +165,15 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> MYTHRIL_IRON_RING = register("mythril_iron_ring", MythrilSilverRingItem::new);
 	public static final DeferredItem<Item> ONYX_GOLD_RING = register("onyx_gold_ring", OnyxGoldRingItem::new);
 	public static final DeferredItem<Item> ONYX_IRON_RING = register("onyx_iron_ring", OnyxSilverRingItem::new);
+	public static final DeferredItem<Item> EMERALD_GOLD_RING = register("emerald_gold_ring", EmeraldGoldRingItem::new);
+	public static final DeferredItem<Item> EMERALD_IRON_RING = register("emerald_iron_ring", EmeraldIronRingItem::new);
+	public static final DeferredItem<Item> STARRY_JADE = register("starry_jade", StarryJadeItem::new);
+	public static final DeferredItem<Item> STARRY_JADE_ORE = block(LosthorizonModBlocks.STARRY_JADE_ORE);
+	public static final DeferredItem<Item> STARRY_JADE_BLOCK = block(LosthorizonModBlocks.STARRY_JADE_BLOCK);
+	public static final DeferredItem<Item> STARRY_JADE_RAW = register("starry_jade_raw", StarryJadeRawItem::new);
+	public static final DeferredItem<Item> STARRY_JADE_GOLD_RING = register("starry_jade_gold_ring", StarryJadeGoldRingItem::new);
+	public static final DeferredItem<Item> STARRY_JADE_IRON_RING = register("starry_jade_iron_ring", StarryJadeIronRingItem::new);
+	public static final DeferredItem<Item> DESTINY_DICE = register("destiny_dice", DestinyDiceItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

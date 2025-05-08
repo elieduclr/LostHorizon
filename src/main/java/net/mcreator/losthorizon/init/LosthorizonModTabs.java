@@ -5,12 +5,15 @@
 package net.mcreator.losthorizon.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.losthorizon.LosthorizonMod;
@@ -18,6 +21,20 @@ import net.mcreator.losthorizon.LosthorizonMod;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class LosthorizonModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LosthorizonMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> RINGS = REGISTRY.register("rings",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.losthorizon.rings")).icon(() -> new ItemStack(LosthorizonModItems.ICE_CRYSTAL_GOLD_RING.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(LosthorizonModBlocks.RING_INFUSER.get().asItem());
+				tabData.accept(LosthorizonModItems.GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.IRON_RING.get());
+				tabData.accept(LosthorizonModItems.ICE_CRYSTAL_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.ICE_CRYSTAL_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.MYTHRIL_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.MYTHRIL_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.ONYX_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.ONYX_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.EMERALD_GOLD_RING.get());
+				tabData.accept(LosthorizonModItems.EMERALD_IRON_RING.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -47,6 +64,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.RUNITE_INGOT.get());
 			tabData.accept(LosthorizonModItems.ICE_CRYSTAL.get());
 			tabData.accept(LosthorizonModItems.MYTHRIL.get());
+			tabData.accept(LosthorizonModItems.STARRY_JADE.get());
+			tabData.accept(LosthorizonModItems.STARRY_JADE_RAW.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.ONYX_ORE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.ONYX_BLOCK.get().asItem());
@@ -64,6 +83,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModBlocks.MAGIC_FENCE_GATE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MAGIC_PRESSURE_PLATE.get().asItem());
 			tabData.accept(LosthorizonModBlocks.MAGIC_BUTTON.get().asItem());
+			tabData.accept(LosthorizonModBlocks.STARRY_JADE_ORE.get().asItem());
+			tabData.accept(LosthorizonModBlocks.STARRY_JADE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LosthorizonModItems.TOTEM_OF_THE_MOON.get());
 			tabData.accept(LosthorizonModItems.RUNITE_PICKAXE.get());
@@ -84,6 +105,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.TECHNOBLADE_TOTEM.get());
 			tabData.accept(LosthorizonModItems.ANCHOR_TOTEM.get());
 			tabData.accept(LosthorizonModItems.NECROMANCER_GRIMOIRE.get());
+			tabData.accept(LosthorizonModItems.DESTINY_DICE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());

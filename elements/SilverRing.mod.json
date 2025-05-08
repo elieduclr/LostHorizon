@@ -9,7 +9,11 @@
     "states": [],
     "name": "Iron Ring",
     "rarity": "UNCOMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Rings"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
