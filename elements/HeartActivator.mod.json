@@ -1,0 +1,71 @@
+{
+  "_fv": 77,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "heart_activator",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Heart Activator",
+    "rarity": "RARE",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Rings"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 10,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "A mystical catalyst",
+        "that awakens the wrath",
+        "of the Linked.",
+        "Handle with care."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "HeartActivatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:ThrowingKnife"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

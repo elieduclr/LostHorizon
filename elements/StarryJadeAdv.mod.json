@@ -17,7 +17,8 @@
       "StarryJadeOreBlockRecipe",
       "StarryJadeBlockOreRecipe",
       "StarryJadeOreSmelting",
-      "DestinyDiceRecipe"
+      "DestinyDiceRecipe",
+      "LinkDaggerRecipe"
     ],
     "rewardXP": 0,
     "achievementType": "task",

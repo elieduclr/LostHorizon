@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "losthorizon:death_sword",
+    "losthorizon:link_dagger",
     "losthorizon:climbing_pick",
     "losthorizon:basalt_edge",
     "losthorizon:mythril_enchanted_sword",

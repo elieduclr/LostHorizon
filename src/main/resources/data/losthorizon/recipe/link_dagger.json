@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "losthorizon:starry_jade",
+    "b": "losthorizon:onyx_knife"
+  },
+  "result": {
+    "id": "losthorizon:link_dagger",
+    "count": 1
+  }
+}

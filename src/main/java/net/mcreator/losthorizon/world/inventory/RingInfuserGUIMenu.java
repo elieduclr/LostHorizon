@@ -25,6 +25,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.losthorizon.init.LosthorizonModMenus;
+import net.mcreator.losthorizon.init.LosthorizonModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -108,6 +109,11 @@ public class RingInfuserGUIMenu extends AbstractContainerMenu implements Supplie
 			private final int slot = 2;
 			private int x = RingInfuserGUIMenu.this.x;
 			private int y = RingInfuserGUIMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return LosthorizonModItems.HEART_LINK.get() == stack.getItem();
+			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 142, 39) {
 			private final int slot = 3;

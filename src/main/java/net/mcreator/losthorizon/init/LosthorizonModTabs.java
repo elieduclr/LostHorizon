@@ -34,6 +34,7 @@ public class LosthorizonModTabs {
 				tabData.accept(LosthorizonModItems.ONYX_IRON_RING.get());
 				tabData.accept(LosthorizonModItems.EMERALD_GOLD_RING.get());
 				tabData.accept(LosthorizonModItems.EMERALD_IRON_RING.get());
+				tabData.accept(LosthorizonModItems.HEART_ACTIVATOR.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -106,6 +107,8 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.ANCHOR_TOTEM.get());
 			tabData.accept(LosthorizonModItems.NECROMANCER_GRIMOIRE.get());
 			tabData.accept(LosthorizonModItems.DESTINY_DICE.get());
+			tabData.accept(LosthorizonModItems.LINK_DAGGER.get());
+			tabData.accept(LosthorizonModItems.DEATH_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());
@@ -120,6 +123,8 @@ public class LosthorizonModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LosthorizonModItems.NECROMANCER_SPAWN_EGG.get());
 			tabData.accept(LosthorizonModItems.CRYPT_GUARDIAN_SPAWN_EGG.get());
+			tabData.accept(LosthorizonModItems.LINKED_SPAWN_EGG.get());
+			tabData.accept(LosthorizonModItems.HEART_GUARDIAN_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.MAGIC_LEAVES.get().asItem());
 			tabData.accept(LosthorizonModBlocks.ENCHANTED_BLOSSOM.get().asItem());

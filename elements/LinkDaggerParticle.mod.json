@@ -1,0 +1,24 @@
+{
+  "_fv": 77,
+  "_type": "particle",
+  "definition": {
+    "texture": "dark_ice",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 1.0
+    },
+    "speedFactor": 0.2,
+    "gravity": 0.0,
+    "maxAge": 20,
+    "maxAgeDiff": 10,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "emissiveRendering": true,
+    "renderType": "OPAQUE"
+  }
+}

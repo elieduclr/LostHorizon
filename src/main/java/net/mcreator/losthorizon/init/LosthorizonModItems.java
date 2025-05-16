@@ -59,16 +59,20 @@ import net.mcreator.losthorizon.item.MythrilEnchantedArmorItem;
 import net.mcreator.losthorizon.item.MythrilAxeItem;
 import net.mcreator.losthorizon.item.MythrilArmorItem;
 import net.mcreator.losthorizon.item.LuminousBerriesItem;
+import net.mcreator.losthorizon.item.LinkDaggerItem;
 import net.mcreator.losthorizon.item.LanternShieldItem;
 import net.mcreator.losthorizon.item.KnifeItem;
 import net.mcreator.losthorizon.item.IceCrystalSilverRingItem;
 import net.mcreator.losthorizon.item.IceCrystalItem;
 import net.mcreator.losthorizon.item.IceCrystalGoldRingItem;
+import net.mcreator.losthorizon.item.HeartLinkItem;
+import net.mcreator.losthorizon.item.HeartActivatorItem;
 import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
 import net.mcreator.losthorizon.item.EmeraldIronRingItem;
 import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
 import net.mcreator.losthorizon.item.DestinyDiceItem;
+import net.mcreator.losthorizon.item.DeathSwordItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
 import net.mcreator.losthorizon.item.BasaltEdgeItem;
 import net.mcreator.losthorizon.item.BackPackItem;
@@ -174,6 +178,13 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> STARRY_JADE_GOLD_RING = register("starry_jade_gold_ring", StarryJadeGoldRingItem::new);
 	public static final DeferredItem<Item> STARRY_JADE_IRON_RING = register("starry_jade_iron_ring", StarryJadeIronRingItem::new);
 	public static final DeferredItem<Item> DESTINY_DICE = register("destiny_dice", DestinyDiceItem::new);
+	public static final DeferredItem<Item> HEART_LINK = register("heart_link", HeartLinkItem::new);
+	public static final DeferredItem<Item> LINK_DAGGER = register("link_dagger", LinkDaggerItem::new);
+	public static final DeferredItem<Item> DEATH_SWORD = register("death_sword", DeathSwordItem::new);
+	public static final DeferredItem<Item> LINKED_SPAWN_EGG = register("linked_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.LINKED.get(), properties));
+	public static final DeferredItem<Item> HEART_GUARDIAN_SPAWN_EGG = register("heart_guardian_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.HEART_GUARDIAN.get(), properties));
+	public static final DeferredItem<Item> HEART_ACTIVATOR = register("heart_activator", HeartActivatorItem::new);
+	public static final DeferredItem<Item> HEART_BLOCK = block(LosthorizonModBlocks.HEART_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

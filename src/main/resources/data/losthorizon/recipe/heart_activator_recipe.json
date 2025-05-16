@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "losthorizon:starry_jade",
+    "c": "minecraft:totem_of_undying",
+    "d": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "losthorizon:heart_activator",
+    "count": 1
+  }
+}

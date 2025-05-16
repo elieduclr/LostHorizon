@@ -50,11 +50,14 @@
 - **Necromancer's Grimoire**: When held in the off-hand, it increases max health from 20 to 22 hearts.
 - **Ring infuser**: Block used to give powers to rings (gold or iron) by infusing a gem (ice crystal, mythril or onyx).
 - **Destiny Dice**: A die that gives a random effect for 10 seconds. The cooldown is 1 minute.
+- **Heart Activator**: Mystical object used to activate Shrines.
+- **Link Dagger**: Weapon needed to harvest the souls of the Linked.
+- **Heart of Link**: Rare item donated by the Heart Guardian on his death. Necessary for infusing rings.
 
 
 ### 💍 Infused Rings and Gems
 
-The **Ring Infuser** allows you to combine **gold or silver rings** with **mystical gems**. Each combination grants unique effects to the player, balanced with a drawback.
+The **Ring Infuser** allows you to combine **gold or silver rings** with **mystical gems**. Each combination grants unique effects to the player, balanced with a drawback. To infuse a ring, you also need a Heart of Link. This makes the process more strategic, and rewards players who dare to challenge the Heart Guardian.
 
 ----------
 
@@ -226,6 +229,9 @@ A magical, mysterious biome bathed in supernatural light and populated by lumine
 - **Ice Tower**: Mysterious icy tower full of secrets.
 - **Crypt**: Rare and dangerous structure containing precious loot.
 - **Stone Ritual**: A structure containing loot and a ring infuser, found in the Enchanted Forest biome.
+- **Shrine**: A mysterious sanctuary found in certain remote areas of the world.
+By clicking on the central block with a Heart Activator, you summon 4 Linked, aggressive creatures linked to ancient magic. If you kill them with the Link Dagger, you get their souls back.
+Once you've collected 4 souls, an event is triggered...
 
 ### 🧭 Useful Commands
 - `/sethome`: Sets your home position.

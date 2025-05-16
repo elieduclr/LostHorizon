@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 6,
-    "separation": 3,
+    "spacing": 8,
+    "separation": 5,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EnchantedForest"

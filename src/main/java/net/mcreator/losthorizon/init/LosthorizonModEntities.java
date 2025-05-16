@@ -21,6 +21,8 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.losthorizon.entity.ThrowingOnyxKnifeEntity;
 import net.mcreator.losthorizon.entity.ThrowingKnifeEntity;
 import net.mcreator.losthorizon.entity.NecromancerBossEntity;
+import net.mcreator.losthorizon.entity.LinkedEntity;
+import net.mcreator.losthorizon.entity.HeartGuardianEntity;
 import net.mcreator.losthorizon.entity.CryptGuardianEntity;
 import net.mcreator.losthorizon.LosthorizonMod;
 
@@ -37,6 +39,14 @@ public class LosthorizonModEntities {
 					.sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<CryptGuardianEntity>> CRYPT_GUARDIAN = register("crypt_guardian",
 			EntityType.Builder.<CryptGuardianEntity>of(CryptGuardianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<LinkedEntity>> LINKED = register("linked",
+			EntityType.Builder.<LinkedEntity>of(LinkedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<HeartGuardianEntity>> HEART_GUARDIAN = register("heart_guardian",
+			EntityType.Builder.<HeartGuardianEntity>of(HeartGuardianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -48,11 +58,15 @@ public class LosthorizonModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		NecromancerBossEntity.init(event);
 		CryptGuardianEntity.init(event);
+		LinkedEntity.init(event);
+		HeartGuardianEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(NECROMANCER.get(), NecromancerBossEntity.createAttributes().build());
 		event.put(CRYPT_GUARDIAN.get(), CryptGuardianEntity.createAttributes().build());
+		event.put(LINKED.get(), LinkedEntity.createAttributes().build());
+		event.put(HEART_GUARDIAN.get(), HeartGuardianEntity.createAttributes().build());
 	}
 }

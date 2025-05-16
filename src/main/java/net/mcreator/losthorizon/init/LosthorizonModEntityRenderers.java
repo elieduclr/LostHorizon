@@ -12,6 +12,8 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.losthorizon.client.renderer.NecromancerBossRenderer;
+import net.mcreator.losthorizon.client.renderer.LinkedRenderer;
+import net.mcreator.losthorizon.client.renderer.HeartGuardianRenderer;
 import net.mcreator.losthorizon.client.renderer.CryptGuardianRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -22,5 +24,7 @@ public class LosthorizonModEntityRenderers {
 		event.registerEntityRenderer(LosthorizonModEntities.THROWING_ONYX_KNIFE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(LosthorizonModEntities.NECROMANCER.get(), NecromancerBossRenderer::new);
 		event.registerEntityRenderer(LosthorizonModEntities.CRYPT_GUARDIAN.get(), CryptGuardianRenderer::new);
+		event.registerEntityRenderer(LosthorizonModEntities.LINKED.get(), LinkedRenderer::new);
+		event.registerEntityRenderer(LosthorizonModEntities.HEART_GUARDIAN.get(), HeartGuardianRenderer::new);
 	}
 }

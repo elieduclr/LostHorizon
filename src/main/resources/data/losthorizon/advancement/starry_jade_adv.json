@@ -23,7 +23,8 @@
       "losthorizon:starry_jade_ore_block_recipe",
       "losthorizon:starry_jade_block_ore_recipe",
       "losthorizon:starry_jade_ore_smelting",
-      "losthorizon:destiny_dice_recipe"
+      "losthorizon:destiny_dice_recipe",
+      "losthorizon:link_dagger"
     ]
   },
   "parent": "losthorizon:lost_horizon_advancement"

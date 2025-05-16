@@ -23,6 +23,7 @@ import net.mcreator.losthorizon.init.LosthorizonModVillagerProfessions;
 import net.mcreator.losthorizon.init.LosthorizonModTabs;
 import net.mcreator.losthorizon.init.LosthorizonModSounds;
 import net.mcreator.losthorizon.init.LosthorizonModPotions;
+import net.mcreator.losthorizon.init.LosthorizonModParticleTypes;
 import net.mcreator.losthorizon.init.LosthorizonModMobEffects;
 import net.mcreator.losthorizon.init.LosthorizonModMenus;
 import net.mcreator.losthorizon.init.LosthorizonModItems;
@@ -58,7 +59,7 @@ public class LosthorizonMod {
 		LosthorizonModPotions.REGISTRY.register(modEventBus);
 		LosthorizonModMobEffects.REGISTRY.register(modEventBus);
 		LosthorizonModMenus.REGISTRY.register(modEventBus);
-
+		LosthorizonModParticleTypes.REGISTRY.register(modEventBus);
 		LosthorizonModVillagerProfessions.PROFESSIONS.register(modEventBus);
 
 		// Start of user code block mod init
