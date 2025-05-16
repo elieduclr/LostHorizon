@@ -68,7 +68,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:HeartLink"
           },
           "disablePlacement": {
             "fixedValue": false

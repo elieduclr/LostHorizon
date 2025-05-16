@@ -50,10 +50,13 @@
 - **Grimoire du Nécromancien** : Lorsqu’il est tenu en main secondaire, il augmente la vie max de 20 à 22 cœurs.
 - **Infuseur de bague** : Bloc permettant de donner des pouvoirs à des bagues (or ou fer) en infusant une gemme (cristal de glace, mythril ou onyx).
 - **Dé du Destin** : Un dé qui donne un effet aléatoire pendant 10 secondes. Le temps de recharge dest de 1 minute.
+- **Activateur de cœur** : Objet mystique permettant d’activer les Shrines.
+- **Dague du lien** : Arme nécessaire pour récolter les âmes des Liés.
+- **Cœur du lien** : Item rare donné par le Gardien du cœur à sa mort. Nécessaire pour infuser les bagues
 
 ### 💍 Bagues et gemmes infusées
 
-L’**Infuseur de bague** permet de combiner des **bagues en or ou en argent** avec des **gemmes mystiques**. Chaque combinaison confère des effets uniques au joueur, équilibrés par une contrepartie.
+L’**Infuseur de bague** permet de combiner des **bagues en or ou en argent** avec des **gemmes mystiques**. Chaque combinaison confère des effets uniques au joueur, équilibrés par une contrepartie. Pour infuser une bague, il faut aussi un Cœur du lien. Cela rend le processus plus stratégique, et récompense les joueurs qui osent défier le Gardien du Cœur.
 
 ----------
 
@@ -224,6 +227,9 @@ Un biome magique et mystérieux, baigné d'une lumière surnaturelle et peuplé 
 - **Ice Tower** : Tour glacée mystérieuse pleine de secrets.
 - **Crypt** : Structure rare et dangereuse contenant du loot précieux.
 - **Stone Ritual**: Structure contenant du loot et un infuseur de bague, qu'on trouve dans le biome Enchanted Forest.
+- **Shrine** : Sanctuaire mystérieux que l'on trouve dans certaines zones reculées du monde.
+En cliquant sur le bloc central à l’aide d’un Activateur de cœur, tu invoques 4 Liés, des créatures agressives liées à la magie ancienne. Si tu les tues à l’aide de la Dague du lien, tu récupères leur âme.
+Lorsque tu as collecté 4 âmes, un événement se déclenche...
 
 ### 🧭 Commandes utiles
 - `/sethome` : Définit ta position de maison.

@@ -31,6 +31,7 @@ import net.mcreator.losthorizon.block.MagicLeavesBlock;
 import net.mcreator.losthorizon.block.MagicFenceGateBlock;
 import net.mcreator.losthorizon.block.MagicFenceBlock;
 import net.mcreator.losthorizon.block.MagicButtonBlock;
+import net.mcreator.losthorizon.block.HeartBlockBlock;
 import net.mcreator.losthorizon.block.EnchantedBlossomBlock;
 import net.mcreator.losthorizon.block.BasaltObsidianOreBlock;
 import net.mcreator.losthorizon.LosthorizonMod;
@@ -62,6 +63,7 @@ public class LosthorizonModBlocks {
 	public static final DeferredBlock<Block> RING_INFUSER = register("ring_infuser", RingInfuserBlock::new);
 	public static final DeferredBlock<Block> STARRY_JADE_ORE = register("starry_jade_ore", StarryJadeOreBlock::new);
 	public static final DeferredBlock<Block> STARRY_JADE_BLOCK = register("starry_jade_block", StarryJadeBlockBlock::new);
+	public static final DeferredBlock<Block> HEART_BLOCK = register("heart_block", HeartBlockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

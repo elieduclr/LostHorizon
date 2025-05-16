@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "losthorizon:shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 25,
+    "salt": 1892947911
+  }
+}

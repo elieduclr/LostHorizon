@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "losthorizon:block/heart_block1",
+    "up": "losthorizon:block/heart_block1",
+    "north": "losthorizon:block/heart_block",
+    "east": "losthorizon:block/heart_block",
+    "south": "losthorizon:block/heart_block",
+    "west": "losthorizon:block/heart_block",
+    "particle": "losthorizon:block/heart_block1"
+  },
+  "render_type": "cutout_mipped"
+}

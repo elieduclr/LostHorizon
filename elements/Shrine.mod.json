@@ -1,0 +1,62 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "shrine",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 35,
+    "separation": 25,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EnchantedForest"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "warped_forest"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

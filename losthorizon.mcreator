@@ -5004,6 +5004,317 @@
         ]
       },
       "path": "~/Ore/Jade Etoilee"
+    },
+    {
+      "name": "HeartLink",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_link",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/heart_link.json",
+          "src/main/java/net/mcreator/losthorizon/item/HeartLinkItem.java",
+          "src/main/resources/assets/losthorizon/items/heart_link.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "LinkDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "link_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/link_dagger.json",
+          "src/main/java/net/mcreator/losthorizon/item/LinkDaggerItem.java",
+          "src/main/resources/assets/losthorizon/models/item/link_dagger.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "DeathSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/death_sword.json",
+          "src/main/resources/assets/losthorizon/items/death_sword.json",
+          "src/main/java/net/mcreator/losthorizon/item/DeathSwordItem.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "LinkDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "link_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/link_dagger.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "LinkDaggerParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "link_dagger_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/particles/link_dagger_particle.json",
+          "src/main/java/net/mcreator/losthorizon/client/particle/LinkDaggerParticleParticle.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "LinkDaggerCraft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "link_dagger_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/LinkDaggerCraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "Linked",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/linked_spawn_egg.json",
+          "src/main/java/net/mcreator/losthorizon/client/renderer/LinkedRenderer.java",
+          "src/main/java/net/mcreator/losthorizon/entity/LinkedEntity.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "LinkedQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linked_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/LinkedQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "HeartGuardian",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_guardian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/client/renderer/HeartGuardianRenderer.java",
+          "src/main/resources/assets/losthorizon/items/heart_guardian_spawn_egg.json",
+          "src/main/java/net/mcreator/losthorizon/entity/HeartGuardianEntity.java"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "HeartGuardianChaqueMiseAJourDeTickDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_guardian_chaque_mise_a_jour_de_tick_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/HeartGuardianChaqueMiseAJourDeTickDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "HeartGuardianIsActivate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_guardian_is_activate",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/HeartGuardianIsActivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "HeartActivator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_activator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/item/HeartActivatorItem.java",
+          "src/main/resources/assets/losthorizon/items/heart_activator.json",
+          "src/main/resources/assets/losthorizon/models/item/heart_activator.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "HeartActivatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_activator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/heart_activator_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "HeartBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/blockstates/heart_block.json",
+          "src/main/resources/assets/losthorizon/models/block/heart_block.json",
+          "src/main/java/net/mcreator/losthorizon/block/HeartBlockBlock.java",
+          "src/main/resources/assets/losthorizon/items/heart_block.json",
+          "src/main/resources/data/losthorizon/loot_table/blocks/heart_block.json",
+          "src/main/resources/assets/losthorizon/models/item/heart_block.json"
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest/Boss"
+    },
+    {
+      "name": "HeartActivatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_activator_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/HeartActivatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes/EnchantedForest"
+    },
+    {
+      "name": "Shrine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/worldgen/structure/shrine.json",
+          "src/main/resources/data/losthorizon/worldgen/template_pool/shrine.json",
+          "src/main/resources/data/losthorizon/worldgen/structure_set/shrine.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [
@@ -5078,6 +5389,12 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "linked_soul",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -5137,6 +5454,7 @@
       "~CUSTOM:RuniteArmor.body"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:HeartActivator",
       "~CUSTOM:DestinyDice",
       "~CUSTOM:AnchorTotem",
       "~CUSTOM:TechnobladeTotem",
@@ -5178,12 +5496,14 @@
       "~CUSTOM:MythrilAxe",
       "~CUSTOM:RuniteAxe"
     ],
-    "ITEMS:losthorizon:runite_hoe_repair_items": [
-      "~CUSTOM:RuniteIngot"
-    ],
+    "BLOCKS:minecraft:sand": [],
     "ITEMS:losthorizon:mythril_armor_repair_items": [
       "~CUSTOM:Mythril"
     ],
+    "ITEMS:losthorizon:runite_hoe_repair_items": [
+      "~CUSTOM:RuniteIngot"
+    ],
+    "BLOCKS:minecraft:dirt": [],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:MythrilEnchantedArmor.helmet",
       "~CUSTOM:MythrilArmor.helmet",
@@ -5192,11 +5512,11 @@
     "ITEMS:losthorizon:runite_armor_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
-    "ITEMS:losthorizon:runite_axe_repair_items": [
-      "~CUSTOM:RuniteIngot"
-    ],
     "ITEMS:losthorizon:mythril_sword_repair_items": [
       "~CUSTOM:Mythril"
+    ],
+    "ITEMS:losthorizon:runite_axe_repair_items": [
+      "~CUSTOM:RuniteIngot"
     ],
     "ITEMS:losthorizon:mythril_enchanted_shovel_repair_items": [
       "~CUSTOM:Mythril"
@@ -5222,6 +5542,7 @@
     "ITEMS:losthorizon:mythril_shovel_repair_items": [
       "~CUSTOM:Mythril"
     ],
+    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:losthorizon:mythril_enchanted_hoe_repair_items": [
       "~CUSTOM:Mythril"
     ],
@@ -5295,12 +5616,16 @@
     "ITEMS:mod:gem": [
       "CUSTOM:IceCrystal",
       "CUSTOM:Onyx",
-      "CUSTOM:Mythril"
+      "CUSTOM:Mythril",
+      "CUSTOM:StarryJade",
+      "Items.EMERALD"
     ],
     "ITEMS:losthorizon:runite_shovel_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:DeathSword",
+      "~CUSTOM:LinkDagger",
       "~CUSTOM:ClimbingPick",
       "~CUSTOM:BasaltEdge",
       "~CUSTOM:MythrilEnchantedSword",
@@ -5317,6 +5642,7 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:MagicFence"
     ],
+    "DAMAGE_TYPES:minecraft:bypasses_armor": [],
     "ITEMS:losthorizon:runite_pickaxe_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
@@ -5342,7 +5668,13 @@
       "CUSTOM:IceCrystalGoldRing",
       "CUSTOM:IceCrystalSilverRing",
       "CUSTOM:MythrilGoldRing",
-      "CUSTOM:MythrilSilverRing"
+      "CUSTOM:MythrilSilverRing",
+      "CUSTOM:OnyxGoldRing",
+      "CUSTOM:OnyxSilverRing",
+      "CUSTOM:EmeraldGoldRing",
+      "CUSTOM:EmeraldIronRing",
+      "CUSTOM:StarryJadeGoldRing",
+      "CUSTOM:StarryJadeIronRing"
     ],
     "ITEMS:losthorizon:mythril_enchanted_pickaxe_repair_items": [
       "~CUSTOM:Mythril"
@@ -5371,9 +5703,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
       "item.losthorizon.destiny_dice": "Dice of Destiny",
+      "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
       "entity.losthorizon.crypt_guardian": "Crypt Guardian",
+      "item.losthorizon.heart_block": "Heart Block",
       "item.losthorizon.mythril_ore": "Mythril Ore",
       "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "advancements.onyx_advancement.title": "Darkest Depths",
@@ -5407,6 +5740,7 @@
       "item.losthorizon.mythril_axe": "Mythril Axe",
       "item.losthorizon.mythril_gold_ring.description_1": "light circle inspires the wearer",
       "item.losthorizon.iron_ring": "Iron Ring",
+      "item.losthorizon.heart_guardian_spawn_egg": "Heart Guardian Spawn Egg",
       "item.losthorizon.mythril_gold_ring.description_2": "the momentum of the cliffs",
       "item.losthorizon.mythril_gold_ring.description_3": "and the grace of the wind.",
       "item.losthorizon.starry_jade_iron_ring.description_3": "but falls silent when greed takes hold.",
@@ -5439,6 +5773,7 @@
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
       "item.losthorizon.back_pack_extended": "Survival Backpack",
       "book.losthorizon.rythe_notes.page1": "I saw bluish shards in the northeast cave. They resonated… like they were alive. Runite, Mythril? I\u0027ll return with gear. If anyone reads this, lok for the frozzen statue.",
+      "item.losthorizon.heart_activator": "Heart Activator",
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
       "advancements.runite_advancement.descr": "Do you hear those voices?",
@@ -5458,6 +5793,7 @@
       "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
       "item.losthorizon.red_bellied_piranha_cooked": "Red-Bellied Piranha Cooked",
       "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
+      "item.losthorizon.link_dagger": "§4Dagger of Link",
       "item.losthorizon.basalt_obsidian_ore": "Basalt Obsidian Ore",
       "item.losthorizon.runite_ore": "Runite Ore",
       "entity.minecraft.villager.losthorizon.necromancer_work": "Necromancer",
@@ -5486,6 +5822,8 @@
       "advancements.mythril_advancement.descr": "A blue glow in the darkness...",
       "item.losthorizon.red_grouper_raw": "Red Grouper Raw",
       "death.attack.corruption.item": "%1$s was slain by %2$s, who fed on the shadows.",
+      "item.losthorizon.heart_link.description_0": "It\u0027s the heart that beats between worlds.",
+      "item.losthorizon.heart_link.description_1": "It links the inert and the living, matter and soul.",
       "item.losthorizon.ice_crystal_gold_ring.description_0": "Forged in the eternal breath of",
       "death.attack.corruption": "%1$s was consumed by corruption.",
       "item.losthorizon.enchanted_blossom": "Enchanted Blossom",
@@ -5508,12 +5846,18 @@
       "item.losthorizon.mythril_enchanted_hoe": "Mythril Enchanted Hoe",
       "biome.losthorizon.enchanted_forest": "Enchanted Forest",
       "item.losthorizon.starry_jade_gold_ring.description_2": "Gold binds its unstable shimmer",
+      "message.heart_guardian_awake_1": "§4An ancient breath flows through the ruins...",
       "item.losthorizon.starry_jade_gold_ring.description_1": "this gem channels the whims of fate.",
+      "message.heart_guardian_awake_0": "§4Something stirs in the darkness...",
       "advancements.starry_jade_adv.descr": "starry jade",
+      "message.heart_guardian_awake_3": "§4The Heart Guardian awakens.",
       "item.losthorizon.starry_jade_gold_ring.description_3": "into blessings both brief and mighty.",
+      "message.heart_guardian_awake_2": "§4The Bound scatter into dust.",
       "item.losthorizon.starry_jade_gold_ring.description_0": "Fallen from the sky in a shower of stars,",
+      "item.losthorizon.linked_spawn_egg": "The Linked Spawn Egg",
       "item.losthorizon.magic_fence": "Magic Fence",
       "item.losthorizon.runite_sword": "Runite Sword",
+      "item.losthorizon.heart_link": "Heart of Link",
       "item.losthorizon.onyx_gold_ring": "Shadow Thirst Ring",
       "item.losthorizon.ice_crystal_iron_ring.description_2": "whispers to discreet souls. The",
       "item.losthorizon.ice_crystal_iron_ring.description_1": "frozen storms, this ring",
@@ -5522,11 +5866,13 @@
       "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
       "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
       "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
+      "message.link_dagger_craft": "§3The Link Dagger is watching you. It knows your name.",
       "item.losthorizon.ice_crystal_iron_ring.description_0": "Enveloped in the calm of",
       "item.losthorizon.mythril_iron_ring": "Quiet pedestal ring",
       "item.losthorizon.luminous_berries": "Luminous Berries",
       "item.losthorizon.anchor_totem": "Anchor Totem",
       "item.losthorizon.mythril_enchanted_pickaxe": "Mythril Enchanted Pickaxe",
+      "entity.losthorizon.linked": "The Linked",
       "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
       "item.losthorizon.runite_armor_leggings": "Runite Leggings",
       "item.losthorizon.necromancer_grimoire": "Necromancer Grimoire",
@@ -5542,6 +5888,7 @@
       "item.losthorizon.runite_ingot": "Runite",
       "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
       "item.losthorizon.arapaima_raw": "Arapaima Raw",
+      "item.losthorizon.death_sword": "Death Sword",
       "advancements.onyx_advancement.descr": "The stone whispers strange things...",
       "item.losthorizon.basalt_edge": "Basalt Edge",
       "item.losthorizon.gold_ring": "Gold Ring",
@@ -5570,7 +5917,11 @@
       "item.losthorizon.onyx_block": "Block of Onyx",
       "item.losthorizon.emerald_iron_ring": "Ring of the Undergrowth",
       "item.losthorizon.mythril_block": "Block of Mythril",
+      "item.losthorizon.heart_activator.description_1": "that awakens the wrath",
+      "item.losthorizon.heart_activator.description_2": "of the Linked.",
+      "item.losthorizon.heart_activator.description_0": "A mystical catalyst",
       "book.losthorizon.codex.page1": "We walked between worlds. Blood seals, onyx opens. He who dies under the eclipse returns, but his name is erased.",
+      "item.losthorizon.heart_activator.description_3": "Handle with care.",
       "item.losthorizon.onyx_gold_ring.description_0": "Black onyx does not reflect",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Frozen Grimoire",
@@ -5579,15 +5930,17 @@
       "subtitles.technoblade_never_dies": "",
       "item.losthorizon.magic_leaves": "Magic Leaves",
       "item.losthorizon.climbing_pick": "Climbing Pick",
-      "item.minecraft.lingering_potion.effect.furtivity_potion": "Lingering Potion of Furtivity"
+      "item.minecraft.lingering_potion.effect.furtivity_potion": "Lingering Potion of Furtivity",
+      "entity.losthorizon.heart_guardian": "Heart Guardian"
     },
     "fr_fr": {
       "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
       "item.losthorizon.destiny_dice": "Dé du Destin",
       "entity.losthorizon.crypt_guardian": "Gardien de la Crypte",
+      "item.losthorizon.heart_block": "Heart Block",
       "item.losthorizon.mythril_ore": "Minerai de Mythril",
-      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
       "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
+      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "entity.losthorizon.necromancer": "Nécromancien",
       "subtitles.ring_infuser": "",
@@ -5598,8 +5951,8 @@
       "item.losthorizon.destiny_dice.description_3": "Chaque lancer bouleverse la trame",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.destiny_dice.description_4": "du monde, pour le meilleur… ou le pire.",
-      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.magic_stairs": "Escaliers magiques",
+      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
       "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
       "item.losthorizon.onyx_iron_ring.description_0": "Ce bijou murmure dans les",
@@ -5607,8 +5960,8 @@
       "death.attack.corruption.player": "%1$s n’a pas pu échapper à %2$s et à la corruption rampante.",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "item.losthorizon.onyx_iron_ring.description_1": "ténèbres. Forgé dans le deuil et",
-      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
+      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "advancements.frosbite_dagger_advancement.title": "Mains froides, Lame acérée",
       "item.losthorizon.onyx_iron_ring.description_3": "vivants comme des morts.",
       "advancements.lost_horizon_advancement.descr": "Progrès Lost Horizon",
@@ -5618,11 +5971,12 @@
       "item.losthorizon.mythril_axe": "Hache en Mythril",
       "item.losthorizon.mythril_gold_ring.description_1": "cercle léger insuffle à celui qui",
       "item.losthorizon.iron_ring": "Bague en fer",
+      "item.losthorizon.heart_guardian_spawn_egg": "Heart Guardian Spawn Egg",
       "item.losthorizon.mythril_gold_ring.description_2": "le porte l’élan des falaises",
       "item.losthorizon.mythril_gold_ring.description_3": "et la grâce du vent.",
       "item.losthorizon.starry_jade_iron_ring.description_3": "mais se tait si l’avidité est trop grande.",
-      "item.losthorizon.starry_jade_iron_ring.description_1": "cet anneau écoute les murmures du sort.",
       "item.losthorizon.mythril": "Mythril",
+      "item.losthorizon.starry_jade_iron_ring.description_1": "cet anneau écoute les murmures du sort.",
       "enchantment.losthorizon.magnetism": "Magnétisme",
       "item.losthorizon.starry_jade_iron_ring.description_2": "Le fer protège les âmes prudentes",
       "item.losthorizon.mythril_sword": "Épée en mythril",
@@ -5647,9 +6001,10 @@
       "advancements.lost_horizon_advancement.title": "Progrès Lost Horizon",
       "item.losthorizon.technoblade_totem": "Totem de Technoblade",
       "subtitles.fairy_ambient": "",
-      "item.losthorizon.mythril_enchanted_armor_chestplate": "Plastron en mythril enchanté",
       "item.losthorizon.back_pack_extended": "Sac de Survie",
+      "item.losthorizon.mythril_enchanted_armor_chestplate": "Plastron en mythril enchanté",
       "book.losthorizon.rythe_notes.page1": "J’ai vu des éclats bleutés dans la grotte du nord-est. Ils résonnaient... comme s’ils vivaient. Runite, Mythril ? Je reviendrai équipé. Si quelqu’un lit ceci, cherchez la statue glacée.",
+      "item.losthorizon.heart_activator": "Activateur du Cœur",
       "effect.losthorizon.furtivity": "Furtivité",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
@@ -5669,6 +6024,7 @@
       "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
       "item.losthorizon.red_bellied_piranha_cooked": "Piranha à ventre rouge cuit",
       "painting.losthorizon.lost_horizon_paint.title": "Lost Horizon",
+      "item.losthorizon.link_dagger": "§4Dague du Lien",
       "item.losthorizon.basalt_obsidian_ore": "Minerai de Basalt Obsidian",
       "item.losthorizon.runite_ore": "Minerai de runite",
       "entity.minecraft.villager.losthorizon.necromancer_work": "Nécromancien",
@@ -5697,6 +6053,8 @@
       "advancements.mythril_advancement.descr": "Un éclat bleu dans la pénombre…",
       "item.losthorizon.red_grouper_raw": "Mérou rouge cru",
       "death.attack.corruption.item": "%1$s a été tué par %2$s, nourri par les ombres.",
+      "item.losthorizon.heart_link.description_0": "C’est ce cœur qui bat entre les mondes.",
+      "item.losthorizon.heart_link.description_1": "Il relie l’inerte et le vivant, la matière et l’âme.",
       "item.losthorizon.ice_crystal_gold_ring.description_0": "Forgé dans le souffle éternel du",
       "death.attack.corruption": "%1$s a été consumé par la corruption.",
       "item.losthorizon.enchanted_blossom": "Fleur enchantée",
@@ -5719,12 +6077,18 @@
       "item.losthorizon.mythril_enchanted_hoe": "Houe en mythril enchanté",
       "biome.losthorizon.enchanted_forest": "Forêt enchantée",
       "item.losthorizon.starry_jade_gold_ring.description_2": "L’or canalise son éclat instable",
+      "message.heart_guardian_awake_1": "§4Un souffle ancien traverse les ruines...",
       "item.losthorizon.starry_jade_gold_ring.description_1": "cette gemme capte les caprices du hasard.",
+      "message.heart_guardian_awake_0": "§4Quelque chose s\u0027agite dans l\u0027obscurité...",
       "advancements.starry_jade_adv.descr": "starry jade",
+      "message.heart_guardian_awake_3": "§4Le Gardien du Cœur s\u0027éveille.",
       "item.losthorizon.starry_jade_gold_ring.description_3": "en bénédictions aussi brèves que puissantes.",
+      "message.heart_guardian_awake_2": "§4Les fragments liés se dispersent.",
       "item.losthorizon.starry_jade_gold_ring.description_0": "Tombée du ciel lors d’une pluie d’étoiles,",
+      "item.losthorizon.linked_spawn_egg": "Linked Spawn Egg",
       "item.losthorizon.magic_fence": "Barrière magique",
       "item.losthorizon.runite_sword": "Épée en runite",
+      "item.losthorizon.heart_link": "Cœur de Lien",
       "item.losthorizon.onyx_gold_ring": "Anneau de la soif d’ombre",
       "item.losthorizon.ice_crystal_iron_ring.description_2": "murmure aux âmes discrètes. La",
       "item.losthorizon.ice_crystal_iron_ring.description_1": "tempêtes figées, cet anneau",
@@ -5733,11 +6097,13 @@
       "item.losthorizon.technoblade_totem.description_1": "ne partent jamais vraiment...",
       "item.losthorizon.technoblade_totem.description_0": "Les âmes des plus grands guerriers",
       "item.losthorizon.technoblade_totem.description_2": "elles reviennent toujours.",
+      "message.link_dagger_craft": "§3La Dague du Lien te regarde. Elle connaît ton nom.",
       "item.losthorizon.ice_crystal_iron_ring.description_0": "Enveloppé du calme des",
       "item.losthorizon.mythril_iron_ring": "Anneau du piédestal calme",
       "item.losthorizon.luminous_berries": "Baies lumineuses",
       "item.losthorizon.anchor_totem": "Totem d\u0027ancrage",
       "item.losthorizon.mythril_enchanted_pickaxe": "Pioche en mythril enchanté",
+      "entity.losthorizon.linked": "Les Liés",
       "item.losthorizon.mythril_pickaxe": "Pioche en mythril",
       "item.losthorizon.runite_armor_leggings": "Jambières en runite",
       "item.losthorizon.necromancer_grimoire": "Grimoire du nécromancien",
@@ -5753,6 +6119,7 @@
       "item.losthorizon.runite_ingot": "Runite",
       "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
       "item.losthorizon.arapaima_raw": "Arapaïma cru",
+      "item.losthorizon.death_sword": "Death Sword",
       "item.losthorizon.basalt_edge": "Basalt Edge",
       "advancements.onyx_advancement.descr": "La pierre murmure des choses étranges…",
       "item.losthorizon.gold_ring": "Bague en or",
@@ -5781,7 +6148,11 @@
       "item.losthorizon.onyx_block": "Bloc d\u0027onyx",
       "item.losthorizon.emerald_iron_ring": "Bague du sous-bois",
       "item.losthorizon.mythril_block": "Bloc de Mythril",
+      "item.losthorizon.heart_activator.description_1": "capable d’éveiller la",
+      "item.losthorizon.heart_activator.description_2": "colère des Liés.",
+      "item.losthorizon.heart_activator.description_0": "Un catalyseur mystique",
       "book.losthorizon.codex.page1": "Nous avons marché entre les mondes. Le sang scelle, l’onyx ouvre. Celui qui meurt sous l’éclipse revient, mais son nom est effacé.",
+      "item.losthorizon.heart_activator.description_3": "À manier avec prudence.",
       "item.losthorizon.onyx_gold_ring.description_0": "L’onyx noir ne reflète pas la",
       "advancements.runic_arsenal_advancement.descr": "Les anciens pouvoirs se réveillent.",
       "book.losthorizon.frozen_grimoire.title": "Grimoire Gelé",
@@ -5790,7 +6161,8 @@
       "subtitles.technoblade_never_dies": "",
       "item.losthorizon.magic_leaves": "Feuilles magiques",
       "item.losthorizon.climbing_pick": "Pic d\u0027escalade",
-      "item.minecraft.lingering_potion.effect.furtivity_potion": "Potion persistante de furtivité"
+      "item.minecraft.lingering_potion.effect.furtivity_potion": "Potion persistante de furtivité",
+      "entity.losthorizon.heart_guardian": "Gardien du Cœur"
     }
   },
   "foldersRoot": {
@@ -5925,6 +6297,10 @@
             "children": [
               {
                 "name": "Rings",
+                "children": []
+              },
+              {
+                "name": "Boss",
                 "children": []
               }
             ]
