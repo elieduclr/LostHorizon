@@ -39,6 +39,9 @@
     "onRightClickedInAir": {
       "name": "SolarFeatherEvenementAuClicDroitDansLair"
     },
+    "onItemInInventoryTick": {
+      "name": "SolarFeatherQuandLitemEstDansLinventaireParTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

@@ -5449,6 +5449,33 @@
         ]
       },
       "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SolarFeatherQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
     }
   ],
   "variable_elements": [
