@@ -27,6 +27,7 @@ import net.mcreator.losthorizon.item.StarryJadeItem;
 import net.mcreator.losthorizon.item.StarryJadeIronRingItem;
 import net.mcreator.losthorizon.item.StarryJadeGoldRingItem;
 import net.mcreator.losthorizon.item.SilverRingItem;
+import net.mcreator.losthorizon.item.ShardOfTheVoidItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
 import net.mcreator.losthorizon.item.RuniteShovelItem;
 import net.mcreator.losthorizon.item.RunitePickaxeItem;
@@ -185,6 +186,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> HEART_GUARDIAN_SPAWN_EGG = register("heart_guardian_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.HEART_GUARDIAN.get(), properties));
 	public static final DeferredItem<Item> HEART_ACTIVATOR = register("heart_activator", HeartActivatorItem::new);
 	public static final DeferredItem<Item> HEART_BLOCK = block(LosthorizonModBlocks.HEART_BLOCK);
+	public static final DeferredItem<Item> SHARD_OF_THE_VOID = register("shard_of_the_void", ShardOfTheVoidItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
