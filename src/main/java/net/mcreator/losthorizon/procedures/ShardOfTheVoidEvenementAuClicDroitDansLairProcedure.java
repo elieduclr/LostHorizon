@@ -32,7 +32,7 @@ public class ShardOfTheVoidEvenementAuClicDroitDansLairProcedure {
 				itemstack.hurtAndBreak(1, _level, null, _stkprov -> {
 				});
 			}
-			LosthorizonMod.queueServerWork(200, () -> {
+			LosthorizonMod.queueServerWork(1200, () -> {
 				{
 					final String _tagName = "VoidShard";
 					final boolean _tagValue = false;
@@ -41,7 +41,7 @@ public class ShardOfTheVoidEvenementAuClicDroitDansLairProcedure {
 			});
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("test"), false);
+				_player.displayClientMessage(Component.literal("Attendez"), false);
 		}
 	}
 }
