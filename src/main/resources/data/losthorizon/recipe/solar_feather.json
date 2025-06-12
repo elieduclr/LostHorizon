@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "losthorizon:mythril",
+    "b": "minecraft:blaze_powder",
+    "c": "minecraft:feather"
+  },
+  "result": {
+    "id": "losthorizon:solar_feather",
+    "count": 1
+  }
+}

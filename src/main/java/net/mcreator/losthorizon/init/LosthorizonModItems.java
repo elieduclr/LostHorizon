@@ -26,6 +26,7 @@ import net.mcreator.losthorizon.item.StarryJadeRawItem;
 import net.mcreator.losthorizon.item.StarryJadeItem;
 import net.mcreator.losthorizon.item.StarryJadeIronRingItem;
 import net.mcreator.losthorizon.item.StarryJadeGoldRingItem;
+import net.mcreator.losthorizon.item.SolarFeatherItem;
 import net.mcreator.losthorizon.item.SilverRingItem;
 import net.mcreator.losthorizon.item.ShardOfTheVoidItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
@@ -187,6 +188,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> HEART_ACTIVATOR = register("heart_activator", HeartActivatorItem::new);
 	public static final DeferredItem<Item> HEART_BLOCK = block(LosthorizonModBlocks.HEART_BLOCK);
 	public static final DeferredItem<Item> SHARD_OF_THE_VOID = register("shard_of_the_void", ShardOfTheVoidItem::new);
+	public static final DeferredItem<Item> SOLAR_FEATHER = register("solar_feather", SolarFeatherItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

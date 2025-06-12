@@ -51,7 +51,8 @@
       "losthorizon:mythril_enchanted_armor_helmet_recipe",
       "losthorizon:mythril_enchanted_armor_chestplate_recipe",
       "losthorizon:mythril_enchanted_armor_leggings_recipe",
-      "losthorizon:mythril_enchanted_armor_boots_recipe"
+      "losthorizon:mythril_enchanted_armor_boots_recipe",
+      "losthorizon:solar_feather"
     ]
   },
   "parent": "losthorizon:lost_horizon_advancement"

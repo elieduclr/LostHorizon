@@ -5382,6 +5382,73 @@
         ]
       },
       "path": "~/Tools/Stellar Artefact/ShardOfTheVoid"
+    },
+    {
+      "name": "SolarFeather",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/solar_feather.json",
+          "src/main/java/net/mcreator/losthorizon/item/SolarFeatherItem.java",
+          "src/main/resources/assets/losthorizon/models/item/solar_feather.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SolarFeatherEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/solar_feather.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
     }
   ],
   "variable_elements": [
@@ -5521,6 +5588,7 @@
       "~CUSTOM:RuniteArmor.body"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:SolarFeather",
       "~CUSTOM:ShardOfTheVoid",
       "~CUSTOM:HeartActivator",
       "~CUSTOM:DestinyDice",
@@ -5882,7 +5950,10 @@
       "item.losthorizon.magic_fence_gate": "Magic Fence Gate",
       "item.losthorizon.emerald_iron_ring.description_2": "Great for slowing nearby foes.",
       "item.losthorizon.emerald_iron_ring.description_1": "Strikes silently from tall grass.",
+      "item.losthorizon.solar_feather.description_2": "Light as dawn",
+      "item.losthorizon.solar_feather.description_1": "Offered by a phoenix",
       "item.losthorizon.emerald_iron_ring.description_3": "But heavy in dry lands.",
+      "item.losthorizon.solar_feather.description_0": "Sealed eternal warmth",
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "item.losthorizon.onyx_ore": "Onyx Ore",
       "entity.minecraft.villager.losthorizon.hunter": "Hunter",
@@ -5945,6 +6016,7 @@
       "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
       "item.losthorizon.runite_armor_leggings": "Runite Leggings",
       "item.losthorizon.shard_of_the_void.description_2": "Found outside time",
+      "item.losthorizon.solar_feather": "Solar Feather",
       "item.losthorizon.necromancer_grimoire": "Necromancer Grimoire",
       "item.losthorizon.mythril_armor_helmet": "Mythril Helmet",
       "item.losthorizon.runite_hoe": "Runite Hoe",
@@ -6023,8 +6095,8 @@
       "item.losthorizon.destiny_dice.description_3": "Chaque lancer bouleverse la trame",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.destiny_dice.description_4": "du monde, pour le meilleur… ou le pire.",
-      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.magic_stairs": "Escaliers magiques",
+      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
       "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
       "item.losthorizon.onyx_iron_ring.description_0": "Ce bijou murmure dans les",
@@ -6032,8 +6104,8 @@
       "death.attack.corruption.player": "%1$s n’a pas pu échapper à %2$s et à la corruption rampante.",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "item.losthorizon.onyx_iron_ring.description_1": "ténèbres. Forgé dans le deuil et",
-      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
+      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "advancements.frosbite_dagger_advancement.title": "Mains froides, Lame acérée",
       "item.losthorizon.onyx_iron_ring.description_3": "vivants comme des morts.",
       "advancements.lost_horizon_advancement.descr": "Progrès Lost Horizon",
@@ -6117,7 +6189,10 @@
       "item.losthorizon.magic_fence_gate": "Portillon magique",
       "item.losthorizon.emerald_iron_ring.description_2": "Utile pour ralentir les ennemis proches.",
       "item.losthorizon.emerald_iron_ring.description_1": "Elle attaque en silence depuis les hautes herbes.",
+      "item.losthorizon.solar_feather.description_2": "Légère comme l’aube",
+      "item.losthorizon.solar_feather.description_1": "Offerte par un phénix",
       "item.losthorizon.emerald_iron_ring.description_3": "Mais devient lourde en terrain sec.",
+      "item.losthorizon.solar_feather.description_0": "Chaleur éternelle scellée",
       "item.losthorizon.red_grouper_cooked": "Mérou rouge cuit",
       "item.losthorizon.onyx_ore": "Minerai d\u0027onyx",
       "entity.minecraft.villager.losthorizon.hunter": "Chasseur",
@@ -6180,6 +6255,7 @@
       "item.losthorizon.mythril_pickaxe": "Pioche en mythril",
       "item.losthorizon.runite_armor_leggings": "Jambières en runite",
       "item.losthorizon.shard_of_the_void.description_2": "Trouvé hors du temps",
+      "item.losthorizon.solar_feather": "Plume Solaire",
       "item.losthorizon.necromancer_grimoire": "Grimoire du nécromancien",
       "item.losthorizon.mythril_armor_helmet": "Casque en mythril",
       "item.losthorizon.runite_hoe": "Houe en runite",
@@ -6326,6 +6402,10 @@
             "children": [
               {
                 "name": "ShardOfTheVoid",
+                "children": []
+              },
+              {
+                "name": "SolarFeather",
                 "children": []
               }
             ]
