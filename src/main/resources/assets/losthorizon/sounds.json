@@ -46,5 +46,13 @@
         "stream": false
       }
     ]
+  },
+  "broken_crystal": {
+    "sounds": [
+      {
+        "name": "losthorizon:broken_crystal",
+        "stream": false
+      }
+    ]
   }
 }

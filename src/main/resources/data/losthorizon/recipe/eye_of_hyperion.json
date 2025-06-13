@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": "minecraft:glass",
+    "b": "minecraft:glowstone_dust",
+    "c": "minecraft:prismarine_shard",
+    "d": "minecraft:ender_eye",
+    "e": "losthorizon:runite_ingot"
+  },
+  "result": {
+    "id": "losthorizon:eye_of_hyperion",
+    "count": 1
+  }
+}

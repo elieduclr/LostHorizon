@@ -5315,6 +5315,333 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "ShardOfTheVoid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_of_the_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/shard_of_the_void.json",
+          "src/main/java/net/mcreator/losthorizon/item/ShardOfTheVoidItem.java",
+          "src/main/resources/assets/losthorizon/models/item/shard_of_the_void.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/ShardOfTheVoid"
+    },
+    {
+      "name": "ShardOfTheVoidEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_of_the_void_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/ShardOfTheVoidEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/ShardOfTheVoid"
+    },
+    {
+      "name": "ShardOfTheVoidCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_of_the_void_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/shard_of_the_void_craft.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/ShardOfTheVoid"
+    },
+    {
+      "name": "SolarFeather",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/solar_feather.json",
+          "src/main/java/net/mcreator/losthorizon/item/SolarFeatherItem.java",
+          "src/main/resources/assets/losthorizon/models/item/solar_feather.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SolarFeatherEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/solar_feather.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "SolarFeatherQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_feather_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/SolarFeatherQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/SolarFeather"
+    },
+    {
+      "name": "AetherHeart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/items/aether_heart.json",
+          "src/main/java/net/mcreator/losthorizon/item/AetherHeartItem.java",
+          "src/main/resources/assets/losthorizon/models/item/aether_heart.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/AetherHeart"
+    },
+    {
+      "name": "AetherHeartQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_heart_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/AetherHeartQuandLitemEstDansLinventaireParTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/AetherHeart"
+    },
+    {
+      "name": "AetherHeartCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_heart_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/aether_heart.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/AetherHeart"
+    },
+    {
+      "name": "AetherHeartRecipe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_heart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/advancement/aether_heart_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/AetherHeart"
+    },
+    {
+      "name": "AetherHeartAdvProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_heart_adv_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/AetherHeartAdvProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/AetherHeart"
+    },
+    {
+      "name": "EyeOfHyperion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_hyperion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/losthorizon/models/item/eye_of_hyperion.json",
+          "src/main/java/net/mcreator/losthorizon/item/EyeOfHyperionItem.java",
+          "src/main/resources/assets/losthorizon/items/eye_of_hyperion.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/EyeOfHyperion"
+    },
+    {
+      "name": "EyeOfHyperionEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_hyperion_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/losthorizon/procedures/EyeOfHyperionEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/EyeOfHyperion"
+    },
+    {
+      "name": "EyeOfHyperionCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_hyperion_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/losthorizon/recipe/eye_of_hyperion.json"
+        ]
+      },
+      "path": "~/Tools/Stellar Artefact/EyeOfHyperion"
     }
   ],
   "variable_elements": [
@@ -5445,6 +5772,14 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "broken_crystal",
+      "files": [
+        "broken_crystal"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -5454,6 +5789,10 @@
       "~CUSTOM:RuniteArmor.body"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:EyeOfHyperion",
+      "~CUSTOM:AetherHeart",
+      "~CUSTOM:SolarFeather",
+      "~CUSTOM:ShardOfTheVoid",
       "~CUSTOM:HeartActivator",
       "~CUSTOM:DestinyDice",
       "~CUSTOM:AnchorTotem",
@@ -5707,6 +6046,7 @@
       "block.losthorizon.necromancer_grimoire_block.description_0": "Un livre ancien scellé par magie.",
       "entity.losthorizon.crypt_guardian": "Crypt Guardian",
       "item.losthorizon.heart_block": "Heart Block",
+      "advancements.aether_heart_recipe.title": "Aether Heart Recipe",
       "item.losthorizon.mythril_ore": "Mythril Ore",
       "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "advancements.onyx_advancement.title": "Darkest Depths",
@@ -5726,6 +6066,7 @@
       "book.losthorizon.frozen_grimoire.page1": "13 days I\u0027ve been here… Without my frozen sword, I wouldn\u0027t have made it.",
       "item.losthorizon.onyx_iron_ring.description_0": "This jewel whispers in the",
       "subtitles.fairy_humeur": "",
+      "item.losthorizon.aether_heart": "Aether Heart",
       "death.attack.corruption.player": "%1$s couldn’t escape %2$s and the creeping corruption.",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "item.losthorizon.onyx_iron_ring.description_1": "darkness. Forged of mourning and",
@@ -5741,6 +6082,7 @@
       "item.losthorizon.mythril_gold_ring.description_1": "light circle inspires the wearer",
       "item.losthorizon.iron_ring": "Iron Ring",
       "item.losthorizon.heart_guardian_spawn_egg": "Heart Guardian Spawn Egg",
+      "item.losthorizon.eye_of_hyperion": "Eye Of Hyperion",
       "item.losthorizon.mythril_gold_ring.description_2": "the momentum of the cliffs",
       "item.losthorizon.mythril_gold_ring.description_3": "and the grace of the wind.",
       "item.losthorizon.starry_jade_iron_ring.description_3": "but falls silent when greed takes hold.",
@@ -5770,14 +6112,16 @@
       "advancements.lost_horizon_advancement.title": "Beyond Survival",
       "item.losthorizon.technoblade_totem": "Technoblade Totem",
       "subtitles.fairy_ambient": "",
-      "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
       "item.losthorizon.back_pack_extended": "Survival Backpack",
+      "item.losthorizon.mythril_enchanted_armor_chestplate": "Mythril Enchanted Chestplate",
       "book.losthorizon.rythe_notes.page1": "I saw bluish shards in the northeast cave. They resonated… like they were alive. Runite, Mythril? I\u0027ll return with gear. If anyone reads this, lok for the frozzen statue.",
       "item.losthorizon.heart_activator": "Heart Activator",
       "effect.losthorizon.furtivity": "Furtivity",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
       "advancements.runite_advancement.descr": "Do you hear those voices?",
+      "subtitles.broken_crystal": "",
       "item_group.losthorizon.rings": "Rings",
+      "advancements.aether_heart_recipe.descr": "Aether Heart Recipe",
       "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_iron_ring.description_2": "mythril seals the serenity",
       "item.losthorizon.mythril_iron_ring.description_3": "of an unshakeable heart.",
@@ -5788,6 +6132,9 @@
       "item.losthorizon.mythril_iron_ring.description_1": "in this silver circle. The",
       "advancements.necromancer_advancement.descr": "Knowledge has a price.",
       "item.losthorizon.onyx_iron_ring": "Funeral veil ring",
+      "item.losthorizon.aether_heart.description_2": "Beating of the void",
+      "item.losthorizon.aether_heart.description_1": "Rhythm of infinity",
+      "item.losthorizon.aether_heart.description_0": "Heavenly essence contained",
       "item.losthorizon.ring_infuser": "Ring Infuser",
       "item.losthorizon.mythril_armor_boots": "Mythril Boots",
       "key.losthorizon.dimensional_step_keybind": "Dimensional Step Keybind",
@@ -5814,7 +6161,10 @@
       "item.losthorizon.magic_fence_gate": "Magic Fence Gate",
       "item.losthorizon.emerald_iron_ring.description_2": "Great for slowing nearby foes.",
       "item.losthorizon.emerald_iron_ring.description_1": "Strikes silently from tall grass.",
+      "item.losthorizon.solar_feather.description_2": "Light as dawn",
+      "item.losthorizon.solar_feather.description_1": "Offered by a phoenix",
       "item.losthorizon.emerald_iron_ring.description_3": "But heavy in dry lands.",
+      "item.losthorizon.solar_feather.description_0": "Sealed eternal warmth",
       "item.losthorizon.red_grouper_cooked": "Red Grouper Cooked",
       "item.losthorizon.onyx_ore": "Onyx Ore",
       "entity.minecraft.villager.losthorizon.hunter": "Hunter",
@@ -5829,6 +6179,7 @@
       "item.losthorizon.enchanted_blossom": "Enchanted Blossom",
       "advancements.starry_jade_adv.title": "Starry Jade Adv",
       "item.losthorizon.magic_wood": "Magic Wood",
+      "item.losthorizon.shard_of_the_void": "Shard Of The Void",
       "item.losthorizon.magic_log": "Magic Log",
       "advancements.back_pack_advancement.descr": "Less weight, more loot.",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
@@ -5875,15 +6226,22 @@
       "entity.losthorizon.linked": "The Linked",
       "item.losthorizon.mythril_pickaxe": "Mythril Pickaxe",
       "item.losthorizon.runite_armor_leggings": "Runite Leggings",
+      "item.losthorizon.shard_of_the_void.description_2": "Found outside time",
+      "item.losthorizon.solar_feather": "Solar Feather",
+      "item.losthorizon.eye_of_hyperion.description_1": "Perceives the illusion",
+      "item.losthorizon.eye_of_hyperion.description_2": "The eternal eye",
       "item.losthorizon.necromancer_grimoire": "Necromancer Grimoire",
       "item.losthorizon.mythril_armor_helmet": "Mythril Helmet",
       "item.losthorizon.runite_hoe": "Runite Hoe",
       "advancements.frosbite_dagger_advancement.descr": "Frost bites harder than iron.",
+      "item.losthorizon.eye_of_hyperion.description_0": "Sees the invisible",
       "item.losthorizon.magic_pressure_plate": "Magic Pressure Plate",
       "item.losthorizon.knife": "Knife",
       "item.losthorizon.mythril_enchanted_armor_helmet": "Mythril Enchanted Helmet",
       "item.losthorizon.red_bellied_piranha_raw": "Red-Bellied Piranha Raw",
       "item.losthorizon.onyx_knife": "Onyx Knife",
+      "item.losthorizon.shard_of_the_void.description_0": "Fragment of cracked space",
+      "item.losthorizon.shard_of_the_void.description_1": "Silent as death",
       "enchantment.losthorizon.lunar_grace": "Lunar Grace",
       "item.losthorizon.runite_ingot": "Runite",
       "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
@@ -5938,9 +6296,10 @@
       "item.losthorizon.destiny_dice": "Dé du Destin",
       "entity.losthorizon.crypt_guardian": "Gardien de la Crypte",
       "item.losthorizon.heart_block": "Heart Block",
+      "advancements.aether_heart_recipe.title": "Aether Heart Recipe",
       "item.losthorizon.mythril_ore": "Minerai de Mythril",
-      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
       "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "entity.losthorizon.necromancer": "Nécromancien",
       "subtitles.ring_infuser": "",
@@ -5951,17 +6310,18 @@
       "item.losthorizon.destiny_dice.description_3": "Chaque lancer bouleverse la trame",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.destiny_dice.description_4": "du monde, pour le meilleur… ou le pire.",
-      "item.losthorizon.magic_stairs": "Escaliers magiques",
       "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
+      "item.losthorizon.magic_stairs": "Escaliers magiques",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
       "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
       "item.losthorizon.onyx_iron_ring.description_0": "Ce bijou murmure dans les",
       "subtitles.fairy_humeur": "",
+      "item.losthorizon.aether_heart": "Cœur d’Aether",
       "death.attack.corruption.player": "%1$s n’a pas pu échapper à %2$s et à la corruption rampante.",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "item.losthorizon.onyx_iron_ring.description_1": "ténèbres. Forgé dans le deuil et",
-      "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
+      "enchantment.losthorizon.dimensional_step": "Dimensional Step",
       "advancements.frosbite_dagger_advancement.title": "Mains froides, Lame acérée",
       "item.losthorizon.onyx_iron_ring.description_3": "vivants comme des morts.",
       "advancements.lost_horizon_advancement.descr": "Progrès Lost Horizon",
@@ -5972,6 +6332,7 @@
       "item.losthorizon.mythril_gold_ring.description_1": "cercle léger insuffle à celui qui",
       "item.losthorizon.iron_ring": "Bague en fer",
       "item.losthorizon.heart_guardian_spawn_egg": "Heart Guardian Spawn Egg",
+      "item.losthorizon.eye_of_hyperion": "Œil d’Hyperion",
       "item.losthorizon.mythril_gold_ring.description_2": "le porte l’élan des falaises",
       "item.losthorizon.mythril_gold_ring.description_3": "et la grâce du vent.",
       "item.losthorizon.starry_jade_iron_ring.description_3": "mais se tait si l’avidité est trop grande.",
@@ -6001,14 +6362,16 @@
       "advancements.lost_horizon_advancement.title": "Progrès Lost Horizon",
       "item.losthorizon.technoblade_totem": "Totem de Technoblade",
       "subtitles.fairy_ambient": "",
-      "item.losthorizon.back_pack_extended": "Sac de Survie",
       "item.losthorizon.mythril_enchanted_armor_chestplate": "Plastron en mythril enchanté",
+      "item.losthorizon.back_pack_extended": "Sac de Survie",
       "book.losthorizon.rythe_notes.page1": "J’ai vu des éclats bleutés dans la grotte du nord-est. Ils résonnaient... comme s’ils vivaient. Runite, Mythril ? Je reviendrai équipé. Si quelqu’un lit ceci, cherchez la statue glacée.",
       "item.losthorizon.heart_activator": "Activateur du Cœur",
       "effect.losthorizon.furtivity": "Furtivité",
       "item.losthorizon.frosbite_dagger.description_0": "Frostbite Dagger",
       "advancements.runite_advancement.descr": "Tu entends ces voix ?",
+      "subtitles.broken_crystal": "",
       "item_group.losthorizon.rings": "Bagues",
+      "advancements.aether_heart_recipe.descr": "Aether Heart Recipe",
       "death.attack.trap_damage.player": "%1$s est tombé dans un piège rouillé tendu par %2$s.",
       "item.losthorizon.mythril_iron_ring.description_2": "mythril y scelle la sérénité",
       "item.losthorizon.mythril_iron_ring.description_3": "d’un cœur inébranlable.",
@@ -6019,6 +6382,9 @@
       "item.losthorizon.mythril_iron_ring.description_1": "dans ce cercle d’argent. Le",
       "advancements.necromancer_advancement.descr": "La connaissance a un prix.",
       "item.losthorizon.onyx_iron_ring": "Anneau du voile funèbre",
+      "item.losthorizon.aether_heart.description_2": "Battement du vide",
+      "item.losthorizon.aether_heart.description_1": "Rythme de l’infini",
+      "item.losthorizon.aether_heart.description_0": "Essence céleste contenue",
       "item.losthorizon.ring_infuser": "Infuseur de bague",
       "key.losthorizon.dimensional_step_keybind": "Raccourci Dimensional Step",
       "item.losthorizon.mythril_armor_boots": "Bottes en mythril",
@@ -6045,7 +6411,10 @@
       "item.losthorizon.magic_fence_gate": "Portillon magique",
       "item.losthorizon.emerald_iron_ring.description_2": "Utile pour ralentir les ennemis proches.",
       "item.losthorizon.emerald_iron_ring.description_1": "Elle attaque en silence depuis les hautes herbes.",
+      "item.losthorizon.solar_feather.description_2": "Légère comme l’aube",
+      "item.losthorizon.solar_feather.description_1": "Offerte par un phénix",
       "item.losthorizon.emerald_iron_ring.description_3": "Mais devient lourde en terrain sec.",
+      "item.losthorizon.solar_feather.description_0": "Chaleur éternelle scellée",
       "item.losthorizon.red_grouper_cooked": "Mérou rouge cuit",
       "item.losthorizon.onyx_ore": "Minerai d\u0027onyx",
       "entity.minecraft.villager.losthorizon.hunter": "Chasseur",
@@ -6060,6 +6429,7 @@
       "item.losthorizon.enchanted_blossom": "Fleur enchantée",
       "advancements.starry_jade_adv.title": "Starry Jade Adv",
       "item.losthorizon.magic_wood": "Bois magique",
+      "item.losthorizon.shard_of_the_void": "Éclat du Néant",
       "item.losthorizon.magic_log": "Tronc magique",
       "advancements.back_pack_advancement.descr": "Moins de poids, plus de loot.",
       "enchantment.losthorizon.bloodlust": "Bloodlust",
@@ -6106,15 +6476,22 @@
       "entity.losthorizon.linked": "Les Liés",
       "item.losthorizon.mythril_pickaxe": "Pioche en mythril",
       "item.losthorizon.runite_armor_leggings": "Jambières en runite",
+      "item.losthorizon.shard_of_the_void.description_2": "Trouvé hors du temps",
+      "item.losthorizon.solar_feather": "Plume Solaire",
+      "item.losthorizon.eye_of_hyperion.description_1": "Perce l’illusion",
+      "item.losthorizon.eye_of_hyperion.description_2": "L’œil éternel",
       "item.losthorizon.necromancer_grimoire": "Grimoire du nécromancien",
       "item.losthorizon.mythril_armor_helmet": "Casque en mythril",
       "item.losthorizon.runite_hoe": "Houe en runite",
       "advancements.frosbite_dagger_advancement.descr": "Le givre mord plus que le fer.",
+      "item.losthorizon.eye_of_hyperion.description_0": "Voit l’invisible",
       "item.losthorizon.magic_pressure_plate": "Plaque de pression magique",
       "item.losthorizon.knife": "Couteau",
       "item.losthorizon.mythril_enchanted_armor_helmet": "Casque en mythril enchanté",
       "item.losthorizon.red_bellied_piranha_raw": "Piranha à ventre rouge cru",
       "item.losthorizon.onyx_knife": "Couteau en onyx",
+      "item.losthorizon.shard_of_the_void.description_0": "Fragment d’espace fissuré",
+      "item.losthorizon.shard_of_the_void.description_1": "Silencieux comme la mort",
       "enchantment.losthorizon.lunar_grace": "Grâce Lunaire",
       "item.losthorizon.runite_ingot": "Runite",
       "item.losthorizon.frostbite_dagger": "Frostbite Dagger",
@@ -6244,6 +6621,27 @@
           {
             "name": "NecromancerGrimoire",
             "children": []
+          },
+          {
+            "name": "Stellar Artefact",
+            "children": [
+              {
+                "name": "ShardOfTheVoid",
+                "children": []
+              },
+              {
+                "name": "SolarFeather",
+                "children": []
+              },
+              {
+                "name": "AetherHeart",
+                "children": []
+              },
+              {
+                "name": "EyeOfHyperion",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -6312,7 +6710,7 @@
   "workspaceSettings": {
     "modid": "losthorizon",
     "modName": "LostHorizon",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
     "author": "elie, MCreator",
     "websiteURL": "https://github.com/elieduclr/LostHorizon",

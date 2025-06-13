@@ -54,6 +54,11 @@
 - **Link Dagger**: Weapon needed to harvest the souls of the Linked.
 - **Heart of Link**: Rare item donated by the Heart Guardian on his death. Necessary for infusing rings.
 
+### ✴️ Stellar Artifacts  
+- **Aether Heart**: Rare off-hand item. Grants 2 absorption hearts when HP drops below 4. Cooldown: 90s.  
+- **Shard of the Void**: Instantly teleports you 8 blocks forward in your look direction. Cooldown: 60s.  
+- **Solar Feather**: Grants fire damage immunity. Applies Fire Resistance I when burning. Cooldown: 30s.  
+- **Eye of Hyperion**: Reveals nearby invisible entities and grants Night Vision. Cooldown: 45s.
 
 ### 💍 Infused Rings and Gems
 

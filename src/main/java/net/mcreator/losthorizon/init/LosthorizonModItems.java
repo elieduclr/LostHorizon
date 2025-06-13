@@ -26,7 +26,9 @@ import net.mcreator.losthorizon.item.StarryJadeRawItem;
 import net.mcreator.losthorizon.item.StarryJadeItem;
 import net.mcreator.losthorizon.item.StarryJadeIronRingItem;
 import net.mcreator.losthorizon.item.StarryJadeGoldRingItem;
+import net.mcreator.losthorizon.item.SolarFeatherItem;
 import net.mcreator.losthorizon.item.SilverRingItem;
+import net.mcreator.losthorizon.item.ShardOfTheVoidItem;
 import net.mcreator.losthorizon.item.RuniteSwordItem;
 import net.mcreator.losthorizon.item.RuniteShovelItem;
 import net.mcreator.losthorizon.item.RunitePickaxeItem;
@@ -69,6 +71,7 @@ import net.mcreator.losthorizon.item.HeartLinkItem;
 import net.mcreator.losthorizon.item.HeartActivatorItem;
 import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
+import net.mcreator.losthorizon.item.EyeOfHyperionItem;
 import net.mcreator.losthorizon.item.EmeraldIronRingItem;
 import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
 import net.mcreator.losthorizon.item.DestinyDiceItem;
@@ -80,6 +83,7 @@ import net.mcreator.losthorizon.item.BackPackExtendedItem;
 import net.mcreator.losthorizon.item.ArapaimaRawItem;
 import net.mcreator.losthorizon.item.ArapaimaCookedItem;
 import net.mcreator.losthorizon.item.AnchorTotemItem;
+import net.mcreator.losthorizon.item.AetherHeartItem;
 import net.mcreator.losthorizon.LosthorizonMod;
 
 import java.util.function.Function;
@@ -185,6 +189,10 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> HEART_GUARDIAN_SPAWN_EGG = register("heart_guardian_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.HEART_GUARDIAN.get(), properties));
 	public static final DeferredItem<Item> HEART_ACTIVATOR = register("heart_activator", HeartActivatorItem::new);
 	public static final DeferredItem<Item> HEART_BLOCK = block(LosthorizonModBlocks.HEART_BLOCK);
+	public static final DeferredItem<Item> SHARD_OF_THE_VOID = register("shard_of_the_void", ShardOfTheVoidItem::new);
+	public static final DeferredItem<Item> SOLAR_FEATHER = register("solar_feather", SolarFeatherItem::new);
+	public static final DeferredItem<Item> AETHER_HEART = register("aether_heart", AetherHeartItem::new);
+	public static final DeferredItem<Item> EYE_OF_HYPERION = register("eye_of_hyperion", EyeOfHyperionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

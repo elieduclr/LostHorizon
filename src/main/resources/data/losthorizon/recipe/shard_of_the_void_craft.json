@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:crying_obsidian",
+    "b": "losthorizon:runite_ingot",
+    "c": "minecraft:ender_pearl",
+    "d": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "losthorizon:shard_of_the_void",
+    "count": 1
+  }
+}

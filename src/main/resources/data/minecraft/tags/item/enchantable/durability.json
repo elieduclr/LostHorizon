@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "losthorizon:eye_of_hyperion",
+    "losthorizon:aether_heart",
+    "losthorizon:solar_feather",
+    "losthorizon:shard_of_the_void",
     "losthorizon:heart_activator",
     "losthorizon:destiny_dice",
     "losthorizon:anchor_totem",
