@@ -43,7 +43,8 @@
       "losthorizon:runite_armor_chestplate_recipe",
       "losthorizon:runite_armor_leggings_recipe",
       "losthorizon:runite_armor_boots_recipe",
-      "losthorizon:shard_of_the_void_craft"
+      "losthorizon:shard_of_the_void_craft",
+      "losthorizon:eye_of_hyperion"
     ]
   },
   "parent": "losthorizon:onyx_advancement"

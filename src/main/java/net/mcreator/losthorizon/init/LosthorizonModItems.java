@@ -71,6 +71,7 @@ import net.mcreator.losthorizon.item.HeartLinkItem;
 import net.mcreator.losthorizon.item.HeartActivatorItem;
 import net.mcreator.losthorizon.item.GoldRingItem;
 import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
+import net.mcreator.losthorizon.item.EyeOfHyperionItem;
 import net.mcreator.losthorizon.item.EmeraldIronRingItem;
 import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
 import net.mcreator.losthorizon.item.DestinyDiceItem;
@@ -191,6 +192,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> SHARD_OF_THE_VOID = register("shard_of_the_void", ShardOfTheVoidItem::new);
 	public static final DeferredItem<Item> SOLAR_FEATHER = register("solar_feather", SolarFeatherItem::new);
 	public static final DeferredItem<Item> AETHER_HEART = register("aether_heart", AetherHeartItem::new);
+	public static final DeferredItem<Item> EYE_OF_HYPERION = register("eye_of_hyperion", EyeOfHyperionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
