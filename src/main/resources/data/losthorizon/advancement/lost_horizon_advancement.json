@@ -23,7 +23,13 @@
           "location": {
             "structures": [
               "losthorizon:fisherman_hut_structure",
-              "losthorizon:explorers_hideout_structure"
+              "losthorizon:explorers_hideout_structure",
+              "losthorizon:crypt_structure",
+              "losthorizon:ice_statue_structure",
+              "losthorizon:ice_tower_structure",
+              "losthorizon:mushroom_house_structure",
+              "losthorizon:shrine",
+              "losthorizon:stone_ritual"
             ]
           }
         }

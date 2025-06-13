@@ -5836,11 +5836,11 @@
       "~CUSTOM:RuniteAxe"
     ],
     "BLOCKS:minecraft:sand": [],
-    "ITEMS:losthorizon:mythril_armor_repair_items": [
-      "~CUSTOM:Mythril"
-    ],
     "ITEMS:losthorizon:runite_hoe_repair_items": [
       "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_armor_repair_items": [
+      "~CUSTOM:Mythril"
     ],
     "BLOCKS:minecraft:dirt": [],
     "ITEMS:minecraft:head_armor": [
@@ -5851,11 +5851,11 @@
     "ITEMS:losthorizon:runite_armor_repair_items": [
       "~CUSTOM:RuniteIngot"
     ],
-    "ITEMS:losthorizon:mythril_sword_repair_items": [
-      "~CUSTOM:Mythril"
-    ],
     "ITEMS:losthorizon:runite_axe_repair_items": [
       "~CUSTOM:RuniteIngot"
+    ],
+    "ITEMS:losthorizon:mythril_sword_repair_items": [
+      "~CUSTOM:Mythril"
     ],
     "ITEMS:losthorizon:mythril_enchanted_shovel_repair_items": [
       "~CUSTOM:Mythril"
@@ -6048,8 +6048,8 @@
       "item.losthorizon.heart_block": "Heart Block",
       "advancements.aether_heart_recipe.title": "Aether Heart Recipe",
       "item.losthorizon.mythril_ore": "Mythril Ore",
-      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "advancements.onyx_advancement.title": "Darkest Depths",
+      "item.losthorizon.mythril_enchanted_armor_leggings": "Mythril Enchanted Leggings",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "entity.losthorizon.necromancer": "Necromancer",
       "subtitles.ring_infuser": "",
@@ -6060,8 +6060,8 @@
       "item.losthorizon.destiny_dice.description_3": "Each roll shakes the fabric of fate,",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.destiny_dice.description_4": "for better… or for worse.",
-      "item.losthorizon.mythril_gold_ring": "Ring of the Dancing Wind",
       "item.losthorizon.magic_stairs": "Magic Stairs",
+      "item.losthorizon.mythril_gold_ring": "Ring of the Dancing Wind",
       "item.losthorizon.mythril_shovel": "Mythril Shovel",
       "book.losthorizon.frozen_grimoire.page1": "13 days I\u0027ve been here… Without my frozen sword, I wouldn\u0027t have made it.",
       "item.losthorizon.onyx_iron_ring.description_0": "This jewel whispers in the",
@@ -6070,8 +6070,8 @@
       "death.attack.corruption.player": "%1$s couldn’t escape %2$s and the creeping corruption.",
       "item.losthorizon.ice_crystal": "Ice Crystal",
       "item.losthorizon.onyx_iron_ring.description_1": "darkness. Forged of mourning and",
-      "item.losthorizon.onyx_iron_ring.description_2": "onyx, it hides the wearer from the",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
+      "item.losthorizon.onyx_iron_ring.description_2": "onyx, it hides the wearer from the",
       "advancements.frosbite_dagger_advancement.title": "Cold Hands, Sharp Blade",
       "item.losthorizon.onyx_iron_ring.description_3": "from both the living and the dead.",
       "advancements.lost_horizon_advancement.descr": "There\u0027s more than survival. There\u0027s exploration.",
@@ -6298,8 +6298,8 @@
       "item.losthorizon.heart_block": "Heart Block",
       "advancements.aether_heart_recipe.title": "Aether Heart Recipe",
       "item.losthorizon.mythril_ore": "Minerai de Mythril",
-      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
       "item.losthorizon.mythril_enchanted_armor_leggings": "Jambières en mythril enchanté",
+      "advancements.onyx_advancement.title": "Profondeurs les plus sombres",
       "block.losthorizon.basalt_obsidian_ore.description_0": "Un bloc ancestral, fusion brutale entre l’obsidienne et le basalte, formé dans les failles volcaniques les plus profondes.",
       "entity.losthorizon.necromancer": "Nécromancien",
       "subtitles.ring_infuser": "",
@@ -6310,8 +6310,8 @@
       "item.losthorizon.destiny_dice.description_3": "Chaque lancer bouleverse la trame",
       "item.losthorizon.onyx": "Onyx",
       "item.losthorizon.destiny_dice.description_4": "du monde, pour le meilleur… ou le pire.",
-      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.magic_stairs": "Escaliers magiques",
+      "item.losthorizon.mythril_gold_ring": "Anneau du vent dansant",
       "item.losthorizon.mythril_shovel": "Pelle en mythril",
       "book.losthorizon.frozen_grimoire.page1": "13 jours que je suis ici, sans mon épée glacée je n\u0027y serai pas arrivé.",
       "item.losthorizon.onyx_iron_ring.description_0": "Ce bijou murmure dans les",
@@ -6320,8 +6320,8 @@
       "death.attack.corruption.player": "%1$s n’a pas pu échapper à %2$s et à la corruption rampante.",
       "item.losthorizon.ice_crystal": "Cristal de Glace",
       "item.losthorizon.onyx_iron_ring.description_1": "ténèbres. Forgé dans le deuil et",
-      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "enchantment.losthorizon.dimensional_step": "Dimensional Step",
+      "item.losthorizon.onyx_iron_ring.description_2": "l’onyx, il cache le porteur des",
       "advancements.frosbite_dagger_advancement.title": "Mains froides, Lame acérée",
       "item.losthorizon.onyx_iron_ring.description_3": "vivants comme des morts.",
       "advancements.lost_horizon_advancement.descr": "Progrès Lost Horizon",
@@ -6710,7 +6710,7 @@
   "workspaceSettings": {
     "modid": "losthorizon",
     "modName": "LostHorizon",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "LostHorizon enrichit Minecraft avec de nouvelles structures, des mobs uniques, des métiers inédits et des objets variés. Explore des ruines oubliées, affronte des créatures dangereuses et découvre des artefacts rares, tout en restant fidèle à l’esprit du jeu. Ajoute plus de défis et d’immersion à la survie !",
     "author": "elie, MCreator",
     "websiteURL": "https://github.com/elieduclr/LostHorizon",

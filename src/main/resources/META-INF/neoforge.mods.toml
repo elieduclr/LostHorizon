@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="losthorizon"
-version="0.2.2"
+version="0.2.3"
 displayName="LostHorizon"
 displayURL="https://github.com/elieduclr/LostHorizon"
 logoFile="logo.png"
