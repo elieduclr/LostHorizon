@@ -110,6 +110,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.LINK_DAGGER.get());
 			tabData.accept(LosthorizonModItems.DEATH_SWORD.get());
 			tabData.accept(LosthorizonModItems.SHARD_OF_THE_VOID.get());
+			tabData.accept(LosthorizonModItems.AETHER_HEART.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());

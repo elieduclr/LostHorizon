@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BasaltObsidianOre"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Onyx"
+      },
+      {
+        "value": "CUSTOM:TotemOfTheMoon"
+      },
+      {
+        "value": "CUSTOM:Onyx"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuniteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AetherHeart"
+    },
+    "name": "aether_heart",
+    "namespace": "mod"
+  }
+}

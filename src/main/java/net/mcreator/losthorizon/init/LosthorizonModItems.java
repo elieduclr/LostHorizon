@@ -82,6 +82,7 @@ import net.mcreator.losthorizon.item.BackPackExtendedItem;
 import net.mcreator.losthorizon.item.ArapaimaRawItem;
 import net.mcreator.losthorizon.item.ArapaimaCookedItem;
 import net.mcreator.losthorizon.item.AnchorTotemItem;
+import net.mcreator.losthorizon.item.AetherHeartItem;
 import net.mcreator.losthorizon.LosthorizonMod;
 
 import java.util.function.Function;
@@ -189,6 +190,7 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> HEART_BLOCK = block(LosthorizonModBlocks.HEART_BLOCK);
 	public static final DeferredItem<Item> SHARD_OF_THE_VOID = register("shard_of_the_void", ShardOfTheVoidItem::new);
 	public static final DeferredItem<Item> SOLAR_FEATHER = register("solar_feather", SolarFeatherItem::new);
+	public static final DeferredItem<Item> AETHER_HEART = register("aether_heart", AetherHeartItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

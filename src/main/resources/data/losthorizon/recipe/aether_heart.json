@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "losthorizon:basalt_obsidian_ore",
+    "b": "losthorizon:onyx",
+    "c": "losthorizon:totem_of_the_moon",
+    "d": "losthorizon:runite_ingot"
+  },
+  "result": {
+    "id": "losthorizon:aether_heart",
+    "count": 1
+  }
+}

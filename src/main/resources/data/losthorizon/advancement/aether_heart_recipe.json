@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "aether_heart_recipe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "losthorizon:aether_heart"
+    ]
+  },
+  "parent": "losthorizon:lost_horizon_advancement"
+}

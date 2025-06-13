@@ -22,7 +22,7 @@ import java.util.List;
 
 public class SolarFeatherItem extends Item {
 	public SolarFeatherItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.COMMON).durability(10));
+		super(properties.rarity(Rarity.UNCOMMON).durability(10));
 	}
 
 	@Override
