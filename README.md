@@ -54,6 +54,12 @@
 - **Dague du lien** : Arme nécessaire pour récolter les âmes des Liés.
 - **Cœur du lien** : Item rare donné par le Gardien du cœur à sa mort. Nécessaire pour infuser les bagues
 
+### ✴️ Artefacts Stellaires  
+- **Cœur d’Aether** : Objet rare tenu en main secondaire. Donne 2 cœurs temporaires quand tes PV descendent sous 4. Recharge : 90s.  
+- **Éclat du Néant** : Active un court téléport instantané dans la direction du regard. Recharge : 60s.  
+- **Plume Solaire** : Immunise contre les dégâts de feu. Donne Fire Resistance I si tu brûles. Recharge : 30s.  
+- **Œil d’Hyperion** : Révèle les entités invisibles proches et donne Night Vision. Recharge : 45s.
+
 ### 💍 Bagues et gemmes infusées
 
 L’**Infuseur de bague** permet de combiner des **bagues en or ou en argent** avec des **gemmes mystiques**. Chaque combinaison confère des effets uniques au joueur, équilibrés par une contrepartie. Pour infuser une bague, il faut aussi un Cœur du lien. Cela rend le processus plus stratégique, et récompense les joueurs qui osent défier le Gardien du Cœur.
