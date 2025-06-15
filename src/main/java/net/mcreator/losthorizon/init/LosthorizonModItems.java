@@ -60,6 +60,7 @@ import net.mcreator.losthorizon.item.MythrilEnchantedAxeItem;
 import net.mcreator.losthorizon.item.MythrilEnchantedArmorItem;
 import net.mcreator.losthorizon.item.MythrilAxeItem;
 import net.mcreator.losthorizon.item.MythrilArmorItem;
+import net.mcreator.losthorizon.item.MoonbellItem;
 import net.mcreator.losthorizon.item.LuminousBerriesItem;
 import net.mcreator.losthorizon.item.LinkDaggerItem;
 import net.mcreator.losthorizon.item.LanternShieldItem;
@@ -74,6 +75,7 @@ import net.mcreator.losthorizon.item.FrosbiteDaggerItem;
 import net.mcreator.losthorizon.item.EyeOfHyperionItem;
 import net.mcreator.losthorizon.item.EmeraldIronRingItem;
 import net.mcreator.losthorizon.item.EmeraldGoldRingItem;
+import net.mcreator.losthorizon.item.EclipseBladeItem;
 import net.mcreator.losthorizon.item.DestinyDiceItem;
 import net.mcreator.losthorizon.item.DeathSwordItem;
 import net.mcreator.losthorizon.item.ClimbingPickItem;
@@ -193,6 +195,9 @@ public class LosthorizonModItems {
 	public static final DeferredItem<Item> SOLAR_FEATHER = register("solar_feather", SolarFeatherItem::new);
 	public static final DeferredItem<Item> AETHER_HEART = register("aether_heart", AetherHeartItem::new);
 	public static final DeferredItem<Item> EYE_OF_HYPERION = register("eye_of_hyperion", EyeOfHyperionItem::new);
+	public static final DeferredItem<Item> BLACK_BLAZE_SPAWN_EGG = register("black_blaze_spawn_egg", properties -> new SpawnEggItem(LosthorizonModEntities.BLACK_BLAZE.get(), properties));
+	public static final DeferredItem<Item> ECLIPSE_BLADE = register("eclipse_blade", EclipseBladeItem::new);
+	public static final DeferredItem<Item> MOONBELL = register("moonbell", MoonbellItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

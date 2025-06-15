@@ -24,6 +24,8 @@ import net.mcreator.losthorizon.entity.NecromancerBossEntity;
 import net.mcreator.losthorizon.entity.LinkedEntity;
 import net.mcreator.losthorizon.entity.HeartGuardianEntity;
 import net.mcreator.losthorizon.entity.CryptGuardianEntity;
+import net.mcreator.losthorizon.entity.BlackBlazeEntityProjectile;
+import net.mcreator.losthorizon.entity.BlackBlazeEntity;
 import net.mcreator.losthorizon.LosthorizonMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -47,6 +49,12 @@ public class LosthorizonModEntities {
 			EntityType.Builder.<HeartGuardianEntity>of(HeartGuardianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BlackBlazeEntity>> BLACK_BLAZE = register("black_blaze",
+			EntityType.Builder.<BlackBlazeEntity>of(BlackBlazeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BlackBlazeEntityProjectile>> BLACK_BLAZE_PROJECTILE = register("projectile_black_blaze",
+			EntityType.Builder.<BlackBlazeEntityProjectile>of(BlackBlazeEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -60,6 +68,7 @@ public class LosthorizonModEntities {
 		CryptGuardianEntity.init(event);
 		LinkedEntity.init(event);
 		HeartGuardianEntity.init(event);
+		BlackBlazeEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -68,5 +77,6 @@ public class LosthorizonModEntities {
 		event.put(CRYPT_GUARDIAN.get(), CryptGuardianEntity.createAttributes().build());
 		event.put(LINKED.get(), LinkedEntity.createAttributes().build());
 		event.put(HEART_GUARDIAN.get(), HeartGuardianEntity.createAttributes().build());
+		event.put(BLACK_BLAZE.get(), BlackBlazeEntity.createAttributes().build());
 	}
 }

@@ -60,6 +60,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.MYTHRIL_ENCHANTED_ARMOR_LEGGINGS.get());
 			tabData.accept(LosthorizonModItems.MYTHRIL_ENCHANTED_ARMOR_BOOTS.get());
 			tabData.accept(LosthorizonModItems.BASALT_EDGE.get());
+			tabData.accept(LosthorizonModItems.ECLIPSE_BLADE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LosthorizonModItems.ONYX.get());
 			tabData.accept(LosthorizonModItems.RUNITE_INGOT.get());
@@ -112,6 +113,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.SHARD_OF_THE_VOID.get());
 			tabData.accept(LosthorizonModItems.AETHER_HEART.get());
 			tabData.accept(LosthorizonModItems.EYE_OF_HYPERION.get());
+			tabData.accept(LosthorizonModItems.MOONBELL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LosthorizonModItems.RED_GROUPER_RAW.get());
 			tabData.accept(LosthorizonModItems.RED_GROUPER_COOKED.get());
@@ -128,6 +130,7 @@ public class LosthorizonModTabs {
 			tabData.accept(LosthorizonModItems.CRYPT_GUARDIAN_SPAWN_EGG.get());
 			tabData.accept(LosthorizonModItems.LINKED_SPAWN_EGG.get());
 			tabData.accept(LosthorizonModItems.HEART_GUARDIAN_SPAWN_EGG.get());
+			tabData.accept(LosthorizonModItems.BLACK_BLAZE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LosthorizonModBlocks.MAGIC_LEAVES.get().asItem());
 			tabData.accept(LosthorizonModBlocks.ENCHANTED_BLOSSOM.get().asItem());

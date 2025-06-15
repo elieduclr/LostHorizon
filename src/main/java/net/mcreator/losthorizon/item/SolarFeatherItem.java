@@ -37,7 +37,7 @@ public class SolarFeatherItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		SolarFeatherEvenementAuClicDroitDansLairProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, entity.getItemInHand(hand));
+		SolarFeatherEvenementAuClicDroitDansLairProcedure.execute(world, entity, entity.getItemInHand(hand));
 		return ar;
 	}
 

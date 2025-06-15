@@ -11,6 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.losthorizon.client.model.Modelnecromancer;
 import net.mcreator.losthorizon.client.model.Modelcryptguardian;
+import net.mcreator.losthorizon.client.model.Modelblack_blaze;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class LosthorizonModModels {
@@ -18,5 +19,6 @@ public class LosthorizonModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelcryptguardian.LAYER_LOCATION, Modelcryptguardian::createBodyLayer);
 		event.registerLayerDefinition(Modelnecromancer.LAYER_LOCATION, Modelnecromancer::createBodyLayer);
+		event.registerLayerDefinition(Modelblack_blaze.LAYER_LOCATION, Modelblack_blaze::createBodyLayer);
 	}
 }
